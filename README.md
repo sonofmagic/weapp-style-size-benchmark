@@ -378,6 +378,7 @@ BENCHMARK_RUN_IDE=1 corepack pnpm bench
 ## 边界
 
 - 本报告测量体积，不衡量开发体验、编译速度、运行时延迟、setData 次数、内存或生态成熟度。不同框架与真实业务的结果需要另测。
+- 两轮一致性要求针对同一环境。首次发布另对 macOS arm64 与 Linux x64 CI 做了[跨环境核对](reports/cross-platform.json)：160 格的 raw/gzip 总量和全部文件路径一致，但 18 个 Panda 原生 WXSS 文件的默认广色域 token 经 Lightning CSS 转换后有约 0.000001 的浮点差异，导致 SHA-256 与部分 Brotli 值不同。两边各自重复构建均稳定，不宣称跨 CPU 架构逐位一致。该审计记录对应其 sourceCommit/buildInputSha256，不随 bench 自动更新。
 - H5 使用浏览器计算样式与交互证据；headless 可验证产物和状态契约，但不能覆盖微信宿主的全部 CSS 布局与兼容行为。微信 IDE 的状态独立披露。
 - 独立分包已检查静态引用与 headless 包隔离。当前 IDE 路径从主包启动后经 `reLaunch` / `navigateTo` 热进入独立分包；尚无“不加载主包”的独立分包冷启动实机证据，因此不能据此宣称该冷启动路径已验收。
 - 本次固定版本发现 StyleX 动态 camelCase 属性生成的 CSS 自定义变量与 `attrs()` 序列化存在大小写失配。公共动态样例使用全小写 `padding` 的字符串简写保留原有左间距，并验证相同效果；未修改依赖包，也未修补生成产物。本报告不宣称动态 camelCase 属性已受支持，升级后应重新验证。

@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "status": "passed-with-disclosed-content-difference",
+  "sourceCommit": "39d38f2b08e85100cf28a6cd25664182cb645c3b",
+  "ciRun": "https://github.com/sonofmagic/weapp-style-size-benchmark/actions/runs/41576016769",
+  "buildInputSha256": "583934742322f34ef164b6ea2d843e0536077642c6764e21c351d3e703f06977",
+  "localEnvironment": {
+    "platform": "darwin",
+    "arch": "arm64",
+    "node": "24.22.1",
+    "zlib": "1.3.2.1-motley-285e94b",
+    "brotli": "1.2.0"
+  },
+  "ciEnvironment": {
+    "platform": "linux",
+    "arch": "x64",
+    "node": "24.22.1",
+    "zlib": "1.3.2.1-motley-285e94b",
+    "brotli": "1.2.0"
+  },
+  "matrixRows": 160,
+  "physicalFilesCompared": 974,
+  "allFilePathsMatch": true,
+  "allRawTotalsMatch": true,
+  "allGzipTotalsMatch": true,
+  "differentContentFiles": 18,
+  "explanation": "Only Panda native WXSS default color(display-p3) token conversion differs: .230646 on macOS arm64 versus .230647 on Linux x64 after the pinned Lightning CSS pass. Both environments passed their own two-build manifest check and visual gates. Cross-platform bit equality is not claimed.",
+  "differences": [
+    {
+      "row": "panda/standard/gallery/weapp",
+      "path": "app.wxss",
+      "local": {
+        "raw": 37608,
+        "gzip": 16128,
+        "brotli": 12633,
+        "sha256": "5847fd546985f86d88803330f201635e97c79fd388e09503d174a3f47665d04c"
+      },
+      "ci": {
+        "raw": 37608,
+        "gzip": 16128,
+        "brotli": 12678,
+        "sha256": "0073514cada30d37e155d0ddaaf6c51c58af8f0f7a8d1c7dbe23448da60c154b"
+      }
+    },
+    {
+      "row": "panda/standard/application/weapp",
+      "path": "app.wxss",
+      "local": {
+        "raw": 37125,
+        "gzip": 15934,
+        "brotli": 12532,
+        "sha256": "59e509da6488f646fa3a1b16fe8af4edfefba0c4b6344bda9dad032407eb653a"
+      },
+      "ci": {
+        "raw": 37125,
+        "gzip": 15934,
+        "brotli": 12442,
+        "sha256": "db296646891311ff3897eda5eb9eccbe7c0aa6d38e0b92d88de70eaab8c050e5"
+      }
+    },
+    {
+      "row": "panda/standard/application/weapp",
+      "path": "independent/settings/index.wxss",
+      "local": {
+        "raw": 37125,
+        "gzip": 15934,
+        "brotli": 12532,
+        "sha256": "59e509da6488f646fa3a1b16fe8af4edfefba0c4b6344bda9dad032407eb653a"
+      },
+      "ci": {
+        "raw": 37125,
+        "gzip": 15934,
+        "brotli": 12442,
+        "sha256": "db296646891311ff3897eda5eb9eccbe7c0aa6d38e0b92d88de70eaab8c050e5"
+      }
+    },
+    {
+      "row": "panda/standard/reuse-10/weapp",
+      "path": "app.wxss",
+      "local": {
+        "raw": 35892,
+        "gzip": 15617,
+        "brotli": 12263,
+        "sha256": "a88444096a5a0d1c38527ad179d2332322562dcddb6ec23bb94d20dd5474f87b"
+      },
+      "ci": {
+        "raw": 35892,
+        "gzip": 15617,
+        "brotli": 12194,
+        "sha256": "67c07f23d4b9665472e2c021a7db797b40f1f27273a121676200ad7584aaa91b"
+      }
+    },
+    {
+      "row": "panda/standard/reuse-100/weapp",
+      "path": "app.wxss",
+      "local": {
+        "raw": 35892,
+        "gzip": 15617,
+        "brotli": 12263,
+        "sha256": "a88444096a5a0d1c38527ad179d2332322562dcddb6ec23bb94d20dd5474f87b"
+      },
+      "ci": {
+        "raw": 35892,
+        "gzip": 15617,
+        "brotli": 12194,
+        "sha256": "67c07f23d4b9665472e2c021a7db797b40f1f27273a121676200ad7584aaa91b"
+      }
+    },
+    {
+      "row": "panda/standard/reuse-1000/weapp",
+      "path": "app.wxss",
+      "local": {
+        "raw": 35892,
+        "gzip": 15617,
+        "brotli": 12263,
+        "sha256": "a88444096a5a0d1c38527ad179d2332322562dcddb6ec23bb94d20dd5474f87b"
+      },
+      "ci": {
+        "raw": 35892,
+        "gzip": 15617,
+        "brotli": 12194,
+        "sha256": "67c07f23d4b9665472e2c021a7db797b40f1f27273a121676200ad7584aaa91b"
+      }
+    },
+    {
+      "row": "panda/standard/unique-10/weapp",
+      "path": "app.wxss",
+      "local": {
+        "raw": 37494,
+        "gzip": 15980,
+        "brotli": 12503,
+        "sha256": "ed524bbccd4e577b6385877eb914352c01c4df75bee300ba0ee09b320200cfde"
+      },
+      "ci": {
+        "raw": 37494,
+        "gzip": 15980,
+        "brotli": 12480,
+        "sha256": "5ecceba50aaf1a49306ff49bda370a03262d0bc70b4e173b2789cf1a5e0b0240"
+      }
+    },
+    {
+      "row": "panda/standard/unique-100/weapp",
+      "path": "app.wxss",
+      "local": {
+        "raw": 42702,
+        "gzip": 16997,
+        "brotli": 12906,
+        "sha256": "db8b8e56166e40712c91d2640e2c22e4bee545e9e7cd2058ddc9be1ea62d3132"
+      },
+      "ci": {
+        "raw": 42702,
+        "gzip": 16997,
+        "brotli": 12893,
+        "sha256": "00abf58be38e4f09e667c774053b98da48ab3f96aed818dfb08a2734d78b0f79"
+      }
+    },
+    {
+      "row": "panda/standard/unique-1000/weapp",
+      "path": "app.wxss",
+      "local": {
+        "raw": 83202,
+        "gzip": 23267,
+        "brotli": 16128,
+        "sha256": "ae08b5d422d2a6835f1acd22ac0a496f18fad2c7ffeb469ee73142ca2ed97d5f"
+      },
+      "ci": {
+        "raw": 83202,
+        "gzip": 23267,
+        "brotli": 16194,
+        "sha256": "aa2d5bf6bc9a1c8108222d92dce4bd58d9c9a3ed9079ff1fed10f47c6622df57"
+      }
+    },
+    {
+      "row": "panda/optimized/gallery/weapp",
+      "path": "app.wxss",
+      "local": {
+        "raw": 36885,
+        "gzip": 16113,
+        "brotli": 12706,
+        "sha256": "e0fbfaa64b3d1ad39f693553a9e2703439968d809cf896e153b7cb8a2a2d6c0c"
+      },
+      "ci": {
+        "raw": 36885,
+        "gzip": 16113,
+        "brotli": 12716,
+        "sha256": "4aebe33f469223545f86b978ce12b0e86e8e83e6f8e9eb0c5926e58243c58934"
+      }
+    },
+    {
+      "row": "panda/optimized/application/weapp",
+      "path": "app.wxss",
+      "local": {
+        "raw": 36691,
+        "gzip": 15990,
+        "brotli": 12476,
+        "sha256": "e8a55ad89328c7d94f2997da999a8abe7733baeb953e926fbc7db2606b3f94b6"
+      },
+      "ci": {
+        "raw": 36691,
+        "gzip": 15990,
+        "brotli": 12474,
+        "sha256": "9e557d68018e1a0127fa79e05a30fbaecddae79b51d89e4222b0a854c7beef9e"
+      }
+    },
+    {
+      "row": "panda/optimized/application/weapp",
+      "path": "independent/settings/index.wxss",
+      "local": {
+        "raw": 36691,
+        "gzip": 15990,
+        "brotli": 12476,
+        "sha256": "e8a55ad89328c7d94f2997da999a8abe7733baeb953e926fbc7db2606b3f94b6"
+      },
+      "ci": {
+        "raw": 36691,
+        "gzip": 15990,
+        "brotli": 12474,
+        "sha256": "9e557d68018e1a0127fa79e05a30fbaecddae79b51d89e4222b0a854c7beef9e"
+      }
+    },
+    {
+      "row": "panda/optimized/reuse-10/weapp",
+      "path": "app.wxss",
+      "local": {
+        "raw": 35787,
+        "gzip": 15609,
+        "brotli": 12253,
+        "sha256": "c341657ac5a55a674801c8c3e719189c02e101c64c24f3b3554a51bf0212247e"
+      },
+      "ci": {
+        "raw": 35787,
+        "gzip": 15609,
+        "brotli": 12202,
+        "sha256": "ff2dd4f996d68058ecccea5a24fb8dec6aa9deecd6771a19b79d40ab616d3b95"
+      }
+    },
+    {
+      "row": "panda/optimized/reuse-100/weapp",
+      "path": "app.wxss",
+      "local": {
+        "raw": 35787,
+        "gzip": 15609,
+        "brotli": 12253,
+        "sha256": "c341657ac5a55a674801c8c3e719189c02e101c64c24f3b3554a51bf0212247e"
+      },
+      "ci": {
+        "raw": 35787,
+        "gzip": 15609,
+        "brotli": 12202,
+        "sha256": "ff2dd4f996d68058ecccea5a24fb8dec6aa9deecd6771a19b79d40ab616d3b95"
+      }
+    },
+    {
+      "row": "panda/optimized/reuse-1000/weapp",
+      "path": "app.wxss",
+      "local": {
+        "raw": 35787,
+        "gzip": 15609,
+        "brotli": 12253,
+        "sha256": "c341657ac5a55a674801c8c3e719189c02e101c64c24f3b3554a51bf0212247e"
+      },
+      "ci": {
+        "raw": 35787,
+        "gzip": 15609,
+        "brotli": 12202,
+        "sha256": "ff2dd4f996d68058ecccea5a24fb8dec6aa9deecd6771a19b79d40ab616d3b95"
+      }
+    },
+    {
+      "row": "panda/optimized/unique-10/weapp",
+      "path": "app.wxss",
+      "local": {
+        "raw": 37250,
+        "gzip": 16111,
+        "brotli": 12557,
+        "sha256": "4a0229c9bf05e79bce584915b78747f00cf3dbd4659dea64340ee9c35853e13c"
+      },
+      "ci": {
+        "raw": 37250,
+        "gzip": 16111,
+        "brotli": 12576,
+        "sha256": "cb31abff8f03150a9410a2008beaf5281f89968737a4bc17b17244a4508a656e"
+      }
+    },
+    {
+      "row": "panda/optimized/unique-100/weapp",
+      "path": "app.wxss",
+      "local": {
+        "raw": 41316,
+        "gzip": 17527,
+        "brotli": 13582,
+        "sha256": "f76fe4d3f54a790a9e8b190c37e1708a1eb5f2f6c07492ab9dd7ca1063c19be5"
+      },
+      "ci": {
+        "raw": 41316,
+        "gzip": 17527,
+        "brotli": 13614,
+        "sha256": "e71f44e7abac2beb25771e2a86e37b95000cbe03b7e28e99d2cb3dd6c3901e6e"
+      }
+    },
+    {
+      "row": "panda/optimized/unique-1000/weapp",
+      "path": "app.wxss",
+      "local": {
+        "raw": 70931,
+        "gzip": 27096,
+        "brotli": 20084,
+        "sha256": "ac2bb65e9e11365f0cfcc21e1e6a4ebf9c88742a8f7bb9990066ebfff3848179"
+      },
+      "ci": {
+        "raw": 70931,
+        "gzip": 27096,
+        "brotli": 20087,
+        "sha256": "1abf788249a6a02fbe647fc57a306fcf335e289668e40369e2ebff1d33a840f0"
+      }
+    }
+  ]
+}
