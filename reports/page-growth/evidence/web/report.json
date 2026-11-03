@@ -1,0 +1,2218 @@
+{
+  "status": "passed",
+  "headless": true,
+  "browser": {
+    "name": "chromium",
+    "version": "156.0.8078.4"
+  },
+  "viewports": [
+    375,
+    768
+  ],
+  "maximumPixelDifference": 0.005,
+  "geometryTolerancePx": 0.75,
+  "artifacts": [
+    {
+      "key": "reference/standard/pages-reuse-001/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-reuse-001_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        }
+      ]
+    },
+    {
+      "key": "reference/standard/pages-reuse-005/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-reuse-005_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-003/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-reuse-005_375_-pages-bench-page-003-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-reuse-005_375_-pages-bench-page-005-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-003/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        }
+      ]
+    },
+    {
+      "key": "reference/standard/pages-reuse-010/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-reuse-010_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-reuse-010_375_-pages-bench-page-005-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-reuse-010_375_-pages-bench-page-010-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        }
+      ]
+    },
+    {
+      "key": "reference/standard/pages-reuse-020/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-reuse-020_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-reuse-020_375_-pages-bench-page-010-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-020/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-reuse-020_375_-pages-bench-page-020-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-020/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        }
+      ]
+    },
+    {
+      "key": "reference/standard/pages-reuse-050/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-reuse-050_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-025/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-reuse-050_375_-pages-bench-page-025-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-050/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-reuse-050_375_-pages-bench-page-050-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-025/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-050/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        }
+      ]
+    },
+    {
+      "key": "reference/standard/pages-unique-001/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-unique-001_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        }
+      ]
+    },
+    {
+      "key": "reference/standard/pages-unique-005/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-unique-005_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-003/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "c36770c894c6359a77f583749aa6b38d5a8c0b96d22e50c16f92fd4ae845ecf4",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-unique-005_375_-pages-bench-page-003-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "28b9eb9b9b529cb317dc65b83c9a82d9f01aba9827982fc9bf4c9ddba30c3614",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-unique-005_375_-pages-bench-page-005-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-003/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "55b68de0228dc3ec83f37b5e14ed551684394b4fd9b5909fc499d68e8863dde3"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "28fa2cc700e2ecf71305cd32dfee2abded4051ae10db0dc380723d59dd263596"
+        }
+      ]
+    },
+    {
+      "key": "reference/standard/pages-unique-010/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-unique-010_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "28b9eb9b9b529cb317dc65b83c9a82d9f01aba9827982fc9bf4c9ddba30c3614",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-unique-010_375_-pages-bench-page-005-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "03597e265031ae91efaab9db0acd1ff1545725bb22bbfcdef7fb1dac00f50e1b",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-unique-010_375_-pages-bench-page-010-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "28fa2cc700e2ecf71305cd32dfee2abded4051ae10db0dc380723d59dd263596"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "6ad250de23ddd7c962ef090900f8e504dafb2c9fa1538c80775390adbf6b1e54"
+        }
+      ]
+    },
+    {
+      "key": "reference/standard/pages-unique-020/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-unique-020_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "03597e265031ae91efaab9db0acd1ff1545725bb22bbfcdef7fb1dac00f50e1b",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-unique-020_375_-pages-bench-page-010-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-020/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "1d833f959633a1a95eaf5f3f9063003e87cd11155699f2466dd338c4a6c9b4ce",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-unique-020_375_-pages-bench-page-020-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "6ad250de23ddd7c962ef090900f8e504dafb2c9fa1538c80775390adbf6b1e54"
+        },
+        {
+          "route": "/pages/bench-page-020/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "aaefc8d3aeabdfd4c04af2e1d543d7b783a2be0477e8e5838a9504175188b81b"
+        }
+      ]
+    },
+    {
+      "key": "reference/standard/pages-unique-050/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-unique-050_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-025/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "bb8fe37dcc2f518d17b2ceebd0c5a790c13fb9a2f5e27740f7543a38b62419eb",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-unique-050_375_-pages-bench-page-025-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-050/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "f02b4bc8e6fa7e7c08f02f7c704d570790a7471469120577f821b0d2b6905817",
+          "screenshot": "reports/page-growth/evidence/web/reference_standard_pages-unique-050_375_-pages-bench-page-050-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-025/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "230405512c5e0d69e00fb6e7b0ceb0fa1aa51c9685d40a4206f06aae55152150"
+        },
+        {
+          "route": "/pages/bench-page-050/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "2f4e1c74f803b7f4dc801d0fb78b4f1ec2a74a5d2866b39fb20572911f05ef2c"
+        }
+      ]
+    },
+    {
+      "key": "panda/standard/pages-reuse-001/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-reuse-001_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        }
+      ]
+    },
+    {
+      "key": "panda/standard/pages-reuse-005/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-reuse-005_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-003/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-reuse-005_375_-pages-bench-page-003-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-reuse-005_375_-pages-bench-page-005-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-003/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        }
+      ]
+    },
+    {
+      "key": "panda/standard/pages-reuse-010/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-reuse-010_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-reuse-010_375_-pages-bench-page-005-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-reuse-010_375_-pages-bench-page-010-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        }
+      ]
+    },
+    {
+      "key": "panda/standard/pages-reuse-020/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-reuse-020_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-reuse-020_375_-pages-bench-page-010-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-020/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-reuse-020_375_-pages-bench-page-020-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-020/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        }
+      ]
+    },
+    {
+      "key": "panda/standard/pages-reuse-050/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-reuse-050_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-025/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-reuse-050_375_-pages-bench-page-025-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-050/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-reuse-050_375_-pages-bench-page-050-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-025/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-050/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        }
+      ]
+    },
+    {
+      "key": "panda/standard/pages-unique-001/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-unique-001_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        }
+      ]
+    },
+    {
+      "key": "panda/standard/pages-unique-005/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-unique-005_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-003/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "c36770c894c6359a77f583749aa6b38d5a8c0b96d22e50c16f92fd4ae845ecf4",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-unique-005_375_-pages-bench-page-003-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "28b9eb9b9b529cb317dc65b83c9a82d9f01aba9827982fc9bf4c9ddba30c3614",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-unique-005_375_-pages-bench-page-005-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-003/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "55b68de0228dc3ec83f37b5e14ed551684394b4fd9b5909fc499d68e8863dde3"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "28fa2cc700e2ecf71305cd32dfee2abded4051ae10db0dc380723d59dd263596"
+        }
+      ]
+    },
+    {
+      "key": "panda/standard/pages-unique-010/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-unique-010_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "28b9eb9b9b529cb317dc65b83c9a82d9f01aba9827982fc9bf4c9ddba30c3614",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-unique-010_375_-pages-bench-page-005-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "03597e265031ae91efaab9db0acd1ff1545725bb22bbfcdef7fb1dac00f50e1b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-unique-010_375_-pages-bench-page-010-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "28fa2cc700e2ecf71305cd32dfee2abded4051ae10db0dc380723d59dd263596"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "6ad250de23ddd7c962ef090900f8e504dafb2c9fa1538c80775390adbf6b1e54"
+        }
+      ]
+    },
+    {
+      "key": "panda/standard/pages-unique-020/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-unique-020_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "03597e265031ae91efaab9db0acd1ff1545725bb22bbfcdef7fb1dac00f50e1b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-unique-020_375_-pages-bench-page-010-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-020/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "1d833f959633a1a95eaf5f3f9063003e87cd11155699f2466dd338c4a6c9b4ce",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-unique-020_375_-pages-bench-page-020-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "6ad250de23ddd7c962ef090900f8e504dafb2c9fa1538c80775390adbf6b1e54"
+        },
+        {
+          "route": "/pages/bench-page-020/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "aaefc8d3aeabdfd4c04af2e1d543d7b783a2be0477e8e5838a9504175188b81b"
+        }
+      ]
+    },
+    {
+      "key": "panda/standard/pages-unique-050/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-unique-050_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-025/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "bb8fe37dcc2f518d17b2ceebd0c5a790c13fb9a2f5e27740f7543a38b62419eb",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-unique-050_375_-pages-bench-page-025-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-050/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "f02b4bc8e6fa7e7c08f02f7c704d570790a7471469120577f821b0d2b6905817",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/panda_standard_pages-unique-050_375_-pages-bench-page-050-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-025/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "230405512c5e0d69e00fb6e7b0ceb0fa1aa51c9685d40a4206f06aae55152150"
+        },
+        {
+          "route": "/pages/bench-page-050/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "2f4e1c74f803b7f4dc801d0fb78b4f1ec2a74a5d2866b39fb20572911f05ef2c"
+        }
+      ]
+    },
+    {
+      "key": "stylex/standard/pages-reuse-001/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-reuse-001_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        }
+      ]
+    },
+    {
+      "key": "stylex/standard/pages-reuse-005/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-reuse-005_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-003/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-reuse-005_375_-pages-bench-page-003-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-reuse-005_375_-pages-bench-page-005-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-003/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        }
+      ]
+    },
+    {
+      "key": "stylex/standard/pages-reuse-010/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-reuse-010_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-reuse-010_375_-pages-bench-page-005-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-reuse-010_375_-pages-bench-page-010-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        }
+      ]
+    },
+    {
+      "key": "stylex/standard/pages-reuse-020/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-reuse-020_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-reuse-020_375_-pages-bench-page-010-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-020/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-reuse-020_375_-pages-bench-page-020-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-020/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        }
+      ]
+    },
+    {
+      "key": "stylex/standard/pages-reuse-050/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-reuse-050_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-025/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-reuse-050_375_-pages-bench-page-025-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-050/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-reuse-050_375_-pages-bench-page-050-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-025/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-050/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        }
+      ]
+    },
+    {
+      "key": "stylex/standard/pages-unique-001/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-unique-001_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        }
+      ]
+    },
+    {
+      "key": "stylex/standard/pages-unique-005/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-unique-005_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-003/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "c36770c894c6359a77f583749aa6b38d5a8c0b96d22e50c16f92fd4ae845ecf4",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-unique-005_375_-pages-bench-page-003-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "28b9eb9b9b529cb317dc65b83c9a82d9f01aba9827982fc9bf4c9ddba30c3614",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-unique-005_375_-pages-bench-page-005-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-003/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "55b68de0228dc3ec83f37b5e14ed551684394b4fd9b5909fc499d68e8863dde3"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "28fa2cc700e2ecf71305cd32dfee2abded4051ae10db0dc380723d59dd263596"
+        }
+      ]
+    },
+    {
+      "key": "stylex/standard/pages-unique-010/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-unique-010_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "28b9eb9b9b529cb317dc65b83c9a82d9f01aba9827982fc9bf4c9ddba30c3614",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-unique-010_375_-pages-bench-page-005-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "03597e265031ae91efaab9db0acd1ff1545725bb22bbfcdef7fb1dac00f50e1b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-unique-010_375_-pages-bench-page-010-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "28fa2cc700e2ecf71305cd32dfee2abded4051ae10db0dc380723d59dd263596"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "6ad250de23ddd7c962ef090900f8e504dafb2c9fa1538c80775390adbf6b1e54"
+        }
+      ]
+    },
+    {
+      "key": "stylex/standard/pages-unique-020/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-unique-020_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "03597e265031ae91efaab9db0acd1ff1545725bb22bbfcdef7fb1dac00f50e1b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-unique-020_375_-pages-bench-page-010-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-020/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "1d833f959633a1a95eaf5f3f9063003e87cd11155699f2466dd338c4a6c9b4ce",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-unique-020_375_-pages-bench-page-020-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "6ad250de23ddd7c962ef090900f8e504dafb2c9fa1538c80775390adbf6b1e54"
+        },
+        {
+          "route": "/pages/bench-page-020/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "aaefc8d3aeabdfd4c04af2e1d543d7b783a2be0477e8e5838a9504175188b81b"
+        }
+      ]
+    },
+    {
+      "key": "stylex/standard/pages-unique-050/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-unique-050_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-025/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "bb8fe37dcc2f518d17b2ceebd0c5a790c13fb9a2f5e27740f7543a38b62419eb",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-unique-050_375_-pages-bench-page-025-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-050/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "f02b4bc8e6fa7e7c08f02f7c704d570790a7471469120577f821b0d2b6905817",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/stylex_standard_pages-unique-050_375_-pages-bench-page-050-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-025/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "230405512c5e0d69e00fb6e7b0ceb0fa1aa51c9685d40a4206f06aae55152150"
+        },
+        {
+          "route": "/pages/bench-page-050/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "2f4e1c74f803b7f4dc801d0fb78b4f1ec2a74a5d2866b39fb20572911f05ef2c"
+        }
+      ]
+    },
+    {
+      "key": "tailwind/standard/pages-reuse-001/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-reuse-001_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        }
+      ]
+    },
+    {
+      "key": "tailwind/standard/pages-reuse-005/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-reuse-005_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-003/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-reuse-005_375_-pages-bench-page-003-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-reuse-005_375_-pages-bench-page-005-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-003/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        }
+      ]
+    },
+    {
+      "key": "tailwind/standard/pages-reuse-010/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-reuse-010_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-reuse-010_375_-pages-bench-page-005-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-reuse-010_375_-pages-bench-page-010-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        }
+      ]
+    },
+    {
+      "key": "tailwind/standard/pages-reuse-020/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-reuse-020_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-reuse-020_375_-pages-bench-page-010-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-020/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-reuse-020_375_-pages-bench-page-020-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-020/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        }
+      ]
+    },
+    {
+      "key": "tailwind/standard/pages-reuse-050/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-reuse-050_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-025/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-reuse-050_375_-pages-bench-page-025-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-050/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-reuse-050_375_-pages-bench-page-050-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-025/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-050/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        }
+      ]
+    },
+    {
+      "key": "tailwind/standard/pages-unique-001/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-unique-001_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        }
+      ]
+    },
+    {
+      "key": "tailwind/standard/pages-unique-005/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-unique-005_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-003/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "c36770c894c6359a77f583749aa6b38d5a8c0b96d22e50c16f92fd4ae845ecf4",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-unique-005_375_-pages-bench-page-003-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "28b9eb9b9b529cb317dc65b83c9a82d9f01aba9827982fc9bf4c9ddba30c3614",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-unique-005_375_-pages-bench-page-005-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-003/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "55b68de0228dc3ec83f37b5e14ed551684394b4fd9b5909fc499d68e8863dde3"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "28fa2cc700e2ecf71305cd32dfee2abded4051ae10db0dc380723d59dd263596"
+        }
+      ]
+    },
+    {
+      "key": "tailwind/standard/pages-unique-010/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-unique-010_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "28b9eb9b9b529cb317dc65b83c9a82d9f01aba9827982fc9bf4c9ddba30c3614",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-unique-010_375_-pages-bench-page-005-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "03597e265031ae91efaab9db0acd1ff1545725bb22bbfcdef7fb1dac00f50e1b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-unique-010_375_-pages-bench-page-010-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-005/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "28fa2cc700e2ecf71305cd32dfee2abded4051ae10db0dc380723d59dd263596"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "6ad250de23ddd7c962ef090900f8e504dafb2c9fa1538c80775390adbf6b1e54"
+        }
+      ]
+    },
+    {
+      "key": "tailwind/standard/pages-unique-020/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-unique-020_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "03597e265031ae91efaab9db0acd1ff1545725bb22bbfcdef7fb1dac00f50e1b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-unique-020_375_-pages-bench-page-010-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-020/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "1d833f959633a1a95eaf5f3f9063003e87cd11155699f2466dd338c4a6c9b4ce",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-unique-020_375_-pages-bench-page-020-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-010/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "6ad250de23ddd7c962ef090900f8e504dafb2c9fa1538c80775390adbf6b1e54"
+        },
+        {
+          "route": "/pages/bench-page-020/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "aaefc8d3aeabdfd4c04af2e1d543d7b783a2be0477e8e5838a9504175188b81b"
+        }
+      ]
+    },
+    {
+      "key": "tailwind/standard/pages-unique-050/web",
+      "status": "passed",
+      "routes": [
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "fbab94e60b2e635b681cc8b41d38d01d8dcf0aa073b45cb4e649d64e10c5d60b",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-unique-050_375_-pages-bench-page-001-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-025/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "bb8fe37dcc2f518d17b2ceebd0c5a790c13fb9a2f5e27740f7543a38b62419eb",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-unique-050_375_-pages-bench-page-025-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-050/index",
+          "width": 375,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "f02b4bc8e6fa7e7c08f02f7c704d570790a7471469120577f821b0d2b6905817",
+          "pixels": {
+            "differentPixels": 0,
+            "totalPixels": 337500,
+            "ratio": 0
+          },
+          "screenshot": "reports/page-growth/evidence/web/tailwind_standard_pages-unique-050_375_-pages-bench-page-050-index_initial.png"
+        },
+        {
+          "route": "/pages/bench-page-001/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "a35127d8482110368f383528d57c3137e42375833377d763e3d1ec6c5ab33dca"
+        },
+        {
+          "route": "/pages/bench-page-025/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "230405512c5e0d69e00fb6e7b0ceb0fa1aa51c9685d40a4206f06aae55152150"
+        },
+        {
+          "route": "/pages/bench-page-050/index",
+          "width": 768,
+          "state": "initial",
+          "elements": 22,
+          "snapshotSha256": "2f4e1c74f803b7f4dc801d0fb78b4f1ec2a74a5d2866b39fb20572911f05ef2c"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "kind": "static-server",
+      "origin": "http://127.0.0.1:53540",
+      "closed": true
+    },
+    {
+      "kind": "browser",
+      "headless": true,
+      "closed": true
+    }
+  ]
+}

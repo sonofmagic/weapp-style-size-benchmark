@@ -1,0 +1,3394 @@
+{
+  "status": "passed",
+  "provider": "@mpcore/test",
+  "semantics": "logical WXML and state; not native visual rendering",
+  "artifacts": [
+    {
+      "key": "tailwind/standard/pages-reuse-001/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "tailwind/standard/pages-reuse-005/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-002/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-003/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-004/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-005/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "tailwind/standard/pages-reuse-010/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-002/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-003/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-004/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-005/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-006/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-007/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-008/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-009/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-010/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "tailwind/standard/pages-reuse-020/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-002/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-003/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-004/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-005/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-006/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-007/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-008/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-009/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-010/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-011/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-012/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-013/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-014/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-015/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-016/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-017/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-018/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-019/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-020/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "tailwind/standard/pages-reuse-050/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-002/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-003/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-004/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-005/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-006/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-007/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-008/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-009/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-010/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-011/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-012/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-013/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-014/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-015/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-016/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-017/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-018/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-019/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-020/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-021/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-022/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-023/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-024/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-025/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-026/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-027/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-028/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-029/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-030/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-031/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-032/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-033/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-034/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-035/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-036/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-037/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-038/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-039/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-040/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-041/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-042/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-043/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-044/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-045/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-046/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-047/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-048/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-049/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-050/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "tailwind/standard/pages-unique-001/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "tailwind/standard/pages-unique-005/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-002/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-003/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-004/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-005/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "tailwind/standard/pages-unique-010/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-002/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-003/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-004/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-005/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-006/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-007/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-008/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-009/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-010/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "tailwind/standard/pages-unique-020/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-002/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-003/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-004/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-005/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-006/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-007/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-008/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-009/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-010/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-011/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-012/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-013/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-014/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-015/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-016/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-017/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-018/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-019/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-020/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "tailwind/standard/pages-unique-050/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-002/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-003/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-004/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-005/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-006/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-007/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-008/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-009/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-010/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-011/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-012/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-013/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-014/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-015/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-016/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-017/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-018/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-019/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-020/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-021/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-022/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-023/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-024/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-025/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-026/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-027/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-028/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-029/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-030/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-031/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-032/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-033/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-034/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-035/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-036/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-037/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-038/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-039/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-040/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-041/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-042/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-043/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-044/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-045/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-046/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-047/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-048/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-049/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-050/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "panda/standard/pages-reuse-001/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "panda/standard/pages-reuse-005/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-002/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-003/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-004/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-005/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "panda/standard/pages-reuse-010/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-002/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-003/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-004/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-005/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-006/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-007/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-008/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-009/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-010/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "panda/standard/pages-reuse-020/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-002/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-003/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-004/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-005/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-006/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-007/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-008/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-009/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-010/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-011/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-012/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-013/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-014/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-015/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-016/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-017/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-018/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-019/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-020/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "panda/standard/pages-reuse-050/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-002/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-003/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-004/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-005/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-006/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-007/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-008/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-009/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-010/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-011/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-012/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-013/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-014/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-015/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-016/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-017/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-018/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-019/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-020/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-021/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-022/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-023/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-024/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-025/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-026/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-027/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-028/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-029/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-030/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-031/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-032/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-033/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-034/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-035/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-036/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-037/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-038/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-039/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-040/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-041/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-042/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-043/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-044/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-045/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-046/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-047/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-048/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-049/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-050/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "panda/standard/pages-unique-001/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "panda/standard/pages-unique-005/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-002/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-003/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-004/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-005/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "panda/standard/pages-unique-010/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-002/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-003/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-004/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-005/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-006/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-007/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-008/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-009/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-010/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "panda/standard/pages-unique-020/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-002/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-003/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-004/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-005/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-006/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-007/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-008/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-009/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-010/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-011/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-012/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-013/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-014/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-015/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-016/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-017/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-018/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-019/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-020/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "panda/standard/pages-unique-050/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-002/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-003/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-004/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-005/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-006/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-007/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-008/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-009/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-010/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-011/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-012/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-013/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-014/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-015/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-016/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-017/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-018/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-019/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-020/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-021/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-022/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-023/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-024/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-025/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-026/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-027/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-028/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-029/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-030/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-031/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-032/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-033/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-034/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-035/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-036/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-037/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-038/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-039/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-040/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-041/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-042/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-043/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-044/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-045/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-046/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-047/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-048/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-049/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-050/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "stylex/standard/pages-reuse-001/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/bench-page-001/index.wxss",
+        "pages/bench-page-001/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "stylex/standard/pages-reuse-005/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/bench-page-001/index.wxss",
+        "pages/bench-page-001/stylex.wxss",
+        "pages/bench-page-002/index.wxss",
+        "pages/bench-page-002/stylex.wxss",
+        "pages/bench-page-003/index.wxss",
+        "pages/bench-page-003/stylex.wxss",
+        "pages/bench-page-004/index.wxss",
+        "pages/bench-page-004/stylex.wxss",
+        "pages/bench-page-005/index.wxss",
+        "pages/bench-page-005/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-002/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-003/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-004/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-005/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "stylex/standard/pages-reuse-010/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/bench-page-001/index.wxss",
+        "pages/bench-page-001/stylex.wxss",
+        "pages/bench-page-002/index.wxss",
+        "pages/bench-page-002/stylex.wxss",
+        "pages/bench-page-003/index.wxss",
+        "pages/bench-page-003/stylex.wxss",
+        "pages/bench-page-004/index.wxss",
+        "pages/bench-page-004/stylex.wxss",
+        "pages/bench-page-005/index.wxss",
+        "pages/bench-page-005/stylex.wxss",
+        "pages/bench-page-006/index.wxss",
+        "pages/bench-page-006/stylex.wxss",
+        "pages/bench-page-007/index.wxss",
+        "pages/bench-page-007/stylex.wxss",
+        "pages/bench-page-008/index.wxss",
+        "pages/bench-page-008/stylex.wxss",
+        "pages/bench-page-009/index.wxss",
+        "pages/bench-page-009/stylex.wxss",
+        "pages/bench-page-010/index.wxss",
+        "pages/bench-page-010/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-002/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-003/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-004/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-005/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-006/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-007/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-008/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-009/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-010/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "stylex/standard/pages-reuse-020/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/bench-page-001/index.wxss",
+        "pages/bench-page-001/stylex.wxss",
+        "pages/bench-page-002/index.wxss",
+        "pages/bench-page-002/stylex.wxss",
+        "pages/bench-page-003/index.wxss",
+        "pages/bench-page-003/stylex.wxss",
+        "pages/bench-page-004/index.wxss",
+        "pages/bench-page-004/stylex.wxss",
+        "pages/bench-page-005/index.wxss",
+        "pages/bench-page-005/stylex.wxss",
+        "pages/bench-page-006/index.wxss",
+        "pages/bench-page-006/stylex.wxss",
+        "pages/bench-page-007/index.wxss",
+        "pages/bench-page-007/stylex.wxss",
+        "pages/bench-page-008/index.wxss",
+        "pages/bench-page-008/stylex.wxss",
+        "pages/bench-page-009/index.wxss",
+        "pages/bench-page-009/stylex.wxss",
+        "pages/bench-page-010/index.wxss",
+        "pages/bench-page-010/stylex.wxss",
+        "pages/bench-page-011/index.wxss",
+        "pages/bench-page-011/stylex.wxss",
+        "pages/bench-page-012/index.wxss",
+        "pages/bench-page-012/stylex.wxss",
+        "pages/bench-page-013/index.wxss",
+        "pages/bench-page-013/stylex.wxss",
+        "pages/bench-page-014/index.wxss",
+        "pages/bench-page-014/stylex.wxss",
+        "pages/bench-page-015/index.wxss",
+        "pages/bench-page-015/stylex.wxss",
+        "pages/bench-page-016/index.wxss",
+        "pages/bench-page-016/stylex.wxss",
+        "pages/bench-page-017/index.wxss",
+        "pages/bench-page-017/stylex.wxss",
+        "pages/bench-page-018/index.wxss",
+        "pages/bench-page-018/stylex.wxss",
+        "pages/bench-page-019/index.wxss",
+        "pages/bench-page-019/stylex.wxss",
+        "pages/bench-page-020/index.wxss",
+        "pages/bench-page-020/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-002/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-003/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-004/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-005/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-006/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-007/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-008/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-009/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-010/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-011/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-012/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-013/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-014/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-015/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-016/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-017/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-018/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-019/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-020/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "stylex/standard/pages-reuse-050/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/bench-page-001/index.wxss",
+        "pages/bench-page-001/stylex.wxss",
+        "pages/bench-page-002/index.wxss",
+        "pages/bench-page-002/stylex.wxss",
+        "pages/bench-page-003/index.wxss",
+        "pages/bench-page-003/stylex.wxss",
+        "pages/bench-page-004/index.wxss",
+        "pages/bench-page-004/stylex.wxss",
+        "pages/bench-page-005/index.wxss",
+        "pages/bench-page-005/stylex.wxss",
+        "pages/bench-page-006/index.wxss",
+        "pages/bench-page-006/stylex.wxss",
+        "pages/bench-page-007/index.wxss",
+        "pages/bench-page-007/stylex.wxss",
+        "pages/bench-page-008/index.wxss",
+        "pages/bench-page-008/stylex.wxss",
+        "pages/bench-page-009/index.wxss",
+        "pages/bench-page-009/stylex.wxss",
+        "pages/bench-page-010/index.wxss",
+        "pages/bench-page-010/stylex.wxss",
+        "pages/bench-page-011/index.wxss",
+        "pages/bench-page-011/stylex.wxss",
+        "pages/bench-page-012/index.wxss",
+        "pages/bench-page-012/stylex.wxss",
+        "pages/bench-page-013/index.wxss",
+        "pages/bench-page-013/stylex.wxss",
+        "pages/bench-page-014/index.wxss",
+        "pages/bench-page-014/stylex.wxss",
+        "pages/bench-page-015/index.wxss",
+        "pages/bench-page-015/stylex.wxss",
+        "pages/bench-page-016/index.wxss",
+        "pages/bench-page-016/stylex.wxss",
+        "pages/bench-page-017/index.wxss",
+        "pages/bench-page-017/stylex.wxss",
+        "pages/bench-page-018/index.wxss",
+        "pages/bench-page-018/stylex.wxss",
+        "pages/bench-page-019/index.wxss",
+        "pages/bench-page-019/stylex.wxss",
+        "pages/bench-page-020/index.wxss",
+        "pages/bench-page-020/stylex.wxss",
+        "pages/bench-page-021/index.wxss",
+        "pages/bench-page-021/stylex.wxss",
+        "pages/bench-page-022/index.wxss",
+        "pages/bench-page-022/stylex.wxss",
+        "pages/bench-page-023/index.wxss",
+        "pages/bench-page-023/stylex.wxss",
+        "pages/bench-page-024/index.wxss",
+        "pages/bench-page-024/stylex.wxss",
+        "pages/bench-page-025/index.wxss",
+        "pages/bench-page-025/stylex.wxss",
+        "pages/bench-page-026/index.wxss",
+        "pages/bench-page-026/stylex.wxss",
+        "pages/bench-page-027/index.wxss",
+        "pages/bench-page-027/stylex.wxss",
+        "pages/bench-page-028/index.wxss",
+        "pages/bench-page-028/stylex.wxss",
+        "pages/bench-page-029/index.wxss",
+        "pages/bench-page-029/stylex.wxss",
+        "pages/bench-page-030/index.wxss",
+        "pages/bench-page-030/stylex.wxss",
+        "pages/bench-page-031/index.wxss",
+        "pages/bench-page-031/stylex.wxss",
+        "pages/bench-page-032/index.wxss",
+        "pages/bench-page-032/stylex.wxss",
+        "pages/bench-page-033/index.wxss",
+        "pages/bench-page-033/stylex.wxss",
+        "pages/bench-page-034/index.wxss",
+        "pages/bench-page-034/stylex.wxss",
+        "pages/bench-page-035/index.wxss",
+        "pages/bench-page-035/stylex.wxss",
+        "pages/bench-page-036/index.wxss",
+        "pages/bench-page-036/stylex.wxss",
+        "pages/bench-page-037/index.wxss",
+        "pages/bench-page-037/stylex.wxss",
+        "pages/bench-page-038/index.wxss",
+        "pages/bench-page-038/stylex.wxss",
+        "pages/bench-page-039/index.wxss",
+        "pages/bench-page-039/stylex.wxss",
+        "pages/bench-page-040/index.wxss",
+        "pages/bench-page-040/stylex.wxss",
+        "pages/bench-page-041/index.wxss",
+        "pages/bench-page-041/stylex.wxss",
+        "pages/bench-page-042/index.wxss",
+        "pages/bench-page-042/stylex.wxss",
+        "pages/bench-page-043/index.wxss",
+        "pages/bench-page-043/stylex.wxss",
+        "pages/bench-page-044/index.wxss",
+        "pages/bench-page-044/stylex.wxss",
+        "pages/bench-page-045/index.wxss",
+        "pages/bench-page-045/stylex.wxss",
+        "pages/bench-page-046/index.wxss",
+        "pages/bench-page-046/stylex.wxss",
+        "pages/bench-page-047/index.wxss",
+        "pages/bench-page-047/stylex.wxss",
+        "pages/bench-page-048/index.wxss",
+        "pages/bench-page-048/stylex.wxss",
+        "pages/bench-page-049/index.wxss",
+        "pages/bench-page-049/stylex.wxss",
+        "pages/bench-page-050/index.wxss",
+        "pages/bench-page-050/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-002/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-003/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-004/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-005/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-006/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-007/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-008/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-009/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-010/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-011/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-012/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-013/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-014/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-015/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-016/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-017/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-018/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-019/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-020/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-021/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-022/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-023/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-024/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-025/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-026/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-027/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-028/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-029/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-030/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-031/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-032/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-033/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-034/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-035/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-036/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-037/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-038/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-039/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-040/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-041/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-042/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-043/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-044/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-045/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-046/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-047/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-048/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-049/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-050/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "stylex/standard/pages-unique-001/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/bench-page-001/index.wxss",
+        "pages/bench-page-001/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "stylex/standard/pages-unique-005/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/bench-page-001/index.wxss",
+        "pages/bench-page-001/stylex.wxss",
+        "pages/bench-page-002/index.wxss",
+        "pages/bench-page-002/stylex.wxss",
+        "pages/bench-page-003/index.wxss",
+        "pages/bench-page-003/stylex.wxss",
+        "pages/bench-page-004/index.wxss",
+        "pages/bench-page-004/stylex.wxss",
+        "pages/bench-page-005/index.wxss",
+        "pages/bench-page-005/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-002/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-003/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-004/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-005/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "stylex/standard/pages-unique-010/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/bench-page-001/index.wxss",
+        "pages/bench-page-001/stylex.wxss",
+        "pages/bench-page-002/index.wxss",
+        "pages/bench-page-002/stylex.wxss",
+        "pages/bench-page-003/index.wxss",
+        "pages/bench-page-003/stylex.wxss",
+        "pages/bench-page-004/index.wxss",
+        "pages/bench-page-004/stylex.wxss",
+        "pages/bench-page-005/index.wxss",
+        "pages/bench-page-005/stylex.wxss",
+        "pages/bench-page-006/index.wxss",
+        "pages/bench-page-006/stylex.wxss",
+        "pages/bench-page-007/index.wxss",
+        "pages/bench-page-007/stylex.wxss",
+        "pages/bench-page-008/index.wxss",
+        "pages/bench-page-008/stylex.wxss",
+        "pages/bench-page-009/index.wxss",
+        "pages/bench-page-009/stylex.wxss",
+        "pages/bench-page-010/index.wxss",
+        "pages/bench-page-010/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-002/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-003/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-004/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-005/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-006/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-007/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-008/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-009/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-010/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "stylex/standard/pages-unique-020/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/bench-page-001/index.wxss",
+        "pages/bench-page-001/stylex.wxss",
+        "pages/bench-page-002/index.wxss",
+        "pages/bench-page-002/stylex.wxss",
+        "pages/bench-page-003/index.wxss",
+        "pages/bench-page-003/stylex.wxss",
+        "pages/bench-page-004/index.wxss",
+        "pages/bench-page-004/stylex.wxss",
+        "pages/bench-page-005/index.wxss",
+        "pages/bench-page-005/stylex.wxss",
+        "pages/bench-page-006/index.wxss",
+        "pages/bench-page-006/stylex.wxss",
+        "pages/bench-page-007/index.wxss",
+        "pages/bench-page-007/stylex.wxss",
+        "pages/bench-page-008/index.wxss",
+        "pages/bench-page-008/stylex.wxss",
+        "pages/bench-page-009/index.wxss",
+        "pages/bench-page-009/stylex.wxss",
+        "pages/bench-page-010/index.wxss",
+        "pages/bench-page-010/stylex.wxss",
+        "pages/bench-page-011/index.wxss",
+        "pages/bench-page-011/stylex.wxss",
+        "pages/bench-page-012/index.wxss",
+        "pages/bench-page-012/stylex.wxss",
+        "pages/bench-page-013/index.wxss",
+        "pages/bench-page-013/stylex.wxss",
+        "pages/bench-page-014/index.wxss",
+        "pages/bench-page-014/stylex.wxss",
+        "pages/bench-page-015/index.wxss",
+        "pages/bench-page-015/stylex.wxss",
+        "pages/bench-page-016/index.wxss",
+        "pages/bench-page-016/stylex.wxss",
+        "pages/bench-page-017/index.wxss",
+        "pages/bench-page-017/stylex.wxss",
+        "pages/bench-page-018/index.wxss",
+        "pages/bench-page-018/stylex.wxss",
+        "pages/bench-page-019/index.wxss",
+        "pages/bench-page-019/stylex.wxss",
+        "pages/bench-page-020/index.wxss",
+        "pages/bench-page-020/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-002/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-003/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-004/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-005/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-006/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-007/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-008/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-009/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-010/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-011/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-012/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-013/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-014/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-015/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-016/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-017/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-018/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-019/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-020/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "stylex/standard/pages-unique-050/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/bench-page-001/index.wxss",
+        "pages/bench-page-001/stylex.wxss",
+        "pages/bench-page-002/index.wxss",
+        "pages/bench-page-002/stylex.wxss",
+        "pages/bench-page-003/index.wxss",
+        "pages/bench-page-003/stylex.wxss",
+        "pages/bench-page-004/index.wxss",
+        "pages/bench-page-004/stylex.wxss",
+        "pages/bench-page-005/index.wxss",
+        "pages/bench-page-005/stylex.wxss",
+        "pages/bench-page-006/index.wxss",
+        "pages/bench-page-006/stylex.wxss",
+        "pages/bench-page-007/index.wxss",
+        "pages/bench-page-007/stylex.wxss",
+        "pages/bench-page-008/index.wxss",
+        "pages/bench-page-008/stylex.wxss",
+        "pages/bench-page-009/index.wxss",
+        "pages/bench-page-009/stylex.wxss",
+        "pages/bench-page-010/index.wxss",
+        "pages/bench-page-010/stylex.wxss",
+        "pages/bench-page-011/index.wxss",
+        "pages/bench-page-011/stylex.wxss",
+        "pages/bench-page-012/index.wxss",
+        "pages/bench-page-012/stylex.wxss",
+        "pages/bench-page-013/index.wxss",
+        "pages/bench-page-013/stylex.wxss",
+        "pages/bench-page-014/index.wxss",
+        "pages/bench-page-014/stylex.wxss",
+        "pages/bench-page-015/index.wxss",
+        "pages/bench-page-015/stylex.wxss",
+        "pages/bench-page-016/index.wxss",
+        "pages/bench-page-016/stylex.wxss",
+        "pages/bench-page-017/index.wxss",
+        "pages/bench-page-017/stylex.wxss",
+        "pages/bench-page-018/index.wxss",
+        "pages/bench-page-018/stylex.wxss",
+        "pages/bench-page-019/index.wxss",
+        "pages/bench-page-019/stylex.wxss",
+        "pages/bench-page-020/index.wxss",
+        "pages/bench-page-020/stylex.wxss",
+        "pages/bench-page-021/index.wxss",
+        "pages/bench-page-021/stylex.wxss",
+        "pages/bench-page-022/index.wxss",
+        "pages/bench-page-022/stylex.wxss",
+        "pages/bench-page-023/index.wxss",
+        "pages/bench-page-023/stylex.wxss",
+        "pages/bench-page-024/index.wxss",
+        "pages/bench-page-024/stylex.wxss",
+        "pages/bench-page-025/index.wxss",
+        "pages/bench-page-025/stylex.wxss",
+        "pages/bench-page-026/index.wxss",
+        "pages/bench-page-026/stylex.wxss",
+        "pages/bench-page-027/index.wxss",
+        "pages/bench-page-027/stylex.wxss",
+        "pages/bench-page-028/index.wxss",
+        "pages/bench-page-028/stylex.wxss",
+        "pages/bench-page-029/index.wxss",
+        "pages/bench-page-029/stylex.wxss",
+        "pages/bench-page-030/index.wxss",
+        "pages/bench-page-030/stylex.wxss",
+        "pages/bench-page-031/index.wxss",
+        "pages/bench-page-031/stylex.wxss",
+        "pages/bench-page-032/index.wxss",
+        "pages/bench-page-032/stylex.wxss",
+        "pages/bench-page-033/index.wxss",
+        "pages/bench-page-033/stylex.wxss",
+        "pages/bench-page-034/index.wxss",
+        "pages/bench-page-034/stylex.wxss",
+        "pages/bench-page-035/index.wxss",
+        "pages/bench-page-035/stylex.wxss",
+        "pages/bench-page-036/index.wxss",
+        "pages/bench-page-036/stylex.wxss",
+        "pages/bench-page-037/index.wxss",
+        "pages/bench-page-037/stylex.wxss",
+        "pages/bench-page-038/index.wxss",
+        "pages/bench-page-038/stylex.wxss",
+        "pages/bench-page-039/index.wxss",
+        "pages/bench-page-039/stylex.wxss",
+        "pages/bench-page-040/index.wxss",
+        "pages/bench-page-040/stylex.wxss",
+        "pages/bench-page-041/index.wxss",
+        "pages/bench-page-041/stylex.wxss",
+        "pages/bench-page-042/index.wxss",
+        "pages/bench-page-042/stylex.wxss",
+        "pages/bench-page-043/index.wxss",
+        "pages/bench-page-043/stylex.wxss",
+        "pages/bench-page-044/index.wxss",
+        "pages/bench-page-044/stylex.wxss",
+        "pages/bench-page-045/index.wxss",
+        "pages/bench-page-045/stylex.wxss",
+        "pages/bench-page-046/index.wxss",
+        "pages/bench-page-046/stylex.wxss",
+        "pages/bench-page-047/index.wxss",
+        "pages/bench-page-047/stylex.wxss",
+        "pages/bench-page-048/index.wxss",
+        "pages/bench-page-048/stylex.wxss",
+        "pages/bench-page-049/index.wxss",
+        "pages/bench-page-049/stylex.wxss",
+        "pages/bench-page-050/index.wxss",
+        "pages/bench-page-050/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/bench-page-001/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-002/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-003/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-004/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-005/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-006/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-007/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-008/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-009/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-010/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-011/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-012/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-013/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-014/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-015/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-016/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-017/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-018/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-019/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-020/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-021/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-022/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-023/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-024/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-025/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-026/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-027/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-028/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-029/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-030/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-031/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-032/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-033/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-034/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-035/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-036/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-037/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-038/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-039/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-040/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-041/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-042/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-043/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-044/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-045/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-046/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-047/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-048/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-049/index",
+          "elements": 22,
+          "actions": []
+        },
+        {
+          "path": "/pages/bench-page-050/index",
+          "elements": 22,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    }
+  ],
+  "resources": [
+    {
+      "key": "tailwind/standard/pages-reuse-001/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "tailwind/standard/pages-reuse-005/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "tailwind/standard/pages-reuse-010/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "tailwind/standard/pages-reuse-020/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "tailwind/standard/pages-reuse-050/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "tailwind/standard/pages-unique-001/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "tailwind/standard/pages-unique-005/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "tailwind/standard/pages-unique-010/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "tailwind/standard/pages-unique-020/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "tailwind/standard/pages-unique-050/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/standard/pages-reuse-001/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/standard/pages-reuse-005/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/standard/pages-reuse-010/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/standard/pages-reuse-020/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/standard/pages-reuse-050/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/standard/pages-unique-001/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/standard/pages-unique-005/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/standard/pages-unique-010/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/standard/pages-unique-020/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/standard/pages-unique-050/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/standard/pages-reuse-001/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/standard/pages-reuse-005/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/standard/pages-reuse-010/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/standard/pages-reuse-020/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/standard/pages-reuse-050/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/standard/pages-unique-001/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/standard/pages-unique-005/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/standard/pages-unique-010/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/standard/pages-unique-020/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/standard/pages-unique-050/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    }
+  ],
+  "evidence": "reports/page-growth/evidence/headless"
+}
