@@ -1,0 +1,56 @@
+name: Benchmark
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare current-run evidence
+        run: rm -rf reports/evidence .bench
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 12.16.1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24.22.1
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm test
+      - run: pnpm bench
+      - run: pnpm report:check
+      - name: Upload validated benchmark
+        uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: style-size-benchmark-complete
+          path: |
+            reports/
+            .bench/fixtures/**/dist/**
+            .bench/logs/**
+            .bench/run.json
+            README.md
+          if-no-files-found: warn
+          include-hidden-files: true
+      - name: Upload current-run failure evidence
+        uses: actions/upload-artifact@v4
+        if: failure() || cancelled()
+        with:
+          name: style-size-benchmark-failed
+          path: |
+            reports/evidence/
+            .bench/fixtures/**/dist/**
+            .bench/logs/**
+            .bench/run.json
+          if-no-files-found: warn
+          include-hidden-files: true

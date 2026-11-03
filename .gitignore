@@ -1,0 +1,6 @@
+node_modules/
+.bench/
+.DS_Store
+*.log
+project.private.config.json
+test-results/

@@ -1,0 +1,2518 @@
+{
+  "status": "passed",
+  "provider": "@mpcore/test",
+  "semantics": "logical WXML and state; not native visual rendering",
+  "artifacts": [
+    {
+      "key": "tailwind/standard/gallery/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/gallery/index",
+          "elements": 11,
+          "actions": [
+            {
+              "state": "active",
+              "changedBindings": 4
+            },
+            {
+              "state": "dark",
+              "changedBindings": 1
+            },
+            {
+              "state": "grown",
+              "changedBindings": 1
+            }
+          ]
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "tailwind/standard/application/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "independent/settings/index.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/home/index",
+          "elements": 5,
+          "actions": [
+            {
+              "state": "dark",
+              "changedBindings": 1
+            }
+          ]
+        },
+        {
+          "path": "/pages/list/index",
+          "elements": 2,
+          "actions": []
+        },
+        {
+          "path": "/package/detail/index",
+          "elements": 6,
+          "actions": [
+            {
+              "state": "active",
+              "changedBindings": 1
+            }
+          ]
+        },
+        {
+          "path": "/independent/settings/index",
+          "elements": 6,
+          "actions": [
+            {
+              "state": "dark",
+              "changedBindings": 1
+            },
+            {
+              "state": "grown",
+              "changedBindings": 1
+            }
+          ]
+        }
+      ],
+      "navigation": [
+        {
+          "from": "/pages/home/index",
+          "id": "open-list",
+          "method": "navigateTo",
+          "path": "/pages/list/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/home/index",
+          "id": "open-detail",
+          "method": "navigateTo",
+          "path": "/package/detail/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/home/index",
+          "id": "open-settings",
+          "method": "navigateTo",
+          "path": "/independent/settings/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/list/index",
+          "id": "open-detail",
+          "method": "navigateTo",
+          "path": "/package/detail/index",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "key": "tailwind/standard/reuse-10/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 12,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "tailwind/standard/reuse-100/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 102,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "tailwind/standard/reuse-1000/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 1002,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "tailwind/standard/unique-10/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 12,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "tailwind/standard/unique-100/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 102,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "tailwind/standard/unique-1000/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 1002,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "tailwind/optimized/gallery/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/gallery/index",
+          "elements": 11,
+          "actions": [
+            {
+              "state": "active",
+              "changedBindings": 4
+            },
+            {
+              "state": "dark",
+              "changedBindings": 1
+            },
+            {
+              "state": "grown",
+              "changedBindings": 1
+            }
+          ]
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "tailwind/optimized/application/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "independent/settings/index.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/home/index",
+          "elements": 5,
+          "actions": [
+            {
+              "state": "dark",
+              "changedBindings": 1
+            }
+          ]
+        },
+        {
+          "path": "/pages/list/index",
+          "elements": 2,
+          "actions": []
+        },
+        {
+          "path": "/package/detail/index",
+          "elements": 6,
+          "actions": [
+            {
+              "state": "active",
+              "changedBindings": 1
+            }
+          ]
+        },
+        {
+          "path": "/independent/settings/index",
+          "elements": 6,
+          "actions": [
+            {
+              "state": "dark",
+              "changedBindings": 1
+            },
+            {
+              "state": "grown",
+              "changedBindings": 1
+            }
+          ]
+        }
+      ],
+      "navigation": [
+        {
+          "from": "/pages/home/index",
+          "id": "open-list",
+          "method": "navigateTo",
+          "path": "/pages/list/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/home/index",
+          "id": "open-detail",
+          "method": "navigateTo",
+          "path": "/package/detail/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/home/index",
+          "id": "open-settings",
+          "method": "navigateTo",
+          "path": "/independent/settings/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/list/index",
+          "id": "open-detail",
+          "method": "navigateTo",
+          "path": "/package/detail/index",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "key": "tailwind/optimized/reuse-10/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 12,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "tailwind/optimized/reuse-100/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 102,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "tailwind/optimized/reuse-1000/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 1002,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "tailwind/optimized/unique-10/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 12,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "tailwind/optimized/unique-100/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 102,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "tailwind/optimized/unique-1000/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 1002,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "panda/standard/gallery/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/gallery/index",
+          "elements": 11,
+          "actions": [
+            {
+              "state": "active",
+              "changedBindings": 4
+            },
+            {
+              "state": "dark",
+              "changedBindings": 1
+            },
+            {
+              "state": "grown",
+              "changedBindings": 1
+            }
+          ]
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "panda/standard/application/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "independent/settings/index.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/home/index",
+          "elements": 5,
+          "actions": [
+            {
+              "state": "dark",
+              "changedBindings": 1
+            }
+          ]
+        },
+        {
+          "path": "/pages/list/index",
+          "elements": 2,
+          "actions": []
+        },
+        {
+          "path": "/package/detail/index",
+          "elements": 6,
+          "actions": [
+            {
+              "state": "active",
+              "changedBindings": 1
+            }
+          ]
+        },
+        {
+          "path": "/independent/settings/index",
+          "elements": 6,
+          "actions": [
+            {
+              "state": "dark",
+              "changedBindings": 1
+            },
+            {
+              "state": "grown",
+              "changedBindings": 1
+            }
+          ]
+        }
+      ],
+      "navigation": [
+        {
+          "from": "/pages/home/index",
+          "id": "open-list",
+          "method": "navigateTo",
+          "path": "/pages/list/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/home/index",
+          "id": "open-detail",
+          "method": "navigateTo",
+          "path": "/package/detail/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/home/index",
+          "id": "open-settings",
+          "method": "navigateTo",
+          "path": "/independent/settings/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/list/index",
+          "id": "open-detail",
+          "method": "navigateTo",
+          "path": "/package/detail/index",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "key": "panda/standard/reuse-10/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 12,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "panda/standard/reuse-100/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 102,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "panda/standard/reuse-1000/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 1002,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "panda/standard/unique-10/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 12,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "panda/standard/unique-100/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 102,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "panda/standard/unique-1000/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 1002,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "panda/optimized/gallery/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/gallery/index",
+          "elements": 11,
+          "actions": [
+            {
+              "state": "active",
+              "changedBindings": 4
+            },
+            {
+              "state": "dark",
+              "changedBindings": 1
+            },
+            {
+              "state": "grown",
+              "changedBindings": 1
+            }
+          ]
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "panda/optimized/application/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "independent/settings/index.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/home/index",
+          "elements": 5,
+          "actions": [
+            {
+              "state": "dark",
+              "changedBindings": 1
+            }
+          ]
+        },
+        {
+          "path": "/pages/list/index",
+          "elements": 2,
+          "actions": []
+        },
+        {
+          "path": "/package/detail/index",
+          "elements": 6,
+          "actions": [
+            {
+              "state": "active",
+              "changedBindings": 1
+            }
+          ]
+        },
+        {
+          "path": "/independent/settings/index",
+          "elements": 6,
+          "actions": [
+            {
+              "state": "dark",
+              "changedBindings": 1
+            },
+            {
+              "state": "grown",
+              "changedBindings": 1
+            }
+          ]
+        }
+      ],
+      "navigation": [
+        {
+          "from": "/pages/home/index",
+          "id": "open-list",
+          "method": "navigateTo",
+          "path": "/pages/list/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/home/index",
+          "id": "open-detail",
+          "method": "navigateTo",
+          "path": "/package/detail/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/home/index",
+          "id": "open-settings",
+          "method": "navigateTo",
+          "path": "/independent/settings/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/list/index",
+          "id": "open-detail",
+          "method": "navigateTo",
+          "path": "/package/detail/index",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "key": "panda/optimized/reuse-10/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 12,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "panda/optimized/reuse-100/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 102,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "panda/optimized/reuse-1000/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 1002,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "panda/optimized/unique-10/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 12,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "panda/optimized/unique-100/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 102,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "panda/optimized/unique-1000/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 1002,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "stylex/standard/gallery/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/gallery/index.wxss",
+        "pages/gallery/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/gallery/index",
+          "elements": 11,
+          "actions": [
+            {
+              "state": "active",
+              "changedBindings": 4
+            },
+            {
+              "state": "dark",
+              "changedBindings": 1
+            },
+            {
+              "state": "grown",
+              "changedBindings": 1
+            }
+          ]
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "stylex/standard/application/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "components/metric/index.wxss",
+        "components/metric/stylex.wxss",
+        "independent/components/metric/index.wxss",
+        "independent/components/metric/stylex.wxss",
+        "independent/settings/index.wxss",
+        "independent/settings/stylex.wxss",
+        "package/detail/index.wxss",
+        "package/detail/stylex.wxss",
+        "pages/home/index.wxss",
+        "pages/home/stylex.wxss",
+        "pages/list/index.wxss",
+        "pages/list/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/home/index",
+          "elements": 5,
+          "actions": [
+            {
+              "state": "dark",
+              "changedBindings": 1
+            }
+          ]
+        },
+        {
+          "path": "/pages/list/index",
+          "elements": 2,
+          "actions": []
+        },
+        {
+          "path": "/package/detail/index",
+          "elements": 6,
+          "actions": [
+            {
+              "state": "active",
+              "changedBindings": 1
+            }
+          ]
+        },
+        {
+          "path": "/independent/settings/index",
+          "elements": 6,
+          "actions": [
+            {
+              "state": "dark",
+              "changedBindings": 1
+            },
+            {
+              "state": "grown",
+              "changedBindings": 1
+            }
+          ]
+        }
+      ],
+      "navigation": [
+        {
+          "from": "/pages/home/index",
+          "id": "open-list",
+          "method": "navigateTo",
+          "path": "/pages/list/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/home/index",
+          "id": "open-detail",
+          "method": "navigateTo",
+          "path": "/package/detail/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/home/index",
+          "id": "open-settings",
+          "method": "navigateTo",
+          "path": "/independent/settings/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/list/index",
+          "id": "open-detail",
+          "method": "navigateTo",
+          "path": "/package/detail/index",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "key": "stylex/standard/reuse-10/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/scale/index.wxss",
+        "pages/scale/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 12,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "stylex/standard/reuse-100/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/scale/index.wxss",
+        "pages/scale/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 102,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "stylex/standard/reuse-1000/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/scale/index.wxss",
+        "pages/scale/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 1002,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "stylex/standard/unique-10/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/scale/index.wxss",
+        "pages/scale/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 12,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "stylex/standard/unique-100/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/scale/index.wxss",
+        "pages/scale/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 102,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "stylex/standard/unique-1000/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/scale/index.wxss",
+        "pages/scale/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 1002,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "stylex/optimized/gallery/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/gallery/index.wxss",
+        "pages/gallery/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/gallery/index",
+          "elements": 11,
+          "actions": [
+            {
+              "state": "active",
+              "changedBindings": 4
+            },
+            {
+              "state": "dark",
+              "changedBindings": 1
+            },
+            {
+              "state": "grown",
+              "changedBindings": 1
+            }
+          ]
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "stylex/optimized/application/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "components/metric/index.wxss",
+        "components/metric/stylex.wxss",
+        "independent/components/metric/index.wxss",
+        "independent/components/metric/stylex.wxss",
+        "independent/settings/index.wxss",
+        "independent/settings/stylex.wxss",
+        "package/detail/index.wxss",
+        "package/detail/stylex.wxss",
+        "pages/home/index.wxss",
+        "pages/home/stylex.wxss",
+        "pages/list/index.wxss",
+        "pages/list/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/home/index",
+          "elements": 5,
+          "actions": [
+            {
+              "state": "dark",
+              "changedBindings": 1
+            }
+          ]
+        },
+        {
+          "path": "/pages/list/index",
+          "elements": 2,
+          "actions": []
+        },
+        {
+          "path": "/package/detail/index",
+          "elements": 6,
+          "actions": [
+            {
+              "state": "active",
+              "changedBindings": 1
+            }
+          ]
+        },
+        {
+          "path": "/independent/settings/index",
+          "elements": 6,
+          "actions": [
+            {
+              "state": "dark",
+              "changedBindings": 1
+            },
+            {
+              "state": "grown",
+              "changedBindings": 1
+            }
+          ]
+        }
+      ],
+      "navigation": [
+        {
+          "from": "/pages/home/index",
+          "id": "open-list",
+          "method": "navigateTo",
+          "path": "/pages/list/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/home/index",
+          "id": "open-detail",
+          "method": "navigateTo",
+          "path": "/package/detail/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/home/index",
+          "id": "open-settings",
+          "method": "navigateTo",
+          "path": "/independent/settings/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/list/index",
+          "id": "open-detail",
+          "method": "navigateTo",
+          "path": "/package/detail/index",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "key": "stylex/optimized/reuse-10/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/scale/index.wxss",
+        "pages/scale/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 12,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "stylex/optimized/reuse-100/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/scale/index.wxss",
+        "pages/scale/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 102,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "stylex/optimized/reuse-1000/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/scale/index.wxss",
+        "pages/scale/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 1002,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "stylex/optimized/unique-10/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/scale/index.wxss",
+        "pages/scale/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 12,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "stylex/optimized/unique-100/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/scale/index.wxss",
+        "pages/scale/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 102,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "stylex/optimized/unique-1000/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/scale/index.wxss",
+        "pages/scale/stylex.wxss",
+        "stylex.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 1002,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "reference/standard/gallery/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/gallery/index.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/gallery/index",
+          "elements": 11,
+          "actions": [
+            {
+              "state": "active",
+              "changedBindings": 4
+            },
+            {
+              "state": "dark",
+              "changedBindings": 1
+            },
+            {
+              "state": "grown",
+              "changedBindings": 1
+            }
+          ]
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "reference/standard/application/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "components/metric/index.wxss",
+        "independent/components/metric/index.wxss",
+        "independent/settings/index.wxss",
+        "package/detail/index.wxss",
+        "pages/home/index.wxss",
+        "pages/list/index.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/home/index",
+          "elements": 5,
+          "actions": [
+            {
+              "state": "dark",
+              "changedBindings": 1
+            }
+          ]
+        },
+        {
+          "path": "/pages/list/index",
+          "elements": 2,
+          "actions": []
+        },
+        {
+          "path": "/package/detail/index",
+          "elements": 6,
+          "actions": [
+            {
+              "state": "active",
+              "changedBindings": 1
+            }
+          ]
+        },
+        {
+          "path": "/independent/settings/index",
+          "elements": 6,
+          "actions": [
+            {
+              "state": "dark",
+              "changedBindings": 1
+            },
+            {
+              "state": "grown",
+              "changedBindings": 1
+            }
+          ]
+        }
+      ],
+      "navigation": [
+        {
+          "from": "/pages/home/index",
+          "id": "open-list",
+          "method": "navigateTo",
+          "path": "/pages/list/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/home/index",
+          "id": "open-detail",
+          "method": "navigateTo",
+          "path": "/package/detail/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/home/index",
+          "id": "open-settings",
+          "method": "navigateTo",
+          "path": "/independent/settings/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/list/index",
+          "id": "open-detail",
+          "method": "navigateTo",
+          "path": "/package/detail/index",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "key": "reference/standard/reuse-10/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/scale/index.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 12,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "reference/standard/reuse-100/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/scale/index.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 102,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "reference/standard/reuse-1000/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/scale/index.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 1002,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "reference/standard/unique-10/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/scale/index.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 12,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "reference/standard/unique-100/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/scale/index.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 102,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "reference/standard/unique-1000/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/scale/index.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 1002,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "reference/optimized/gallery/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/gallery/index.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/gallery/index",
+          "elements": 11,
+          "actions": [
+            {
+              "state": "active",
+              "changedBindings": 4
+            },
+            {
+              "state": "dark",
+              "changedBindings": 1
+            },
+            {
+              "state": "grown",
+              "changedBindings": 1
+            }
+          ]
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "reference/optimized/application/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "components/metric/index.wxss",
+        "independent/components/metric/index.wxss",
+        "independent/settings/index.wxss",
+        "package/detail/index.wxss",
+        "pages/home/index.wxss",
+        "pages/list/index.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/home/index",
+          "elements": 5,
+          "actions": [
+            {
+              "state": "dark",
+              "changedBindings": 1
+            }
+          ]
+        },
+        {
+          "path": "/pages/list/index",
+          "elements": 2,
+          "actions": []
+        },
+        {
+          "path": "/package/detail/index",
+          "elements": 6,
+          "actions": [
+            {
+              "state": "active",
+              "changedBindings": 1
+            }
+          ]
+        },
+        {
+          "path": "/independent/settings/index",
+          "elements": 6,
+          "actions": [
+            {
+              "state": "dark",
+              "changedBindings": 1
+            },
+            {
+              "state": "grown",
+              "changedBindings": 1
+            }
+          ]
+        }
+      ],
+      "navigation": [
+        {
+          "from": "/pages/home/index",
+          "id": "open-list",
+          "method": "navigateTo",
+          "path": "/pages/list/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/home/index",
+          "id": "open-detail",
+          "method": "navigateTo",
+          "path": "/package/detail/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/home/index",
+          "id": "open-settings",
+          "method": "navigateTo",
+          "path": "/independent/settings/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/list/index",
+          "id": "open-detail",
+          "method": "navigateTo",
+          "path": "/package/detail/index",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "key": "reference/optimized/reuse-10/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/scale/index.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 12,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "reference/optimized/reuse-100/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/scale/index.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 102,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "reference/optimized/reuse-1000/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/scale/index.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 1002,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "reference/optimized/unique-10/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/scale/index.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 12,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "reference/optimized/unique-100/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/scale/index.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 102,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "reference/optimized/unique-1000/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss",
+        "pages/scale/index.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 1002,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "unstyled/standard/gallery/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/gallery/index",
+          "elements": 11,
+          "actions": [
+            {
+              "state": "active",
+              "changedBindings": 0
+            },
+            {
+              "state": "dark",
+              "changedBindings": 0
+            },
+            {
+              "state": "grown",
+              "changedBindings": 0
+            }
+          ]
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "unstyled/standard/application/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/home/index",
+          "elements": 5,
+          "actions": [
+            {
+              "state": "dark",
+              "changedBindings": 0
+            }
+          ]
+        },
+        {
+          "path": "/pages/list/index",
+          "elements": 2,
+          "actions": []
+        },
+        {
+          "path": "/package/detail/index",
+          "elements": 6,
+          "actions": [
+            {
+              "state": "active",
+              "changedBindings": 0
+            }
+          ]
+        },
+        {
+          "path": "/independent/settings/index",
+          "elements": 6,
+          "actions": [
+            {
+              "state": "dark",
+              "changedBindings": 0
+            },
+            {
+              "state": "grown",
+              "changedBindings": 0
+            }
+          ]
+        }
+      ],
+      "navigation": [
+        {
+          "from": "/pages/home/index",
+          "id": "open-list",
+          "method": "navigateTo",
+          "path": "/pages/list/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/home/index",
+          "id": "open-detail",
+          "method": "navigateTo",
+          "path": "/package/detail/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/home/index",
+          "id": "open-settings",
+          "method": "navigateTo",
+          "path": "/independent/settings/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/list/index",
+          "id": "open-detail",
+          "method": "navigateTo",
+          "path": "/package/detail/index",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "key": "unstyled/standard/reuse-10/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 12,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "unstyled/standard/reuse-100/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 102,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "unstyled/standard/reuse-1000/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 1002,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "unstyled/standard/unique-10/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 12,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "unstyled/standard/unique-100/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 102,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "unstyled/standard/unique-1000/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 1002,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "unstyled/optimized/gallery/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/gallery/index",
+          "elements": 11,
+          "actions": [
+            {
+              "state": "active",
+              "changedBindings": 0
+            },
+            {
+              "state": "dark",
+              "changedBindings": 0
+            },
+            {
+              "state": "grown",
+              "changedBindings": 0
+            }
+          ]
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "unstyled/optimized/application/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/home/index",
+          "elements": 5,
+          "actions": [
+            {
+              "state": "dark",
+              "changedBindings": 0
+            }
+          ]
+        },
+        {
+          "path": "/pages/list/index",
+          "elements": 2,
+          "actions": []
+        },
+        {
+          "path": "/package/detail/index",
+          "elements": 6,
+          "actions": [
+            {
+              "state": "active",
+              "changedBindings": 0
+            }
+          ]
+        },
+        {
+          "path": "/independent/settings/index",
+          "elements": 6,
+          "actions": [
+            {
+              "state": "dark",
+              "changedBindings": 0
+            },
+            {
+              "state": "grown",
+              "changedBindings": 0
+            }
+          ]
+        }
+      ],
+      "navigation": [
+        {
+          "from": "/pages/home/index",
+          "id": "open-list",
+          "method": "navigateTo",
+          "path": "/pages/list/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/home/index",
+          "id": "open-detail",
+          "method": "navigateTo",
+          "path": "/package/detail/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/home/index",
+          "id": "open-settings",
+          "method": "navigateTo",
+          "path": "/independent/settings/index",
+          "status": "passed"
+        },
+        {
+          "from": "/pages/list/index",
+          "id": "open-detail",
+          "method": "navigateTo",
+          "path": "/package/detail/index",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "key": "unstyled/optimized/reuse-10/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 12,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "unstyled/optimized/reuse-100/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 102,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "unstyled/optimized/reuse-1000/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 1002,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "unstyled/optimized/unique-10/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 12,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "unstyled/optimized/unique-100/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 102,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    },
+    {
+      "key": "unstyled/optimized/unique-1000/weapp",
+      "status": "passed",
+      "stylesheets": [
+        "app.wxss"
+      ],
+      "routes": [
+        {
+          "path": "/pages/scale/index",
+          "elements": 1002,
+          "actions": []
+        }
+      ],
+      "navigation": []
+    }
+  ],
+  "resources": [
+    {
+      "key": "tailwind/standard/gallery/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "tailwind/standard/application/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "tailwind/standard/application/weapp",
+      "kind": "mpcore-navigation-session",
+      "closed": true
+    },
+    {
+      "key": "tailwind/standard/reuse-10/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "tailwind/standard/reuse-100/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "tailwind/standard/reuse-1000/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "tailwind/standard/unique-10/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "tailwind/standard/unique-100/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "tailwind/standard/unique-1000/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "tailwind/optimized/gallery/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "tailwind/optimized/application/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "tailwind/optimized/application/weapp",
+      "kind": "mpcore-navigation-session",
+      "closed": true
+    },
+    {
+      "key": "tailwind/optimized/reuse-10/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "tailwind/optimized/reuse-100/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "tailwind/optimized/reuse-1000/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "tailwind/optimized/unique-10/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "tailwind/optimized/unique-100/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "tailwind/optimized/unique-1000/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/standard/gallery/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/standard/application/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/standard/application/weapp",
+      "kind": "mpcore-navigation-session",
+      "closed": true
+    },
+    {
+      "key": "panda/standard/reuse-10/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/standard/reuse-100/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/standard/reuse-1000/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/standard/unique-10/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/standard/unique-100/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/standard/unique-1000/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/optimized/gallery/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/optimized/application/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/optimized/application/weapp",
+      "kind": "mpcore-navigation-session",
+      "closed": true
+    },
+    {
+      "key": "panda/optimized/reuse-10/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/optimized/reuse-100/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/optimized/reuse-1000/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/optimized/unique-10/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/optimized/unique-100/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "panda/optimized/unique-1000/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/standard/gallery/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/standard/application/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/standard/application/weapp",
+      "kind": "mpcore-navigation-session",
+      "closed": true
+    },
+    {
+      "key": "stylex/standard/reuse-10/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/standard/reuse-100/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/standard/reuse-1000/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/standard/unique-10/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/standard/unique-100/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/standard/unique-1000/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/optimized/gallery/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/optimized/application/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/optimized/application/weapp",
+      "kind": "mpcore-navigation-session",
+      "closed": true
+    },
+    {
+      "key": "stylex/optimized/reuse-10/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/optimized/reuse-100/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/optimized/reuse-1000/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/optimized/unique-10/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/optimized/unique-100/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "stylex/optimized/unique-1000/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "reference/standard/gallery/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "reference/standard/application/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "reference/standard/application/weapp",
+      "kind": "mpcore-navigation-session",
+      "closed": true
+    },
+    {
+      "key": "reference/standard/reuse-10/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "reference/standard/reuse-100/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "reference/standard/reuse-1000/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "reference/standard/unique-10/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "reference/standard/unique-100/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "reference/standard/unique-1000/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "reference/optimized/gallery/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "reference/optimized/application/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "reference/optimized/application/weapp",
+      "kind": "mpcore-navigation-session",
+      "closed": true
+    },
+    {
+      "key": "reference/optimized/reuse-10/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "reference/optimized/reuse-100/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "reference/optimized/reuse-1000/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "reference/optimized/unique-10/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "reference/optimized/unique-100/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "reference/optimized/unique-1000/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "unstyled/standard/gallery/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "unstyled/standard/application/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "unstyled/standard/application/weapp",
+      "kind": "mpcore-navigation-session",
+      "closed": true
+    },
+    {
+      "key": "unstyled/standard/reuse-10/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "unstyled/standard/reuse-100/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "unstyled/standard/reuse-1000/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "unstyled/standard/unique-10/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "unstyled/standard/unique-100/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "unstyled/standard/unique-1000/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "unstyled/optimized/gallery/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "unstyled/optimized/application/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "unstyled/optimized/application/weapp",
+      "kind": "mpcore-navigation-session",
+      "closed": true
+    },
+    {
+      "key": "unstyled/optimized/reuse-10/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "unstyled/optimized/reuse-100/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "unstyled/optimized/reuse-1000/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "unstyled/optimized/unique-10/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "unstyled/optimized/unique-100/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    },
+    {
+      "key": "unstyled/optimized/unique-1000/weapp",
+      "kind": "mpcore-project",
+      "closed": true
+    }
+  ],
+  "evidence": "reports/evidence/headless"
+}

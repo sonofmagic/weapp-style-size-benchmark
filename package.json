@@ -1,0 +1,43 @@
+{
+  "name": "weapp-style-size-benchmark",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Reproducible equivalent-output benchmarks for weapp-tailwindcss, weapp-pandacss and weapp-stylex",
+  "license": "MIT",
+  "packageManager": "pnpm@12.16.1",
+  "engines": { "node": "24.22.1" },
+  "devEngines": { "runtime": { "name": "node", "version": "24.22.1", "onFail": "download" } },
+  "scripts": {
+    "bench": "node src/cli.mjs bench",
+    "bench:build": "node src/cli.mjs build",
+    "bench:measure": "node src/cli.mjs measure",
+    "bench:report": "node src/cli.mjs report",
+    "test": "node --test src/**/*.test.mjs",
+    "test:equivalence": "node src/cli.mjs validate",
+    "test:ide": "node src/cli.mjs ide",
+    "report:check": "node src/cli.mjs check"
+  },
+  "dependencies": {
+    "weapp-tailwindcss": "5.6.3",
+    "tailwindcss": "4.3.4",
+    "weapp-pandacss": "2.3.0",
+    "@weapp-pandacss/runtime": "1.0.1",
+    "@pandacss/dev": "2.5.0",
+    "@pandacss/preset-base": "2.5.0",
+    "@pandacss/preset-panda": "2.5.0",
+    "weapp-stylex": "0.3.1",
+    "weapp-vite": "7.7.0",
+    "postcss": "8.5.30",
+    "lightningcss": "1.33.0"
+  },
+  "devDependencies": {
+    "@mpcore/test": "1.2.0",
+    "@mpcore/simulator": "1.2.0",
+    "@babel/parser": "8.0.7",
+    "playwright": "1.64.1",
+    "miniprogram-automator": "0.12.1",
+    "pngjs": "7.0.0",
+    "pixelmatch": "7.1.0"
+  }
+}

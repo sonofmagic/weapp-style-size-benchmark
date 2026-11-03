@@ -1,0 +1,1996 @@
+{
+  "status": "passed",
+  "scope": "gallery/application: all standard schemes and optimized Panda; handwritten native rpx calibration",
+  "calibrations": [
+    {
+      "key": "reference/standard/gallery/weapp",
+      "status": "passed",
+      "routes": [
+        {
+          "path": "/pages/gallery/index",
+          "initial": {
+            "rpx-probe": {
+              "width": "104px",
+              "height": "20px",
+              "border-top-left-radius": "4px",
+              "border-top-right-radius": "4px",
+              "border-bottom-left-radius": "4px",
+              "border-bottom-right-radius": "4px"
+            }
+          },
+          "actions": [],
+          "screenshot": "reports/evidence/ide/reference-standard-gallery-weapp--pages-gallery-index.png",
+          "navigation": []
+        }
+      ],
+      "errors": [],
+      "probes": {
+        "rpx-probe": {
+          "rpx": {
+            "width": 200,
+            "height": 40,
+            "borderRadius": 8
+          },
+          "theoretical": {
+            "width": "104px",
+            "height": "20.8px",
+            "border-top-left-radius": "4.16px",
+            "border-top-right-radius": "4.16px",
+            "border-bottom-left-radius": "4.16px",
+            "border-bottom-right-radius": "4.16px"
+          },
+          "actual": {
+            "width": "104px",
+            "height": "20px",
+            "border-top-left-radius": "4px",
+            "border-top-right-radius": "4px",
+            "border-bottom-left-radius": "4px",
+            "border-bottom-right-radius": "4px"
+          }
+        }
+      },
+      "reference": {
+        "files": [
+          {
+            "path": "app.js",
+            "bytes": 8,
+            "sha256": "a1f8e7d2c78c36eb902be667d534969d3166fb3633deedc1b1d3336a00237a5e"
+          },
+          {
+            "path": "app.json",
+            "bytes": 172,
+            "sha256": "1dcd2a80993f9924153adc017142bbe5fc5eb83aa7de962ec535c937c46852e1"
+          },
+          {
+            "path": "app.wxss",
+            "bytes": 410,
+            "sha256": "b43b193e11f34458097cf82e2b0b9389e32402a3d01b3ea3d4e5a9795bc918d7"
+          },
+          {
+            "path": "pages/gallery/index.js",
+            "bytes": 433,
+            "sha256": "dd017703cf138075ad430552625d48c333483d739becc948fecd97ec8e50de83"
+          },
+          {
+            "path": "pages/gallery/index.json",
+            "bytes": 2,
+            "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+          },
+          {
+            "path": "pages/gallery/index.wxml",
+            "bytes": 1970,
+            "sha256": "33fe56288c1ee3c10e570f44f55bb41902ee9d1a6dfd2b54b0ad4ea1960f32eb"
+          },
+          {
+            "path": "pages/gallery/index.wxss",
+            "bytes": 1912,
+            "sha256": "66ca8006ed55e14001dc73db7a0c2611fece7564a7571164aeb762e0334a7aea"
+          }
+        ],
+        "sha256": "e26ae81710df0923e05c8c6adee52d18092dab38da0ec80d57201922a72fef26"
+      },
+      "toolInfo": {
+        "version": "2.02.2609240",
+        "SDKVersion": "3.17.5"
+      },
+      "systemInfo": {
+        "brand": "devtools",
+        "model": "iPhone 12/13 (Pro)",
+        "system": "iOS 10.0.1",
+        "platform": "devtools",
+        "benchmarkLevel": -1,
+        "pixelRatio": 3,
+        "screenWidth": 390,
+        "screenHeight": 844,
+        "windowWidth": 390,
+        "windowHeight": 844,
+        "statusBarHeight": 47,
+        "safeArea": {
+          "top": 47,
+          "left": 0,
+          "right": 390,
+          "bottom": 810,
+          "width": 390,
+          "height": 763
+        },
+        "language": "zh_CN",
+        "version": "8.0.5",
+        "fontSizeSetting": 16,
+        "SDKVersion": "3.17.5",
+        "host": {
+          "env": "WeChat"
+        },
+        "enableDebug": false,
+        "mode": "default",
+        "deviceOrientation": "portrait",
+        "bluetoothEnabled": true,
+        "locationEnabled": true,
+        "wifiEnabled": true,
+        "albumAuthorized": true,
+        "cameraAuthorized": true,
+        "locationAuthorized": true,
+        "microphoneAuthorized": true,
+        "notificationAuthorized": true,
+        "notificationAlertAuthorized": true,
+        "notificationBadgeAuthorized": true,
+        "notificationSoundAuthorized": true,
+        "phoneCalendarAuthorized": true,
+        "bluetoothAuthorized": true,
+        "locationReducedAccuracy": true,
+        "devicePixelRatio": 3
+      },
+      "device": {
+        "windowWidth": 390,
+        "SDKVersion": "3.17.5",
+        "model": "iPhone 12/13 (Pro)",
+        "pixelRatio": 3,
+        "platform": "devtools"
+      }
+    }
+  ],
+  "artifacts": [
+    {
+      "key": "tailwind/standard/gallery/weapp",
+      "status": "passed",
+      "routes": [
+        {
+          "path": "/pages/gallery/index",
+          "initial": {
+            "bench-root": {
+              "background-color": "rgb(248, 250, 252)",
+              "color": "rgb(15, 23, 42)",
+              "padding-top": "24px"
+            },
+            "title": {
+              "font-size": "28px",
+              "font-weight": "700",
+              "line-height": "36px"
+            },
+            "token-probe": {
+              "padding-top": "16px",
+              "border-top-left-radius": "12px",
+              "border-top-right-radius": "12px",
+              "border-bottom-left-radius": "12px",
+              "border-bottom-right-radius": "12px",
+              "background-color": "rgb(37, 99, 235)"
+            },
+            "variant-probe": {
+              "width": "160px",
+              "height": "56px",
+              "background-color": "rgb(226, 232, 240)",
+              "color": "rgb(51, 65, 85)",
+              "font-weight": "400",
+              "display": "flex"
+            },
+            "slot-root": {
+              "background-color": "rgb(241, 245, 249)",
+              "padding-top": "12px"
+            },
+            "slot-label": {
+              "color": "rgb(71, 85, 105)",
+              "font-weight": "400"
+            },
+            "condition-probe": {
+              "opacity": "1",
+              "color": "rgb(124, 58, 237)"
+            },
+            "dynamic-probe": {
+              "width": "120px",
+              "height": "20px",
+              "padding-left": "8px",
+              "color": "rgb(15, 118, 110)"
+            },
+            "media-probe": {
+              "width": "120px",
+              "height": "32px",
+              "background-color": "rgb(219, 234, 254)"
+            },
+            "rpx-probe": {
+              "width": "104px",
+              "height": "20px",
+              "border-top-left-radius": "4px",
+              "border-top-right-radius": "4px",
+              "border-bottom-left-radius": "4px",
+              "border-bottom-right-radius": "4px"
+            },
+            "decorative-probe": {
+              "width": "160px",
+              "height": "48px",
+              "background-image": "linear-gradient(135deg, rgb(219, 234, 254) 0%, rgb(224, 231, 255) 100%)",
+              "box-shadow": "rgba(15, 23, 42, 0.12) 0px 4px 12px 0px"
+            }
+          },
+          "actions": [
+            {
+              "state": "active",
+              "computed": {
+                "variant-probe": {
+                  "background-color": "rgb(37, 99, 235)",
+                  "color": "rgb(255, 255, 255)",
+                  "font-weight": "700"
+                },
+                "slot-root": {
+                  "background-color": "rgb(219, 234, 254)"
+                },
+                "slot-label": {
+                  "color": "rgb(37, 99, 235)",
+                  "font-weight": "700"
+                },
+                "condition-probe": {
+                  "opacity": "0.5"
+                }
+              }
+            },
+            {
+              "state": "dark",
+              "computed": {
+                "bench-root": {
+                  "background-color": "rgb(15, 23, 42)",
+                  "color": "rgb(248, 250, 252)"
+                },
+                "token-probe": {
+                  "background-color": "rgb(96, 165, 250)"
+                }
+              }
+            },
+            {
+              "state": "grown",
+              "computed": {
+                "dynamic-probe": {
+                  "width": "200px",
+                  "height": "20px",
+                  "padding-left": "20px",
+                  "color": "rgb(190, 18, 60)"
+                }
+              }
+            }
+          ],
+          "screenshot": "reports/evidence/ide/tailwind-standard-gallery-weapp--pages-gallery-index.png",
+          "navigation": []
+        }
+      ],
+      "errors": [],
+      "toolInfo": {
+        "version": "2.02.2609240",
+        "SDKVersion": "3.17.5"
+      },
+      "systemInfo": {
+        "brand": "devtools",
+        "model": "iPhone 12/13 (Pro)",
+        "system": "iOS 10.0.1",
+        "platform": "devtools",
+        "benchmarkLevel": -1,
+        "pixelRatio": 3,
+        "screenWidth": 390,
+        "screenHeight": 844,
+        "windowWidth": 390,
+        "windowHeight": 844,
+        "statusBarHeight": 47,
+        "safeArea": {
+          "top": 47,
+          "left": 0,
+          "right": 390,
+          "bottom": 810,
+          "width": 390,
+          "height": 763
+        },
+        "language": "zh_CN",
+        "version": "8.0.5",
+        "fontSizeSetting": 16,
+        "SDKVersion": "3.17.5",
+        "host": {
+          "env": "WeChat"
+        },
+        "enableDebug": false,
+        "mode": "default",
+        "deviceOrientation": "portrait",
+        "bluetoothEnabled": true,
+        "locationEnabled": true,
+        "wifiEnabled": true,
+        "albumAuthorized": true,
+        "cameraAuthorized": true,
+        "locationAuthorized": true,
+        "microphoneAuthorized": true,
+        "notificationAuthorized": true,
+        "notificationAlertAuthorized": true,
+        "notificationBadgeAuthorized": true,
+        "notificationSoundAuthorized": true,
+        "phoneCalendarAuthorized": true,
+        "bluetoothAuthorized": true,
+        "locationReducedAccuracy": true,
+        "devicePixelRatio": 3
+      },
+      "calibration": "reference/standard/gallery/weapp"
+    },
+    {
+      "key": "tailwind/standard/application/weapp",
+      "status": "passed",
+      "routes": [
+        {
+          "path": "/pages/home/index",
+          "initial": {
+            "bench-root": {
+              "background-color": "rgb(248, 250, 252)",
+              "color": "rgb(15, 23, 42)",
+              "padding-top": "24px"
+            },
+            "title": {
+              "font-size": "28px",
+              "font-weight": "700",
+              "line-height": "36px"
+            },
+            "metric-root": {
+              "background-color": "rgb(255, 255, 255)",
+              "padding-top": "16px"
+            },
+            "metric-label": {
+              "color": "rgb(71, 85, 105)",
+              "font-size": "14px"
+            },
+            "metric-value": {
+              "color": "rgb(37, 99, 235)",
+              "font-size": "24px",
+              "font-weight": "700"
+            }
+          },
+          "actions": [
+            {
+              "state": "dark",
+              "computed": {
+                "bench-root": {
+                  "background-color": "rgb(15, 23, 42)",
+                  "color": "rgb(248, 250, 252)"
+                },
+                "metric-root": {
+                  "background-color": "rgb(30, 41, 59)"
+                },
+                "metric-label": {
+                  "color": "rgb(203, 213, 225)"
+                },
+                "metric-value": {
+                  "color": "rgb(96, 165, 250)"
+                }
+              }
+            }
+          ],
+          "screenshot": "reports/evidence/ide/tailwind-standard-application-weapp--pages-home-index.png",
+          "navigation": [
+            {
+              "id": "open-list",
+              "method": "navigateTo",
+              "path": "/pages/list/index",
+              "status": "passed"
+            },
+            {
+              "id": "open-detail",
+              "method": "navigateTo",
+              "path": "/package/detail/index",
+              "status": "passed"
+            },
+            {
+              "id": "open-settings",
+              "method": "navigateTo",
+              "path": "/independent/settings/index",
+              "status": "passed"
+            }
+          ]
+        },
+        {
+          "path": "/pages/list/index",
+          "initial": {
+            "bench-root": {
+              "background-color": "rgb(248, 250, 252)",
+              "color": "rgb(15, 23, 42)",
+              "padding-top": "24px"
+            },
+            "title": {
+              "font-size": "28px",
+              "font-weight": "700",
+              "line-height": "36px"
+            }
+          },
+          "actions": [],
+          "screenshot": "reports/evidence/ide/tailwind-standard-application-weapp--pages-list-index.png",
+          "navigation": [
+            {
+              "id": "open-detail",
+              "method": "navigateTo",
+              "path": "/package/detail/index",
+              "status": "passed"
+            }
+          ]
+        },
+        {
+          "path": "/package/detail/index",
+          "initial": {
+            "bench-root": {
+              "background-color": "rgb(248, 250, 252)",
+              "color": "rgb(15, 23, 42)",
+              "padding-top": "24px"
+            },
+            "title": {
+              "font-size": "28px",
+              "font-weight": "700",
+              "line-height": "36px"
+            },
+            "variant-probe": {
+              "width": "160px",
+              "height": "56px",
+              "background-color": "rgb(226, 232, 240)",
+              "color": "rgb(51, 65, 85)",
+              "font-weight": "400",
+              "display": "flex"
+            },
+            "metric-root": {
+              "background-color": "rgb(255, 255, 255)",
+              "padding-top": "16px"
+            },
+            "metric-label": {
+              "color": "rgb(71, 85, 105)",
+              "font-size": "14px"
+            },
+            "metric-value": {
+              "color": "rgb(37, 99, 235)",
+              "font-size": "24px",
+              "font-weight": "700"
+            }
+          },
+          "actions": [
+            {
+              "state": "active",
+              "computed": {
+                "variant-probe": {
+                  "background-color": "rgb(37, 99, 235)",
+                  "color": "rgb(255, 255, 255)",
+                  "font-weight": "700"
+                }
+              }
+            }
+          ],
+          "screenshot": "reports/evidence/ide/tailwind-standard-application-weapp--package-detail-index.png",
+          "navigation": []
+        },
+        {
+          "path": "/independent/settings/index",
+          "initial": {
+            "bench-root": {
+              "background-color": "rgb(248, 250, 252)",
+              "color": "rgb(15, 23, 42)",
+              "padding-top": "24px"
+            },
+            "title": {
+              "font-size": "28px",
+              "font-weight": "700",
+              "line-height": "36px"
+            },
+            "dynamic-probe": {
+              "width": "120px",
+              "height": "20px",
+              "padding-left": "8px",
+              "color": "rgb(15, 118, 110)"
+            },
+            "metric-root": {
+              "background-color": "rgb(255, 255, 255)",
+              "padding-top": "16px"
+            },
+            "metric-label": {
+              "color": "rgb(71, 85, 105)",
+              "font-size": "14px"
+            },
+            "metric-value": {
+              "color": "rgb(37, 99, 235)",
+              "font-size": "24px",
+              "font-weight": "700"
+            }
+          },
+          "actions": [
+            {
+              "state": "dark",
+              "computed": {
+                "bench-root": {
+                  "background-color": "rgb(15, 23, 42)",
+                  "color": "rgb(248, 250, 252)"
+                },
+                "metric-root": {
+                  "background-color": "rgb(30, 41, 59)"
+                },
+                "metric-label": {
+                  "color": "rgb(203, 213, 225)"
+                },
+                "metric-value": {
+                  "color": "rgb(96, 165, 250)"
+                }
+              }
+            },
+            {
+              "state": "grown",
+              "computed": {
+                "dynamic-probe": {
+                  "width": "200px",
+                  "height": "20px",
+                  "padding-left": "20px",
+                  "color": "rgb(190, 18, 60)"
+                }
+              }
+            }
+          ],
+          "screenshot": "reports/evidence/ide/tailwind-standard-application-weapp--independent-settings-index.png",
+          "navigation": []
+        }
+      ],
+      "errors": [],
+      "toolInfo": {
+        "version": "2.02.2609240",
+        "SDKVersion": "3.17.5"
+      },
+      "systemInfo": {
+        "brand": "devtools",
+        "model": "iPhone 12/13 (Pro)",
+        "system": "iOS 10.0.1",
+        "platform": "devtools",
+        "benchmarkLevel": -1,
+        "pixelRatio": 3,
+        "screenWidth": 390,
+        "screenHeight": 844,
+        "windowWidth": 390,
+        "windowHeight": 844,
+        "statusBarHeight": 47,
+        "safeArea": {
+          "top": 47,
+          "left": 0,
+          "right": 390,
+          "bottom": 810,
+          "width": 390,
+          "height": 763
+        },
+        "language": "zh_CN",
+        "version": "8.0.5",
+        "fontSizeSetting": 16,
+        "SDKVersion": "3.17.5",
+        "host": {
+          "env": "WeChat"
+        },
+        "enableDebug": false,
+        "mode": "default",
+        "deviceOrientation": "portrait",
+        "bluetoothEnabled": true,
+        "locationEnabled": true,
+        "wifiEnabled": true,
+        "albumAuthorized": true,
+        "cameraAuthorized": true,
+        "locationAuthorized": true,
+        "microphoneAuthorized": true,
+        "notificationAuthorized": true,
+        "notificationAlertAuthorized": true,
+        "notificationBadgeAuthorized": true,
+        "notificationSoundAuthorized": true,
+        "phoneCalendarAuthorized": true,
+        "bluetoothAuthorized": true,
+        "locationReducedAccuracy": true,
+        "devicePixelRatio": 3
+      },
+      "calibration": "reference/standard/gallery/weapp"
+    },
+    {
+      "key": "panda/standard/gallery/weapp",
+      "status": "passed",
+      "routes": [
+        {
+          "path": "/pages/gallery/index",
+          "initial": {
+            "bench-root": {
+              "background-color": "rgb(248, 250, 252)",
+              "color": "rgb(15, 23, 42)",
+              "padding-top": "24px"
+            },
+            "title": {
+              "font-size": "28px",
+              "font-weight": "700",
+              "line-height": "36px"
+            },
+            "token-probe": {
+              "padding-top": "16px",
+              "border-top-left-radius": "12px",
+              "border-top-right-radius": "12px",
+              "border-bottom-left-radius": "12px",
+              "border-bottom-right-radius": "12px",
+              "background-color": "rgb(37, 99, 235)"
+            },
+            "variant-probe": {
+              "width": "160px",
+              "height": "56px",
+              "background-color": "rgb(226, 232, 240)",
+              "color": "rgb(51, 65, 85)",
+              "font-weight": "400",
+              "display": "flex"
+            },
+            "slot-root": {
+              "background-color": "rgb(241, 245, 249)",
+              "padding-top": "12px"
+            },
+            "slot-label": {
+              "color": "rgb(71, 85, 105)",
+              "font-weight": "400"
+            },
+            "condition-probe": {
+              "opacity": "1",
+              "color": "rgb(124, 58, 237)"
+            },
+            "dynamic-probe": {
+              "width": "120px",
+              "height": "20px",
+              "padding-left": "8px",
+              "color": "rgb(15, 118, 110)"
+            },
+            "media-probe": {
+              "width": "120px",
+              "height": "32px",
+              "background-color": "rgb(219, 234, 254)"
+            },
+            "rpx-probe": {
+              "width": "104px",
+              "height": "20px",
+              "border-top-left-radius": "4px",
+              "border-top-right-radius": "4px",
+              "border-bottom-left-radius": "4px",
+              "border-bottom-right-radius": "4px"
+            },
+            "decorative-probe": {
+              "width": "160px",
+              "height": "48px",
+              "background-image": "linear-gradient(135deg, rgb(219, 234, 254) 0%, rgb(224, 231, 255) 100%)",
+              "box-shadow": "rgba(15, 23, 42, 0.12) 0px 4px 12px 0px"
+            }
+          },
+          "actions": [
+            {
+              "state": "active",
+              "computed": {
+                "variant-probe": {
+                  "background-color": "rgb(37, 99, 235)",
+                  "color": "rgb(255, 255, 255)",
+                  "font-weight": "700"
+                },
+                "slot-root": {
+                  "background-color": "rgb(219, 234, 254)"
+                },
+                "slot-label": {
+                  "color": "rgb(37, 99, 235)",
+                  "font-weight": "700"
+                },
+                "condition-probe": {
+                  "opacity": "0.5"
+                }
+              }
+            },
+            {
+              "state": "dark",
+              "computed": {
+                "bench-root": {
+                  "background-color": "rgb(15, 23, 42)",
+                  "color": "rgb(248, 250, 252)"
+                },
+                "token-probe": {
+                  "background-color": "rgb(96, 165, 250)"
+                }
+              }
+            },
+            {
+              "state": "grown",
+              "computed": {
+                "dynamic-probe": {
+                  "width": "200px",
+                  "height": "20px",
+                  "padding-left": "20px",
+                  "color": "rgb(190, 18, 60)"
+                }
+              }
+            }
+          ],
+          "screenshot": "reports/evidence/ide/panda-standard-gallery-weapp--pages-gallery-index.png",
+          "navigation": []
+        }
+      ],
+      "errors": [],
+      "toolInfo": {
+        "version": "2.02.2609240",
+        "SDKVersion": "3.17.5"
+      },
+      "systemInfo": {
+        "brand": "devtools",
+        "model": "iPhone 12/13 (Pro)",
+        "system": "iOS 10.0.1",
+        "platform": "devtools",
+        "benchmarkLevel": -1,
+        "pixelRatio": 3,
+        "screenWidth": 390,
+        "screenHeight": 844,
+        "windowWidth": 390,
+        "windowHeight": 844,
+        "statusBarHeight": 47,
+        "safeArea": {
+          "top": 47,
+          "left": 0,
+          "right": 390,
+          "bottom": 810,
+          "width": 390,
+          "height": 763
+        },
+        "language": "zh_CN",
+        "version": "8.0.5",
+        "fontSizeSetting": 16,
+        "SDKVersion": "3.17.5",
+        "host": {
+          "env": "WeChat"
+        },
+        "enableDebug": false,
+        "mode": "default",
+        "deviceOrientation": "portrait",
+        "bluetoothEnabled": true,
+        "locationEnabled": true,
+        "wifiEnabled": true,
+        "albumAuthorized": true,
+        "cameraAuthorized": true,
+        "locationAuthorized": true,
+        "microphoneAuthorized": true,
+        "notificationAuthorized": true,
+        "notificationAlertAuthorized": true,
+        "notificationBadgeAuthorized": true,
+        "notificationSoundAuthorized": true,
+        "phoneCalendarAuthorized": true,
+        "bluetoothAuthorized": true,
+        "locationReducedAccuracy": true,
+        "devicePixelRatio": 3
+      },
+      "calibration": "reference/standard/gallery/weapp"
+    },
+    {
+      "key": "panda/standard/application/weapp",
+      "status": "passed",
+      "routes": [
+        {
+          "path": "/pages/home/index",
+          "initial": {
+            "bench-root": {
+              "background-color": "rgb(248, 250, 252)",
+              "color": "rgb(15, 23, 42)",
+              "padding-top": "24px"
+            },
+            "title": {
+              "font-size": "28px",
+              "font-weight": "700",
+              "line-height": "36px"
+            },
+            "metric-root": {
+              "background-color": "rgb(255, 255, 255)",
+              "padding-top": "16px"
+            },
+            "metric-label": {
+              "color": "rgb(71, 85, 105)",
+              "font-size": "14px"
+            },
+            "metric-value": {
+              "color": "rgb(37, 99, 235)",
+              "font-size": "24px",
+              "font-weight": "700"
+            }
+          },
+          "actions": [
+            {
+              "state": "dark",
+              "computed": {
+                "bench-root": {
+                  "background-color": "rgb(15, 23, 42)",
+                  "color": "rgb(248, 250, 252)"
+                },
+                "metric-root": {
+                  "background-color": "rgb(30, 41, 59)"
+                },
+                "metric-label": {
+                  "color": "rgb(203, 213, 225)"
+                },
+                "metric-value": {
+                  "color": "rgb(96, 165, 250)"
+                }
+              }
+            }
+          ],
+          "screenshot": "reports/evidence/ide/panda-standard-application-weapp--pages-home-index.png",
+          "navigation": [
+            {
+              "id": "open-list",
+              "method": "navigateTo",
+              "path": "/pages/list/index",
+              "status": "passed"
+            },
+            {
+              "id": "open-detail",
+              "method": "navigateTo",
+              "path": "/package/detail/index",
+              "status": "passed"
+            },
+            {
+              "id": "open-settings",
+              "method": "navigateTo",
+              "path": "/independent/settings/index",
+              "status": "passed"
+            }
+          ]
+        },
+        {
+          "path": "/pages/list/index",
+          "initial": {
+            "bench-root": {
+              "background-color": "rgb(248, 250, 252)",
+              "color": "rgb(15, 23, 42)",
+              "padding-top": "24px"
+            },
+            "title": {
+              "font-size": "28px",
+              "font-weight": "700",
+              "line-height": "36px"
+            }
+          },
+          "actions": [],
+          "screenshot": "reports/evidence/ide/panda-standard-application-weapp--pages-list-index.png",
+          "navigation": [
+            {
+              "id": "open-detail",
+              "method": "navigateTo",
+              "path": "/package/detail/index",
+              "status": "passed"
+            }
+          ]
+        },
+        {
+          "path": "/package/detail/index",
+          "initial": {
+            "bench-root": {
+              "background-color": "rgb(248, 250, 252)",
+              "color": "rgb(15, 23, 42)",
+              "padding-top": "24px"
+            },
+            "title": {
+              "font-size": "28px",
+              "font-weight": "700",
+              "line-height": "36px"
+            },
+            "variant-probe": {
+              "width": "160px",
+              "height": "56px",
+              "background-color": "rgb(226, 232, 240)",
+              "color": "rgb(51, 65, 85)",
+              "font-weight": "400",
+              "display": "flex"
+            },
+            "metric-root": {
+              "background-color": "rgb(255, 255, 255)",
+              "padding-top": "16px"
+            },
+            "metric-label": {
+              "color": "rgb(71, 85, 105)",
+              "font-size": "14px"
+            },
+            "metric-value": {
+              "color": "rgb(37, 99, 235)",
+              "font-size": "24px",
+              "font-weight": "700"
+            }
+          },
+          "actions": [
+            {
+              "state": "active",
+              "computed": {
+                "variant-probe": {
+                  "background-color": "rgb(37, 99, 235)",
+                  "color": "rgb(255, 255, 255)",
+                  "font-weight": "700"
+                }
+              }
+            }
+          ],
+          "screenshot": "reports/evidence/ide/panda-standard-application-weapp--package-detail-index.png",
+          "navigation": []
+        },
+        {
+          "path": "/independent/settings/index",
+          "initial": {
+            "bench-root": {
+              "background-color": "rgb(248, 250, 252)",
+              "color": "rgb(15, 23, 42)",
+              "padding-top": "24px"
+            },
+            "title": {
+              "font-size": "28px",
+              "font-weight": "700",
+              "line-height": "36px"
+            },
+            "dynamic-probe": {
+              "width": "120px",
+              "height": "20px",
+              "padding-left": "8px",
+              "color": "rgb(15, 118, 110)"
+            },
+            "metric-root": {
+              "background-color": "rgb(255, 255, 255)",
+              "padding-top": "16px"
+            },
+            "metric-label": {
+              "color": "rgb(71, 85, 105)",
+              "font-size": "14px"
+            },
+            "metric-value": {
+              "color": "rgb(37, 99, 235)",
+              "font-size": "24px",
+              "font-weight": "700"
+            }
+          },
+          "actions": [
+            {
+              "state": "dark",
+              "computed": {
+                "bench-root": {
+                  "background-color": "rgb(15, 23, 42)",
+                  "color": "rgb(248, 250, 252)"
+                },
+                "metric-root": {
+                  "background-color": "rgb(30, 41, 59)"
+                },
+                "metric-label": {
+                  "color": "rgb(203, 213, 225)"
+                },
+                "metric-value": {
+                  "color": "rgb(96, 165, 250)"
+                }
+              }
+            },
+            {
+              "state": "grown",
+              "computed": {
+                "dynamic-probe": {
+                  "width": "200px",
+                  "height": "20px",
+                  "padding-left": "20px",
+                  "color": "rgb(190, 18, 60)"
+                }
+              }
+            }
+          ],
+          "screenshot": "reports/evidence/ide/panda-standard-application-weapp--independent-settings-index.png",
+          "navigation": []
+        }
+      ],
+      "errors": [],
+      "toolInfo": {
+        "version": "2.02.2609240",
+        "SDKVersion": "3.17.5"
+      },
+      "systemInfo": {
+        "brand": "devtools",
+        "model": "iPhone 12/13 (Pro)",
+        "system": "iOS 10.0.1",
+        "platform": "devtools",
+        "benchmarkLevel": -1,
+        "pixelRatio": 3,
+        "screenWidth": 390,
+        "screenHeight": 844,
+        "windowWidth": 390,
+        "windowHeight": 844,
+        "statusBarHeight": 47,
+        "safeArea": {
+          "top": 47,
+          "left": 0,
+          "right": 390,
+          "bottom": 810,
+          "width": 390,
+          "height": 763
+        },
+        "language": "zh_CN",
+        "version": "8.0.5",
+        "fontSizeSetting": 16,
+        "SDKVersion": "3.17.5",
+        "host": {
+          "env": "WeChat"
+        },
+        "enableDebug": false,
+        "mode": "default",
+        "deviceOrientation": "portrait",
+        "bluetoothEnabled": true,
+        "locationEnabled": true,
+        "wifiEnabled": true,
+        "albumAuthorized": true,
+        "cameraAuthorized": true,
+        "locationAuthorized": true,
+        "microphoneAuthorized": true,
+        "notificationAuthorized": true,
+        "notificationAlertAuthorized": true,
+        "notificationBadgeAuthorized": true,
+        "notificationSoundAuthorized": true,
+        "phoneCalendarAuthorized": true,
+        "bluetoothAuthorized": true,
+        "locationReducedAccuracy": true,
+        "devicePixelRatio": 3
+      },
+      "calibration": "reference/standard/gallery/weapp"
+    },
+    {
+      "key": "panda/optimized/gallery/weapp",
+      "status": "passed",
+      "routes": [
+        {
+          "path": "/pages/gallery/index",
+          "initial": {
+            "bench-root": {
+              "background-color": "rgb(248, 250, 252)",
+              "color": "rgb(15, 23, 42)",
+              "padding-top": "24px"
+            },
+            "title": {
+              "font-size": "28px",
+              "font-weight": "700",
+              "line-height": "36px"
+            },
+            "token-probe": {
+              "padding-top": "16px",
+              "border-top-left-radius": "12px",
+              "border-top-right-radius": "12px",
+              "border-bottom-left-radius": "12px",
+              "border-bottom-right-radius": "12px",
+              "background-color": "rgb(37, 99, 235)"
+            },
+            "variant-probe": {
+              "width": "160px",
+              "height": "56px",
+              "background-color": "rgb(226, 232, 240)",
+              "color": "rgb(51, 65, 85)",
+              "font-weight": "400",
+              "display": "flex"
+            },
+            "slot-root": {
+              "background-color": "rgb(241, 245, 249)",
+              "padding-top": "12px"
+            },
+            "slot-label": {
+              "color": "rgb(71, 85, 105)",
+              "font-weight": "400"
+            },
+            "condition-probe": {
+              "opacity": "1",
+              "color": "rgb(124, 58, 237)"
+            },
+            "dynamic-probe": {
+              "width": "120px",
+              "height": "20px",
+              "padding-left": "8px",
+              "color": "rgb(15, 118, 110)"
+            },
+            "media-probe": {
+              "width": "120px",
+              "height": "32px",
+              "background-color": "rgb(219, 234, 254)"
+            },
+            "rpx-probe": {
+              "width": "104px",
+              "height": "20px",
+              "border-top-left-radius": "4px",
+              "border-top-right-radius": "4px",
+              "border-bottom-left-radius": "4px",
+              "border-bottom-right-radius": "4px"
+            },
+            "decorative-probe": {
+              "width": "160px",
+              "height": "48px",
+              "background-image": "linear-gradient(135deg, rgb(219, 234, 254) 0%, rgb(224, 231, 255) 100%)",
+              "box-shadow": "rgba(15, 23, 42, 0.12) 0px 4px 12px 0px"
+            }
+          },
+          "actions": [
+            {
+              "state": "active",
+              "computed": {
+                "variant-probe": {
+                  "background-color": "rgb(37, 99, 235)",
+                  "color": "rgb(255, 255, 255)",
+                  "font-weight": "700"
+                },
+                "slot-root": {
+                  "background-color": "rgb(219, 234, 254)"
+                },
+                "slot-label": {
+                  "color": "rgb(37, 99, 235)",
+                  "font-weight": "700"
+                },
+                "condition-probe": {
+                  "opacity": "0.5"
+                }
+              }
+            },
+            {
+              "state": "dark",
+              "computed": {
+                "bench-root": {
+                  "background-color": "rgb(15, 23, 42)",
+                  "color": "rgb(248, 250, 252)"
+                },
+                "token-probe": {
+                  "background-color": "rgb(96, 165, 250)"
+                }
+              }
+            },
+            {
+              "state": "grown",
+              "computed": {
+                "dynamic-probe": {
+                  "width": "200px",
+                  "height": "20px",
+                  "padding-left": "20px",
+                  "color": "rgb(190, 18, 60)"
+                }
+              }
+            }
+          ],
+          "screenshot": "reports/evidence/ide/panda-optimized-gallery-weapp--pages-gallery-index.png",
+          "navigation": []
+        }
+      ],
+      "errors": [],
+      "toolInfo": {
+        "version": "2.02.2609240",
+        "SDKVersion": "3.17.5"
+      },
+      "systemInfo": {
+        "brand": "devtools",
+        "model": "iPhone 12/13 (Pro)",
+        "system": "iOS 10.0.1",
+        "platform": "devtools",
+        "benchmarkLevel": -1,
+        "pixelRatio": 3,
+        "screenWidth": 390,
+        "screenHeight": 844,
+        "windowWidth": 390,
+        "windowHeight": 844,
+        "statusBarHeight": 47,
+        "safeArea": {
+          "top": 47,
+          "left": 0,
+          "right": 390,
+          "bottom": 810,
+          "width": 390,
+          "height": 763
+        },
+        "language": "zh_CN",
+        "version": "8.0.5",
+        "fontSizeSetting": 16,
+        "SDKVersion": "3.17.5",
+        "host": {
+          "env": "WeChat"
+        },
+        "enableDebug": false,
+        "mode": "default",
+        "deviceOrientation": "portrait",
+        "bluetoothEnabled": true,
+        "locationEnabled": true,
+        "wifiEnabled": true,
+        "albumAuthorized": true,
+        "cameraAuthorized": true,
+        "locationAuthorized": true,
+        "microphoneAuthorized": true,
+        "notificationAuthorized": true,
+        "notificationAlertAuthorized": true,
+        "notificationBadgeAuthorized": true,
+        "notificationSoundAuthorized": true,
+        "phoneCalendarAuthorized": true,
+        "bluetoothAuthorized": true,
+        "locationReducedAccuracy": true,
+        "devicePixelRatio": 3
+      },
+      "calibration": "reference/standard/gallery/weapp"
+    },
+    {
+      "key": "panda/optimized/application/weapp",
+      "status": "passed",
+      "routes": [
+        {
+          "path": "/pages/home/index",
+          "initial": {
+            "bench-root": {
+              "background-color": "rgb(248, 250, 252)",
+              "color": "rgb(15, 23, 42)",
+              "padding-top": "24px"
+            },
+            "title": {
+              "font-size": "28px",
+              "font-weight": "700",
+              "line-height": "36px"
+            },
+            "metric-root": {
+              "background-color": "rgb(255, 255, 255)",
+              "padding-top": "16px"
+            },
+            "metric-label": {
+              "color": "rgb(71, 85, 105)",
+              "font-size": "14px"
+            },
+            "metric-value": {
+              "color": "rgb(37, 99, 235)",
+              "font-size": "24px",
+              "font-weight": "700"
+            }
+          },
+          "actions": [
+            {
+              "state": "dark",
+              "computed": {
+                "bench-root": {
+                  "background-color": "rgb(15, 23, 42)",
+                  "color": "rgb(248, 250, 252)"
+                },
+                "metric-root": {
+                  "background-color": "rgb(30, 41, 59)"
+                },
+                "metric-label": {
+                  "color": "rgb(203, 213, 225)"
+                },
+                "metric-value": {
+                  "color": "rgb(96, 165, 250)"
+                }
+              }
+            }
+          ],
+          "screenshot": "reports/evidence/ide/panda-optimized-application-weapp--pages-home-index.png",
+          "navigation": [
+            {
+              "id": "open-list",
+              "method": "navigateTo",
+              "path": "/pages/list/index",
+              "status": "passed"
+            },
+            {
+              "id": "open-detail",
+              "method": "navigateTo",
+              "path": "/package/detail/index",
+              "status": "passed"
+            },
+            {
+              "id": "open-settings",
+              "method": "navigateTo",
+              "path": "/independent/settings/index",
+              "status": "passed"
+            }
+          ]
+        },
+        {
+          "path": "/pages/list/index",
+          "initial": {
+            "bench-root": {
+              "background-color": "rgb(248, 250, 252)",
+              "color": "rgb(15, 23, 42)",
+              "padding-top": "24px"
+            },
+            "title": {
+              "font-size": "28px",
+              "font-weight": "700",
+              "line-height": "36px"
+            }
+          },
+          "actions": [],
+          "screenshot": "reports/evidence/ide/panda-optimized-application-weapp--pages-list-index.png",
+          "navigation": [
+            {
+              "id": "open-detail",
+              "method": "navigateTo",
+              "path": "/package/detail/index",
+              "status": "passed"
+            }
+          ]
+        },
+        {
+          "path": "/package/detail/index",
+          "initial": {
+            "bench-root": {
+              "background-color": "rgb(248, 250, 252)",
+              "color": "rgb(15, 23, 42)",
+              "padding-top": "24px"
+            },
+            "title": {
+              "font-size": "28px",
+              "font-weight": "700",
+              "line-height": "36px"
+            },
+            "variant-probe": {
+              "width": "160px",
+              "height": "56px",
+              "background-color": "rgb(226, 232, 240)",
+              "color": "rgb(51, 65, 85)",
+              "font-weight": "400",
+              "display": "flex"
+            },
+            "metric-root": {
+              "background-color": "rgb(255, 255, 255)",
+              "padding-top": "16px"
+            },
+            "metric-label": {
+              "color": "rgb(71, 85, 105)",
+              "font-size": "14px"
+            },
+            "metric-value": {
+              "color": "rgb(37, 99, 235)",
+              "font-size": "24px",
+              "font-weight": "700"
+            }
+          },
+          "actions": [
+            {
+              "state": "active",
+              "computed": {
+                "variant-probe": {
+                  "background-color": "rgb(37, 99, 235)",
+                  "color": "rgb(255, 255, 255)",
+                  "font-weight": "700"
+                }
+              }
+            }
+          ],
+          "screenshot": "reports/evidence/ide/panda-optimized-application-weapp--package-detail-index.png",
+          "navigation": []
+        },
+        {
+          "path": "/independent/settings/index",
+          "initial": {
+            "bench-root": {
+              "background-color": "rgb(248, 250, 252)",
+              "color": "rgb(15, 23, 42)",
+              "padding-top": "24px"
+            },
+            "title": {
+              "font-size": "28px",
+              "font-weight": "700",
+              "line-height": "36px"
+            },
+            "dynamic-probe": {
+              "width": "120px",
+              "height": "20px",
+              "padding-left": "8px",
+              "color": "rgb(15, 118, 110)"
+            },
+            "metric-root": {
+              "background-color": "rgb(255, 255, 255)",
+              "padding-top": "16px"
+            },
+            "metric-label": {
+              "color": "rgb(71, 85, 105)",
+              "font-size": "14px"
+            },
+            "metric-value": {
+              "color": "rgb(37, 99, 235)",
+              "font-size": "24px",
+              "font-weight": "700"
+            }
+          },
+          "actions": [
+            {
+              "state": "dark",
+              "computed": {
+                "bench-root": {
+                  "background-color": "rgb(15, 23, 42)",
+                  "color": "rgb(248, 250, 252)"
+                },
+                "metric-root": {
+                  "background-color": "rgb(30, 41, 59)"
+                },
+                "metric-label": {
+                  "color": "rgb(203, 213, 225)"
+                },
+                "metric-value": {
+                  "color": "rgb(96, 165, 250)"
+                }
+              }
+            },
+            {
+              "state": "grown",
+              "computed": {
+                "dynamic-probe": {
+                  "width": "200px",
+                  "height": "20px",
+                  "padding-left": "20px",
+                  "color": "rgb(190, 18, 60)"
+                }
+              }
+            }
+          ],
+          "screenshot": "reports/evidence/ide/panda-optimized-application-weapp--independent-settings-index.png",
+          "navigation": []
+        }
+      ],
+      "errors": [],
+      "toolInfo": {
+        "version": "2.02.2609240",
+        "SDKVersion": "3.17.5"
+      },
+      "systemInfo": {
+        "brand": "devtools",
+        "model": "iPhone 12/13 (Pro)",
+        "system": "iOS 10.0.1",
+        "platform": "devtools",
+        "benchmarkLevel": -1,
+        "pixelRatio": 3,
+        "screenWidth": 390,
+        "screenHeight": 844,
+        "windowWidth": 390,
+        "windowHeight": 844,
+        "statusBarHeight": 47,
+        "safeArea": {
+          "top": 47,
+          "left": 0,
+          "right": 390,
+          "bottom": 810,
+          "width": 390,
+          "height": 763
+        },
+        "language": "zh_CN",
+        "version": "8.0.5",
+        "fontSizeSetting": 16,
+        "SDKVersion": "3.17.5",
+        "host": {
+          "env": "WeChat"
+        },
+        "enableDebug": false,
+        "mode": "default",
+        "deviceOrientation": "portrait",
+        "bluetoothEnabled": true,
+        "locationEnabled": true,
+        "wifiEnabled": true,
+        "albumAuthorized": true,
+        "cameraAuthorized": true,
+        "locationAuthorized": true,
+        "microphoneAuthorized": true,
+        "notificationAuthorized": true,
+        "notificationAlertAuthorized": true,
+        "notificationBadgeAuthorized": true,
+        "notificationSoundAuthorized": true,
+        "phoneCalendarAuthorized": true,
+        "bluetoothAuthorized": true,
+        "locationReducedAccuracy": true,
+        "devicePixelRatio": 3
+      },
+      "calibration": "reference/standard/gallery/weapp"
+    },
+    {
+      "key": "stylex/standard/gallery/weapp",
+      "status": "passed",
+      "routes": [
+        {
+          "path": "/pages/gallery/index",
+          "initial": {
+            "bench-root": {
+              "background-color": "rgb(248, 250, 252)",
+              "color": "rgb(15, 23, 42)",
+              "padding-top": "24px"
+            },
+            "title": {
+              "font-size": "28px",
+              "font-weight": "700",
+              "line-height": "36px"
+            },
+            "token-probe": {
+              "padding-top": "16px",
+              "border-top-left-radius": "12px",
+              "border-top-right-radius": "12px",
+              "border-bottom-left-radius": "12px",
+              "border-bottom-right-radius": "12px",
+              "background-color": "rgb(37, 99, 235)"
+            },
+            "variant-probe": {
+              "width": "160px",
+              "height": "56px",
+              "background-color": "rgb(226, 232, 240)",
+              "color": "rgb(51, 65, 85)",
+              "font-weight": "400",
+              "display": "flex"
+            },
+            "slot-root": {
+              "background-color": "rgb(241, 245, 249)",
+              "padding-top": "12px"
+            },
+            "slot-label": {
+              "color": "rgb(71, 85, 105)",
+              "font-weight": "400"
+            },
+            "condition-probe": {
+              "opacity": "1",
+              "color": "rgb(124, 58, 237)"
+            },
+            "dynamic-probe": {
+              "width": "120px",
+              "height": "20px",
+              "padding-left": "8px",
+              "color": "rgb(15, 118, 110)"
+            },
+            "media-probe": {
+              "width": "120px",
+              "height": "32px",
+              "background-color": "rgb(219, 234, 254)"
+            },
+            "rpx-probe": {
+              "width": "104px",
+              "height": "20px",
+              "border-top-left-radius": "4px",
+              "border-top-right-radius": "4px",
+              "border-bottom-left-radius": "4px",
+              "border-bottom-right-radius": "4px"
+            },
+            "decorative-probe": {
+              "width": "160px",
+              "height": "48px",
+              "background-image": "linear-gradient(135deg, rgb(219, 234, 254) 0%, rgb(224, 231, 255) 100%)",
+              "box-shadow": "rgba(15, 23, 42, 0.12) 0px 4px 12px 0px"
+            }
+          },
+          "actions": [
+            {
+              "state": "active",
+              "computed": {
+                "variant-probe": {
+                  "background-color": "rgb(37, 99, 235)",
+                  "color": "rgb(255, 255, 255)",
+                  "font-weight": "700"
+                },
+                "slot-root": {
+                  "background-color": "rgb(219, 234, 254)"
+                },
+                "slot-label": {
+                  "color": "rgb(37, 99, 235)",
+                  "font-weight": "700"
+                },
+                "condition-probe": {
+                  "opacity": "0.5"
+                }
+              }
+            },
+            {
+              "state": "dark",
+              "computed": {
+                "bench-root": {
+                  "background-color": "rgb(15, 23, 42)",
+                  "color": "rgb(248, 250, 252)"
+                },
+                "token-probe": {
+                  "background-color": "rgb(96, 165, 250)"
+                }
+              }
+            },
+            {
+              "state": "grown",
+              "computed": {
+                "dynamic-probe": {
+                  "width": "200px",
+                  "height": "20px",
+                  "padding-left": "20px",
+                  "color": "rgb(190, 18, 60)"
+                }
+              }
+            }
+          ],
+          "screenshot": "reports/evidence/ide/stylex-standard-gallery-weapp--pages-gallery-index.png",
+          "navigation": []
+        }
+      ],
+      "errors": [],
+      "toolInfo": {
+        "version": "2.02.2609240",
+        "SDKVersion": "3.17.5"
+      },
+      "systemInfo": {
+        "brand": "devtools",
+        "model": "iPhone 12/13 (Pro)",
+        "system": "iOS 10.0.1",
+        "platform": "devtools",
+        "benchmarkLevel": -1,
+        "pixelRatio": 3,
+        "screenWidth": 390,
+        "screenHeight": 844,
+        "windowWidth": 390,
+        "windowHeight": 844,
+        "statusBarHeight": 47,
+        "safeArea": {
+          "top": 47,
+          "left": 0,
+          "right": 390,
+          "bottom": 810,
+          "width": 390,
+          "height": 763
+        },
+        "language": "zh_CN",
+        "version": "8.0.5",
+        "fontSizeSetting": 16,
+        "SDKVersion": "3.17.5",
+        "host": {
+          "env": "WeChat"
+        },
+        "enableDebug": false,
+        "mode": "default",
+        "deviceOrientation": "portrait",
+        "bluetoothEnabled": true,
+        "locationEnabled": true,
+        "wifiEnabled": true,
+        "albumAuthorized": true,
+        "cameraAuthorized": true,
+        "locationAuthorized": true,
+        "microphoneAuthorized": true,
+        "notificationAuthorized": true,
+        "notificationAlertAuthorized": true,
+        "notificationBadgeAuthorized": true,
+        "notificationSoundAuthorized": true,
+        "phoneCalendarAuthorized": true,
+        "bluetoothAuthorized": true,
+        "locationReducedAccuracy": true,
+        "devicePixelRatio": 3
+      },
+      "calibration": "reference/standard/gallery/weapp"
+    },
+    {
+      "key": "stylex/standard/application/weapp",
+      "status": "passed",
+      "routes": [
+        {
+          "path": "/pages/home/index",
+          "initial": {
+            "bench-root": {
+              "background-color": "rgb(248, 250, 252)",
+              "color": "rgb(15, 23, 42)",
+              "padding-top": "24px"
+            },
+            "title": {
+              "font-size": "28px",
+              "font-weight": "700",
+              "line-height": "36px"
+            },
+            "metric-root": {
+              "background-color": "rgb(255, 255, 255)",
+              "padding-top": "16px"
+            },
+            "metric-label": {
+              "color": "rgb(71, 85, 105)",
+              "font-size": "14px"
+            },
+            "metric-value": {
+              "color": "rgb(37, 99, 235)",
+              "font-size": "24px",
+              "font-weight": "700"
+            }
+          },
+          "actions": [
+            {
+              "state": "dark",
+              "computed": {
+                "bench-root": {
+                  "background-color": "rgb(15, 23, 42)",
+                  "color": "rgb(248, 250, 252)"
+                },
+                "metric-root": {
+                  "background-color": "rgb(30, 41, 59)"
+                },
+                "metric-label": {
+                  "color": "rgb(203, 213, 225)"
+                },
+                "metric-value": {
+                  "color": "rgb(96, 165, 250)"
+                }
+              }
+            }
+          ],
+          "screenshot": "reports/evidence/ide/stylex-standard-application-weapp--pages-home-index.png",
+          "navigation": [
+            {
+              "id": "open-list",
+              "method": "navigateTo",
+              "path": "/pages/list/index",
+              "status": "passed"
+            },
+            {
+              "id": "open-detail",
+              "method": "navigateTo",
+              "path": "/package/detail/index",
+              "status": "passed"
+            },
+            {
+              "id": "open-settings",
+              "method": "navigateTo",
+              "path": "/independent/settings/index",
+              "status": "passed"
+            }
+          ]
+        },
+        {
+          "path": "/pages/list/index",
+          "initial": {
+            "bench-root": {
+              "background-color": "rgb(248, 250, 252)",
+              "color": "rgb(15, 23, 42)",
+              "padding-top": "24px"
+            },
+            "title": {
+              "font-size": "28px",
+              "font-weight": "700",
+              "line-height": "36px"
+            }
+          },
+          "actions": [],
+          "screenshot": "reports/evidence/ide/stylex-standard-application-weapp--pages-list-index.png",
+          "navigation": [
+            {
+              "id": "open-detail",
+              "method": "navigateTo",
+              "path": "/package/detail/index",
+              "status": "passed"
+            }
+          ]
+        },
+        {
+          "path": "/package/detail/index",
+          "initial": {
+            "bench-root": {
+              "background-color": "rgb(248, 250, 252)",
+              "color": "rgb(15, 23, 42)",
+              "padding-top": "24px"
+            },
+            "title": {
+              "font-size": "28px",
+              "font-weight": "700",
+              "line-height": "36px"
+            },
+            "variant-probe": {
+              "width": "160px",
+              "height": "56px",
+              "background-color": "rgb(226, 232, 240)",
+              "color": "rgb(51, 65, 85)",
+              "font-weight": "400",
+              "display": "flex"
+            },
+            "metric-root": {
+              "background-color": "rgb(255, 255, 255)",
+              "padding-top": "16px"
+            },
+            "metric-label": {
+              "color": "rgb(71, 85, 105)",
+              "font-size": "14px"
+            },
+            "metric-value": {
+              "color": "rgb(37, 99, 235)",
+              "font-size": "24px",
+              "font-weight": "700"
+            }
+          },
+          "actions": [
+            {
+              "state": "active",
+              "computed": {
+                "variant-probe": {
+                  "background-color": "rgb(37, 99, 235)",
+                  "color": "rgb(255, 255, 255)",
+                  "font-weight": "700"
+                }
+              }
+            }
+          ],
+          "screenshot": "reports/evidence/ide/stylex-standard-application-weapp--package-detail-index.png",
+          "navigation": []
+        },
+        {
+          "path": "/independent/settings/index",
+          "initial": {
+            "bench-root": {
+              "background-color": "rgb(248, 250, 252)",
+              "color": "rgb(15, 23, 42)",
+              "padding-top": "24px"
+            },
+            "title": {
+              "font-size": "28px",
+              "font-weight": "700",
+              "line-height": "36px"
+            },
+            "dynamic-probe": {
+              "width": "120px",
+              "height": "20px",
+              "padding-left": "8px",
+              "color": "rgb(15, 118, 110)"
+            },
+            "metric-root": {
+              "background-color": "rgb(255, 255, 255)",
+              "padding-top": "16px"
+            },
+            "metric-label": {
+              "color": "rgb(71, 85, 105)",
+              "font-size": "14px"
+            },
+            "metric-value": {
+              "color": "rgb(37, 99, 235)",
+              "font-size": "24px",
+              "font-weight": "700"
+            }
+          },
+          "actions": [
+            {
+              "state": "dark",
+              "computed": {
+                "bench-root": {
+                  "background-color": "rgb(15, 23, 42)",
+                  "color": "rgb(248, 250, 252)"
+                },
+                "metric-root": {
+                  "background-color": "rgb(30, 41, 59)"
+                },
+                "metric-label": {
+                  "color": "rgb(203, 213, 225)"
+                },
+                "metric-value": {
+                  "color": "rgb(96, 165, 250)"
+                }
+              }
+            },
+            {
+              "state": "grown",
+              "computed": {
+                "dynamic-probe": {
+                  "width": "200px",
+                  "height": "20px",
+                  "padding-left": "20px",
+                  "color": "rgb(190, 18, 60)"
+                }
+              }
+            }
+          ],
+          "screenshot": "reports/evidence/ide/stylex-standard-application-weapp--independent-settings-index.png",
+          "navigation": []
+        }
+      ],
+      "errors": [],
+      "toolInfo": {
+        "version": "2.02.2609240",
+        "SDKVersion": "3.17.5"
+      },
+      "systemInfo": {
+        "brand": "devtools",
+        "model": "iPhone 12/13 (Pro)",
+        "system": "iOS 10.0.1",
+        "platform": "devtools",
+        "benchmarkLevel": -1,
+        "pixelRatio": 3,
+        "screenWidth": 390,
+        "screenHeight": 844,
+        "windowWidth": 390,
+        "windowHeight": 844,
+        "statusBarHeight": 47,
+        "safeArea": {
+          "top": 47,
+          "left": 0,
+          "right": 390,
+          "bottom": 810,
+          "width": 390,
+          "height": 763
+        },
+        "language": "zh_CN",
+        "version": "8.0.5",
+        "fontSizeSetting": 16,
+        "SDKVersion": "3.17.5",
+        "host": {
+          "env": "WeChat"
+        },
+        "enableDebug": false,
+        "mode": "default",
+        "deviceOrientation": "portrait",
+        "bluetoothEnabled": true,
+        "locationEnabled": true,
+        "wifiEnabled": true,
+        "albumAuthorized": true,
+        "cameraAuthorized": true,
+        "locationAuthorized": true,
+        "microphoneAuthorized": true,
+        "notificationAuthorized": true,
+        "notificationAlertAuthorized": true,
+        "notificationBadgeAuthorized": true,
+        "notificationSoundAuthorized": true,
+        "phoneCalendarAuthorized": true,
+        "bluetoothAuthorized": true,
+        "locationReducedAccuracy": true,
+        "devicePixelRatio": 3
+      },
+      "calibration": "reference/standard/gallery/weapp"
+    }
+  ],
+  "resources": [
+    {
+      "name": "reference-standard-gallery-weapp",
+      "projectPath": ".bench/ide-projects/reference-standard-gallery-weapp",
+      "port": 60365,
+      "createdByTask": true,
+      "closed": true
+    },
+    {
+      "name": "tailwind-standard-gallery-weapp",
+      "projectPath": ".bench/ide-projects/tailwind-standard-gallery-weapp",
+      "port": 60625,
+      "createdByTask": true,
+      "closed": true
+    },
+    {
+      "name": "tailwind-standard-application-weapp",
+      "projectPath": ".bench/ide-projects/tailwind-standard-application-weapp",
+      "port": 60817,
+      "createdByTask": true,
+      "closed": true
+    },
+    {
+      "name": "panda-standard-gallery-weapp",
+      "projectPath": ".bench/ide-projects/panda-standard-gallery-weapp",
+      "port": 61526,
+      "createdByTask": true,
+      "closed": true
+    },
+    {
+      "name": "panda-standard-application-weapp",
+      "projectPath": ".bench/ide-projects/panda-standard-application-weapp",
+      "port": 61730,
+      "createdByTask": true,
+      "closed": true
+    },
+    {
+      "name": "panda-optimized-gallery-weapp",
+      "projectPath": ".bench/ide-projects/panda-optimized-gallery-weapp",
+      "port": 62532,
+      "createdByTask": true,
+      "closed": true
+    },
+    {
+      "name": "panda-optimized-application-weapp",
+      "projectPath": ".bench/ide-projects/panda-optimized-application-weapp",
+      "port": 62826,
+      "createdByTask": true,
+      "closed": true
+    },
+    {
+      "name": "stylex-standard-gallery-weapp",
+      "projectPath": ".bench/ide-projects/stylex-standard-gallery-weapp",
+      "port": 63715,
+      "createdByTask": true,
+      "closed": true
+    },
+    {
+      "name": "stylex-standard-application-weapp",
+      "projectPath": ".bench/ide-projects/stylex-standard-application-weapp",
+      "port": 63937,
+      "createdByTask": true,
+      "closed": true
+    }
+  ],
+  "environment": {
+    "checkedAt": "2026-11-03T03:53:06.817Z",
+    "source": "https://devtools.wxqcloud.qq.com.cn/WechatWebDev/nightly/versions/config.json",
+    "downloadPage": "https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html",
+    "latestStable": "2.02.2609240",
+    "installedVersion": "2.02.2609240",
+    "login": true,
+    "cliPath": "/Applications/wechatwebdevtools.app/Contents/MacOS/cli",
+    "appid": "wxb3d842a4a7e3440d"
+  }
+}
