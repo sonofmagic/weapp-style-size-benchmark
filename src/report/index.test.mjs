@@ -78,3 +78,17 @@ test('reports optimization and growth, embeds real screenshots, and omits source
   assert.doesNotMatch(markdown, /SOURCE_MANIFEST_MUST_STAY_IN_JSON|SOURCE_FILES_MUST_STAY_IN_JSON/)
   assert.match(markdown, /"panda": "2.2.0"/)
 })
+
+test('uses measured dependency versions and keeps old findings scoped to their historical versions', () => {
+  const report = fixture()
+  report.environment.packages = { 'weapp-vite': '7.8.0', 'weapp-tailwindcss': '5.6.4', lightningcss: '1.34.0', pixelmatch: '8.0.0' }
+  const markdown = readme(report)
+  assert.match(markdown, /weapp-vite@7\.8\.0/)
+  assert.match(markdown, /weapp-tailwindcss@5\.6\.4/)
+  assert.match(markdown, /lightningcss@1\.34\.0/)
+  assert.match(markdown, /pixelmatch@8\.0\.0/)
+  assert.doesNotMatch(markdown, /weapp-vite@7\.7\.0|weapp-tailwindcss@5\.6\.3/)
+  assert.match(markdown, /历史 `weapp-stylex@0\.3\.1`/)
+  assert.match(markdown, /不能把跨工具版本的像素差异计数/)
+  assert.match(markdown, /reports\/release-comparison\/README\.md/)
+})

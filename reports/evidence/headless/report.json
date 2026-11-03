@@ -797,7 +797,6 @@
       "stylesheets": [
         "app.wxss",
         "pages/gallery/index.wxss",
-        "pages/gallery/stylex.wxss",
         "stylex.wxss"
       ],
       "routes": [
@@ -828,17 +827,12 @@
       "stylesheets": [
         "app.wxss",
         "components/metric/index.wxss",
-        "components/metric/stylex.wxss",
         "independent/components/metric/index.wxss",
-        "independent/components/metric/stylex.wxss",
         "independent/settings/index.wxss",
-        "independent/settings/stylex.wxss",
+        "independent/stylex.wxss",
         "package/detail/index.wxss",
-        "package/detail/stylex.wxss",
         "pages/home/index.wxss",
-        "pages/home/stylex.wxss",
         "pages/list/index.wxss",
-        "pages/list/stylex.wxss",
         "stylex.wxss"
       ],
       "routes": [
@@ -919,7 +913,6 @@
       "stylesheets": [
         "app.wxss",
         "pages/scale/index.wxss",
-        "pages/scale/stylex.wxss",
         "stylex.wxss"
       ],
       "routes": [
@@ -937,7 +930,6 @@
       "stylesheets": [
         "app.wxss",
         "pages/scale/index.wxss",
-        "pages/scale/stylex.wxss",
         "stylex.wxss"
       ],
       "routes": [
@@ -955,7 +947,6 @@
       "stylesheets": [
         "app.wxss",
         "pages/scale/index.wxss",
-        "pages/scale/stylex.wxss",
         "stylex.wxss"
       ],
       "routes": [
@@ -973,7 +964,6 @@
       "stylesheets": [
         "app.wxss",
         "pages/scale/index.wxss",
-        "pages/scale/stylex.wxss",
         "stylex.wxss"
       ],
       "routes": [
@@ -991,7 +981,6 @@
       "stylesheets": [
         "app.wxss",
         "pages/scale/index.wxss",
-        "pages/scale/stylex.wxss",
         "stylex.wxss"
       ],
       "routes": [
@@ -1009,7 +998,6 @@
       "stylesheets": [
         "app.wxss",
         "pages/scale/index.wxss",
-        "pages/scale/stylex.wxss",
         "stylex.wxss"
       ],
       "routes": [
@@ -1027,7 +1015,6 @@
       "stylesheets": [
         "app.wxss",
         "pages/gallery/index.wxss",
-        "pages/gallery/stylex.wxss",
         "stylex.wxss"
       ],
       "routes": [
@@ -1058,17 +1045,12 @@
       "stylesheets": [
         "app.wxss",
         "components/metric/index.wxss",
-        "components/metric/stylex.wxss",
         "independent/components/metric/index.wxss",
-        "independent/components/metric/stylex.wxss",
         "independent/settings/index.wxss",
-        "independent/settings/stylex.wxss",
+        "independent/stylex.wxss",
         "package/detail/index.wxss",
-        "package/detail/stylex.wxss",
         "pages/home/index.wxss",
-        "pages/home/stylex.wxss",
         "pages/list/index.wxss",
-        "pages/list/stylex.wxss",
         "stylex.wxss"
       ],
       "routes": [
@@ -1149,7 +1131,6 @@
       "stylesheets": [
         "app.wxss",
         "pages/scale/index.wxss",
-        "pages/scale/stylex.wxss",
         "stylex.wxss"
       ],
       "routes": [
@@ -1167,7 +1148,6 @@
       "stylesheets": [
         "app.wxss",
         "pages/scale/index.wxss",
-        "pages/scale/stylex.wxss",
         "stylex.wxss"
       ],
       "routes": [
@@ -1185,7 +1165,6 @@
       "stylesheets": [
         "app.wxss",
         "pages/scale/index.wxss",
-        "pages/scale/stylex.wxss",
         "stylex.wxss"
       ],
       "routes": [
@@ -1203,7 +1182,6 @@
       "stylesheets": [
         "app.wxss",
         "pages/scale/index.wxss",
-        "pages/scale/stylex.wxss",
         "stylex.wxss"
       ],
       "routes": [
@@ -1221,7 +1199,6 @@
       "stylesheets": [
         "app.wxss",
         "pages/scale/index.wxss",
-        "pages/scale/stylex.wxss",
         "stylex.wxss"
       ],
       "routes": [
@@ -1239,7 +1216,6 @@
       "stylesheets": [
         "app.wxss",
         "pages/scale/index.wxss",
-        "pages/scale/stylex.wxss",
         "stylex.wxss"
       ],
       "routes": [

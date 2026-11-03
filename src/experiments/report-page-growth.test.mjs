@@ -6,7 +6,7 @@ import path from 'node:path'
 import test from 'node:test'
 import { inputFingerprint } from '../build/environment.mjs'
 import { manifest } from '../measure/index.mjs'
-import { renderPageGrowthReport, validatePageGrowthReport, writePageGrowthReport } from './report-page-growth.mjs'
+import { renderPageGrowthReport, stylexDelivery, validatePageGrowthReport, writePageGrowthReport } from './report-page-growth.mjs'
 import { pageFilesCsv, pageRowsCsv } from './page-growth.mjs'
 
 const counts = [1, 5, 10, 20, 50]
@@ -44,6 +44,30 @@ test('accepts a complete validated matrix and renders totals and slope from data
   assert.ok(rendered.includes('| 微信原生 | 跨页复用 | Tailwind | 5.00 | 250.00 | 245.00 | 5.00 |'))
   assert.ok(rendered.includes('768 px 保留计算样式/尺寸快照摘要，没有单独保存截图'))
   assert.ok(rendered.includes('没有新增微信开发者工具验收'))
+})
+
+test('distinguishes copied global styles from one shared output without reusing an old version diagnosis', () => {
+  const report = validReport()
+  report.environment.packages = { 'weapp-stylex': '0.3.2', 'weapp-vite': '7.8.0' }
+  const rows = new Map(report.rows.map(row => [[row.scheme, row.target, row.mode, row.pageCount].join('/'), row]))
+  for (const mode of ['reuse', 'unique']) {
+    const row = rows.get(`stylex/weapp/${mode}/50`)
+    row.measurement.files = [{ path: 'common/stylex.wxss', kind: 'style', raw: 100, sha256 }]
+    row.measurement.byKind.style.raw = 100
+  }
+  const shared = stylexDelivery(report, rows)
+  assert.match(shared, /weapp-stylex@0\.3\.2 \/ weapp-vite@7\.8\.0/)
+  assert.match(shared, /只检测到 1 个/)
+  assert.doesNotMatch(shared, /两组均检测到根目录及每页/)
+  for (const mode of ['reuse', 'unique']) {
+    const row = rows.get(`stylex/weapp/${mode}/50`)
+    row.measurement.files = Array.from({ length: 51 }, (_, index) => ({ path: `page-${index}/stylex.wxss`, kind: 'style', raw: 100, sha256 }))
+    row.measurement.byKind.style.raw = 5100
+  }
+  const copied = stylexDelivery(report, rows)
+  assert.match(copied, /51 个同内容 StyleX 文件/)
+  assert.match(copied, /4\.98/)
+  assert.doesNotMatch(copied, /只检测到 1 个/)
 })
 
 test('rejects missing, duplicated and unexpected matrix rows', () => {

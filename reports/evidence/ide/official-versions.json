@@ -77,8 +77,8 @@
       "id": "nightly",
       "name": "开发版 Nightly Electron Build",
       "name_en": "Nightly Electron Build",
-      "version": "2.02.2611022",
-      "date": "2026-11-02",
+      "version": "2.02.2611032",
+      "date": "2026-11-03",
       "tags": [
         {
           "text": "Nightly Electron",
@@ -91,20 +91,20 @@
         {
           "os": "Windows",
           "arch": "64",
-          "url": "https://devtools.wxqcloud.qq.com.cn/WechatWebDev/nightly/electron-36.6.0/wechat_devtools_2.02.2611022_win32_x64.exe"
+          "url": "https://devtools.wxqcloud.qq.com.cn/WechatWebDev/nightly/electron-36.6.0/wechat_devtools_2.02.2611032_win32_x64.exe"
         },
         {
           "os": "macOS",
           "arch": "x64",
-          "url": "https://devtools.wxqcloud.qq.com.cn/WechatWebDev/nightly/electron-36.6.0/wechat_devtools_2.02.2611022_darwin_x64.pkg"
+          "url": "https://devtools.wxqcloud.qq.com.cn/WechatWebDev/nightly/electron-36.6.0/wechat_devtools_2.02.2611032_darwin_x64.pkg"
         },
         {
           "os": "macOS",
           "arch": "ARM64",
-          "url": "https://devtools.wxqcloud.qq.com.cn/WechatWebDev/nightly/electron-36.6.0/wechat_devtools_2.02.2611022_darwin_arm64.pkg"
+          "url": "https://devtools.wxqcloud.qq.com.cn/WechatWebDev/nightly/electron-36.6.0/wechat_devtools_2.02.2611032_darwin_arm64.pkg"
         }
       ],
-      "log_file": "logs/nightly_v2022611022.json"
+      "log_file": "logs/nightly_v2022611032.json"
     },
     {
       "id": "nightly-old",

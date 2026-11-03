@@ -18,6 +18,8 @@ export function readme(report, reportPrefix = 'reports', readmeDirectory = '.') 
   })
   const packages = showcase.filter(row => row.target === 'weapp').flatMap(row => Object.entries(row.measurement.byPackage).map(([name, value]) => [profileName(row.profile), row.scenario, names[row.scheme], name, kib(value.raw), kib(value.gzip), kib(value.brotli)]))
   const transmission = showcase.filter(row => row.target === 'web').map(row => [profileName(row.profile), row.scenario, names[row.scheme], kib(row.measurement.totals.raw), kib(row.measurement.totals.gzip), kib(row.measurement.totals.brotli)])
+  const packageVersions = report.environment.packages ?? {}
+  const version = name => packageVersions[name] ?? '未记录'
   const ide = passed(report.validation.ide)
   const nativeRecords = report.validation.ide?.artifacts ?? []
   const sdkVersions = [...new Set(nativeRecords.map(row => row.toolInfo?.SDKVersion).filter(Boolean))]
@@ -27,10 +29,11 @@ export function readme(report, reportPrefix = 'reports', readmeDirectory = '.') 
   return [
     '# 小程序样式方案产物体积对比', '',
     '对比 weapp-tailwindcss、weapp-pandacss、weapp-stylex 在原生微信小程序与 H5 中实现相同布局和交互状态的最终产物体积，同时保留手写 CSS 参考和无样式基线。数据由真实生产构建生成，README 表格与曲线均来自同一份报告。', '',
+    `本轮使用 weapp-tailwindcss ${version('weapp-tailwindcss')}、weapp-pandacss ${version('weapp-pandacss')}、weapp-stylex ${version('weapp-stylex')}，宿主为 weapp-vite ${version('weapp-vite')}。[官方稳定版本核对记录](${reportPrefix}/version-refresh/latest-versions.json)与[上一版报告对比](${reportPrefix}/release-comparison/README.md)单独保存。`, '',
     '## 本次结论', '', ...conclusions(report), '',
     `当前矩阵共 ${report.rows.length} 格，全部通过两次独立生产构建一致性检查。H5 与 headless 校验通过；微信 IDE 验证${ide ? '已通过' : '**待完成**，当前不能把 H5/headless 结果表述为微信真机或 IDE 布局等效证明'}。`, '',
     '## 如何复跑', '', '```sh', 'corepack pnpm install --frozen-lockfile', 'corepack pnpm exec playwright install chromium', 'corepack pnpm test', 'corepack pnpm bench', 'corepack pnpm report:check', '```', '',
-    'Node.js 24.22.1，pnpm 12.16.1。以提交中的 lockfile 为依赖版本来源。IDE 验证需在安装并登录微信开发者工具的本机单独执行，不由 GitHub CI 代替。', '',
+    `Node.js ${report.environment.node}，${report.environment.pnpm}。以提交中的 lockfile 为依赖版本来源。IDE 验证需在安装并登录微信开发者工具的本机单独执行，不由 GitHub CI 代替。`, '',
     '`pnpm bench` 一键完成全矩阵构建、headless/H5 等效校验、测量和报告；默认不启动微信 IDE。调试时可以分步执行，后续命令消费 `.bench/run.json` 中当前已构建状态，不会自动沿用更早一次的成功报告：', '',
     '```sh',
     'corepack pnpm bench:build        # 清理后构建全矩阵，每格两轮',
@@ -59,12 +62,13 @@ export function readme(report, reportPrefix = 'reports', readmeDirectory = '.') 
     '- 五组实现：三种样式方案、手写 CSS 参考、无样式基线。两种配置、八个场景、两个目标，共 160 格。无样式基线保持同一内容结构与业务逻辑，仅移除样式，供观察增量。',
     '- `gallery` 覆盖样式能力展示，`application` 覆盖完整业务页面；`reuse-10/100/1000` 观察重复使用相同样式的增长，`unique-10/100/1000` 观察独立样式的增长。场景数据和预期效果共用契约。',
     '- 常规生产使用各方案正常生产构建；优化配置仅为 Panda 开启 `hash: { className: true }`。StyleX 两档均保留默认生产 hash；Tailwind 没有对应的内置类名压缩开关，两档配置相同。不引入 tailwindcss-mangle。',
-    '- 宿主统一使用 `weapp-vite@7.7.0`：微信 Tailwind 走宿主内置 `weapp.tailwindcss`（锁定 `weapp-tailwindcss@5.6.3`），H5 走官方 `weapp-tailwindcss/postcss`，配置 `generator: { target: \'web\', webCompat: true }`；Panda 使用 PostCSS 适配器，StyleX 走 `createStylex()` 的 Vite 与 compiler 两个入口。Tailwind/Panda 全局样式均由 `app.css` 顶部 `@import` 进入原生样式引用图，以传递到 H5 页面的 ShadowRoot；不通过 App 脚本单独导入框架样式。',
+    `- 宿主统一使用 \`weapp-vite@${version('weapp-vite')}\`：微信 Tailwind 走宿主内置 \`weapp.tailwindcss\`（锁定 \`weapp-tailwindcss@${version('weapp-tailwindcss')}\`），H5 走官方 \`weapp-tailwindcss/postcss\`，配置 \`generator: { target: 'web', webCompat: true }\`；Panda 使用 PostCSS 适配器，StyleX 走 \`createStylex()\` 的 Vite 与 compiler 两个入口。Tailwind/Panda 全局样式均由 \`app.css\` 顶部 \`@import\` 进入原生样式引用图，以传递到 H5 页面的 ShadowRoot；不通过 App 脚本单独导入框架样式。`,
     '- 三套样式方案及手写 CSS 共享显式 reset，关闭各框架 preflight；无样式基线不含 reset。Panda 仍使用官方 preset-base/preset-panda。构建实际保留的默认 token、变量、兼容 CSS 与运行时代码全部计量，不为缩小某方案单独删减。',
     '- H5 为 Panda 开启官方 Web layer polyfill（`polyfill: true`）；两端 Panda 均使用 `cssVarRoot: \'.theme-light, .theme-dark\'`，让 token 声明落在已有主题根节点。Tailwind 的 H5 `webCompat: true` 处理 layer 与宿主默认样式优先级；这些配置均通过浏览器计算样式验证。',
+    `- 本轮像素比较使用 \`pixelmatch@${version('pixelmatch')}\`，保留 \`threshold: 0.1\` 与 \`includeAA: false\`。历史报告使用的 Pixelmatch 7 与本轮 8 的颜色差异度量不同（YIQ → OKLab/HyAB）；截图和效果证据全部重采，不能把跨工具版本的像素差异计数直接解读为视觉改善。`,
     '- 微信 IDE 先在手写 CSS 参考产物上校准宿主的 rpx 取整（与理论值偏差须小于 1 CSS px），保存设备、基础库及参考文件哈希；三套方案随后在同设备、同基础库下，以 0.1px 容差严格匹配校准结果。其余样式直接检查规格预期，校准证据保存在 IDE 报告的 `calibrations`。',
     '- 宿主配置统一设 `emptyOutDir: false`，由基准程序在每轮开始前清理整个输出目录，避免主包构建清掉适配器在独立分包子构建中生成的样式。不会在构建结束后手工补回缺失规则。',
-    '- `weapp-vite@7.7.0` 的原生适配器在 Vite CSS 压缩之后还能写入 WXSS，不同格式化方式会影响 raw 排名。因此每轮原生构建后，对所有方案的最终 WXSS 统一使用 `lightningcss@1.33.0` 执行 `minify: true`，然后才采集、校验重复性。H5 使用 Vite 的统一生产压缩。本文排名对应此最终部署产物，**不是未经统一压缩的适配器裸输出**；原生压缩前/后每个文件的字节均保存于 `row.cssMinification`。',
+    `- 原生适配器在 Vite CSS 压缩之后仍可能写入 WXSS，不同格式化方式会影响 raw 排名。因此每轮原生构建后，对所有方案的最终 WXSS 统一使用 \`lightningcss@${version('lightningcss')}\` 执行 \`minify: true\`，然后才采集、校验重复性。H5 使用 Vite 的统一生产压缩。本文排名对应此最终部署产物，**不是未经统一压缩的适配器裸输出**；原生压缩前/后每个文件的字节均保存于 \`row.cssMinification\`。`,
     '- 每格清理产物后生产构建两次，校验最终文件路径和 SHA-256 一致，并检查 JS 模块、CSS 导入、WXML/WXS、页面/组件配置与独立分包的静态引用完整性。独立分包的静态引用不得越出自身目录；完整证据保存在每格 `referenceValidation`。不会用缓存报告填补失败或缺失格。度量包括最终脚本、模板、样式、JSON 和资源；WXS 归入脚本。',
     '- 微信主包与分包从最终 `app.json` 划定。每个物理路径计一次，同内容复制到不同路径仍分别计量；共享文件归实际所在包，不分摊给页面。',
     '- raw 是最终部署文件原始字节之和；gzip 固定 level 9、Brotli 固定 quality 11，逐文件压缩后求和。压缩值可供 H5 传输参考，**不等于微信官方上传包体积**。1 KiB = 1024 字节。',
@@ -83,6 +87,8 @@ export function readme(report, reportPrefix = 'reports', readmeDirectory = '.') 
     `另有 [1 / 5 / 10 / 20 / 50 个真实页面的实测报告](${reportPrefix}/page-growth/README.md)，分别观察跨页共享样式与每页新增样式。每页包含 20 个样式探针，另有固定标题和布局；全部页面位于同一主包，使用常规生产配置。该横轴表示实际路由数量，与上方单页内使用点数量的实验不同。`, '',
     `![真实页面数增长的产物体积曲线](${reportPrefix}/page-growth/page-growth.svg)`, '',
     '补充实验独立运行双构建、全页面 headless 与 H5 首/中/尾页面效果校验；没有新增微信 IDE 验收，范围和原始数据见补充报告。', '',
+    '## 与上一版报告的变化', '',
+    `完整的新旧版本对比见 [升级对比报告](${reportPrefix}/release-comparison/README.md)，其中同时列出总量、样式、脚本和模板变化，保留历史数据来源。整组依赖升级的差值不能单独归因于 StyleX。`, '',
     ...interpretation(report),
     '## 验证证据与原始数据', '',
     ...(ide ? [`本地微信开发者工具 ${report.validation.ide.environment?.installedVersion}，基础库 ${sdkVersions.join('、')}；验收视口宽度 ${nativeWidths.join('、')}px。IDE 结果来自该模拟器环境，不代替不同设备的真机验证。`, ''] : []),
@@ -96,7 +102,7 @@ export function readme(report, reportPrefix = 'reports', readmeDirectory = '.') 
     `- 两轮一致性要求针对同一环境。首次发布另对 macOS arm64 与 Linux x64 CI 做了[跨环境核对](${reportPrefix}/cross-platform.json)：160 格的 raw/gzip 总量和全部文件路径一致，但 18 个 Panda 原生 WXSS 文件的默认广色域 token 经 Lightning CSS 转换后有约 0.000001 的浮点差异，导致 SHA-256 与部分 Brotli 值不同。两边各自重复构建均稳定，不宣称跨 CPU 架构逐位一致。该审计记录对应其 sourceCommit/buildInputSha256，不随 bench 自动更新。`,
     '- H5 使用浏览器计算样式与交互证据；headless 可验证产物和状态契约，但不能覆盖微信宿主的全部 CSS 布局与兼容行为。微信 IDE 的状态独立披露。',
     '- 独立分包已检查静态引用与 headless 包隔离。当前 IDE 路径从主包启动后经 `reLaunch` / `navigateTo` 热进入独立分包；尚无“不加载主包”的独立分包冷启动实机证据，因此不能据此宣称该冷启动路径已验收。',
-    '- 本次固定版本发现 StyleX 动态 camelCase 属性生成的 CSS 自定义变量与 `attrs()` 序列化存在大小写失配。公共动态样例使用全小写 `padding` 的字符串简写保留原有左间距，并验证相同效果；未修改依赖包，也未修补生成产物。本报告不宣称动态 camelCase 属性已受支持，升级后应重新验证。',
+    '- 历史 `weapp-stylex@0.3.1` 的动态 camelCase 属性曾有 CSS 自定义变量与 `attrs()` 序列化大小写失配。为保持本轮场景与旧报告一致，公共动态样例继续使用全小写 `padding` 字符串简写；未修改依赖包或生成产物。本轮等效校验覆盖该固定样例，不将其通过外推为所有动态 camelCase 属性均已验收。',
     '- 无样式与手写 CSS 是解释成本的参照，不代表所有项目的最优实现。没有把 npm 安装体积、构建依赖或 sourcemap 当作用户部署体积。',
     '- 排除 sourcemap、微信开发工具项目配置、操作系统元数据与构建分析产物；完整排除明细仍保留在每格 measurement.excluded。',
     ...(excluded.length ? ['', `本次实际排除：${excluded.map(value => `\`${value}\``).join('、')}。`] : ['', '本次产物中未发现需排除文件。']), '',

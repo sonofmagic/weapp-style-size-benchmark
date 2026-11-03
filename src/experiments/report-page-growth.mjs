@@ -130,15 +130,21 @@ function totalTable(rows, target, mode) {
   return table(['页面数', ...SCHEMES.map(scheme => names[scheme])], COUNTS.map(pageCount => [pageCount, ...SCHEMES.map(scheme => kib(rows.get(key({ scheme, target, mode, pageCount })).measurement.totals.raw))]))
 }
 
-function copiedStylex(rows) {
+export function stylexDelivery(report, rows) {
   const samples = MODES.map(mode => {
     const row = rows.get(`stylex/weapp/${mode}/50`)
-    const files = row.measurement.files.filter(file => /(^|\/)stylex\.wxss$/.test(file.path))
-    if (files.length !== 51 || new Set(files.map(file => file.sha256)).size !== 1) return undefined
-    return { mode, size: files[0].raw, total: files.reduce((sum, file) => sum + file.raw, 0), residual: row.measurement.byKind.style.raw - files.reduce((sum, file) => sum + file.raw, 0) }
+    const files = row.measurement.files.filter(file => file.kind === 'style')
+    const stylex = files.filter(file => /stylex[^/]*\.wxss$/.test(file.path))
+    return { mode, files, stylex, total: row.measurement.byKind.style.raw }
   })
-  if (samples.some(sample => !sample)) return 'StyleX 的物理文件复制情况应按 [files.csv](files.csv) 审查；当前数据未满足“根目录及每页同内容 stylex.wxss”的自动识别条件。'
-  return `锁定的 weapp-stylex@0.3.1 与 weapp-vite@7.7.0 组合会把全局样式并集写成根目录及每页目录下的同内容 \`stylex.wxss\`。50 页时两组均为 51 个物理副本：${samples.map(sample => `${names[sample.mode]}每份 ${sample.size.toLocaleString('en-US')} B，合计 ${kib(sample.total)} KiB，另有 ${sample.residual.toLocaleString('en-US')} B WXSS`).join('；')}。文件路径、SHA-256 与大小均可在 [files.csv](files.csv) 核对。\n\n因而本组合的原生样式成本含有 \`(页数 + 1) × 全局样式并集大小\`。复用组的并集基本固定，复制成本随页数增加；独特组的并集也随页数增加，当前采样范围内出现更陡的增长。这是该版本适配器与构建组合的实测输出行为，不代表所有 StyleX 实现都存在同样增长，也不能据此外推其他版本。`
+  const packages = report.environment?.packages ?? {}
+  const inventory = table(['50 页模式', '全部 WXSS 文件数', '全部 WXSS KiB', 'StyleX 命名文件数', 'StyleX 命名文件 KiB', '同 SHA-256 最大副本数'], samples.map(sample => [names[sample.mode], sample.files.length, kib(sample.total), sample.stylex.length, kib(sample.stylex.reduce((sum, file) => sum + file.raw, 0)), sample.stylex.length ? Math.max(...[...Map.groupBy(sample.stylex, file => file.sha256).values()].map(group => group.length)) : '未识别']))
+  const description = samples.every(sample => sample.stylex.length === 51 && new Set(sample.stylex.map(file => file.sha256)).size === 1)
+    ? '两组均检测到根目录及每页共 51 个同内容 StyleX 文件。该输出包含 `(页数 + 1) × 全局样式并集大小` 的物理复制成本；独特组的并集随页面增加，复制成本也随之增加。'
+    : samples.every(sample => sample.stylex.length === 1)
+      ? '两组均只检测到 1 个 StyleX 命名的 WXSS 文件，旧版“每页复制全局并集”的 51 副本形状未再出现。页面导入包装及其他 WXSS 仍全部计量；共享样式文件所在路径与页面引用由静态引用检查验证。'
+      : '当前文件布局不满足“51 份同内容全局并集”或“1 份 StyleX 文件”的识别条件，不能沿用旧版复制结论。请按逐文件清单和静态引用证据核对各物理输出；本表不通过内容去重减少测量值。'
+  return `weapp-stylex@${packages['weapp-stylex'] ?? '未记录'} / weapp-vite@${packages['weapp-vite'] ?? '未记录'} 的当前输出如下。StyleX 命名文件按路径末尾的 \`stylex*.wxss\` 识别；这不是全部样式负载的定义，完整分类仍包含所有 WXSS。\n\n${inventory}\n\n${description} 文件路径、SHA-256 与大小可在 [files.csv](files.csv) 复核。不能将本次布局外推为所有 StyleX 适配器或其他版本的行为。`
 }
 
 export function renderPageGrowthReport(report) {
@@ -156,6 +162,8 @@ export function renderPageGrowthReport(report) {
   const nativeReuse = SCHEMES.map(scheme => `${names[scheme]} ${kib((get(scheme, 'weapp', 'reuse', 50).measurement.totals.raw - get(scheme, 'weapp', 'reuse', 1).measurement.totals.raw) / 49)} KiB/新增页`).join('、')
   const uniqueStylexEarly = (get('stylex', 'weapp', 'unique', 5).measurement.totals.raw - get('stylex', 'weapp', 'unique', 1).measurement.totals.raw) / 4
   const uniqueStylexLate = (get('stylex', 'weapp', 'unique', 50).measurement.totals.raw - get('stylex', 'weapp', 'unique', 20).measurement.totals.raw) / 30
+  const reuseStyleGrowth = SCHEMES.map(scheme => `${names[scheme]} ${kib(get(scheme, 'weapp', 'reuse', 50).measurement.byKind.style.raw - get(scheme, 'weapp', 'reuse', 1).measurement.byKind.style.raw)} KiB`).join('、')
+  const slopeDescription = Math.abs(uniqueStylexLate - uniqueStylexEarly) < Math.max(1, Math.abs(uniqueStylexEarly) * 0.05) ? '两个区间接近，未观察到旧版显著变陡的形状' : uniqueStylexLate > uniqueStylexEarly ? '后段区间的平均增量较高' : '后段区间的平均增量较低'
   const packages = report.environment?.packages ?? {}
   return `# 页面数增长补充实验
 
@@ -208,13 +216,13 @@ ${table(['目标', '模式', '方案', 'WXSS/CSS', 'JS/WXS', 'WXML/HTML', 'JSON'
 
 ## 观察到的趋势
 
-**复用样式时，样式库的固定成本会逐渐被摊薄，总量仍随模板、页面注册与绑定代码增长。** 微信原生复用组的 1→50 页平均新增量为 ${nativeReuse}。Tailwind 与 Panda 的共享 WXSS 在本组保持不变，但模板类名长度与实际绑定代码开销不同，因此不能只根据首屏或单页大小判断多页应用的最终总量。
+**复用样式时，样式库的固定成本会逐渐被摊薄，总量仍随模板、页面注册与绑定代码增长。** 微信原生复用组的 1→50 页平均新增量为 ${nativeReuse}。三方案同期全部 WXSS 的增量分别为 ${reuseStyleGrowth}。模板类名长度、样式引用包装与实际绑定代码开销不同，因此不能只根据首屏或单页大小判断多页应用的最终总量。
 
 **每页持续增加独特值时，还要支付新增样式规则和绑定数据的成本。** Tailwind 的原子声明仍能复用部分已有声明；Panda 的本地样式绑定随每页定义增加；StyleX 在 H5 的样式负载部分进入 JS。这些开销都保留在产物中。H5 还包含同一 weapp-vite Web renderer 的固定运行时代价，随着页面变多，各方案页面源码、模板与样式交付方式的差异逐渐体现。
 
-**当前原生 StyleX 独特组不能用一条固定斜率直线概括。** 其总量在 1→5 页区间平均新增 ${kib(uniqueStylexEarly)} KiB/页，20→50 页区间为 ${kib(uniqueStylexLate)} KiB/页。下面的文件复制行为解释了本次曲线为什么会越来越陡。
+**原生 StyleX 独特组的分段增量应与物理输出一起看。** 其总量在 1→5 页区间平均新增 ${kib(uniqueStylexEarly)} KiB/页，20→50 页区间为 ${kib(uniqueStylexLate)} KiB/页；${slopeDescription}。这仅描述两个已测区间，不预测更大页数，也不将总量变化全部归因于 WXSS。
 
-${copiedStylex(rows)}
+${stylexDelivery(report, rows)}
 
 ## 验证与边界
 

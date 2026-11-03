@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "validated",
   "environment": {
-    "generatedAt": "2026-11-03T03:36:22.488Z",
+    "generatedAt": "2026-11-03T14:53:40.010Z",
     "node": "24.22.1",
     "pnpm": "pnpm@12.16.1",
     "platform": "darwin",
@@ -18,20 +18,20 @@
       "@pandacss/dev": "2.5.0",
       "@pandacss/preset-base": "2.5.0",
       "@pandacss/preset-panda": "2.5.0",
-      "weapp-stylex": "0.3.1",
-      "weapp-vite": "7.7.0",
-      "postcss": "8.5.30",
+      "weapp-stylex": "0.3.2",
+      "weapp-vite": "7.8.0",
+      "postcss": "8.5.32",
       "lightningcss": "1.33.0",
-      "@mpcore/test": "1.2.0",
-      "@mpcore/simulator": "1.2.0",
-      "@babel/parser": "8.0.7",
+      "@mpcore/test": "1.2.1",
+      "@mpcore/simulator": "1.3.0",
+      "@babel/parser": "8.1.0",
       "playwright": "1.64.1",
-      "miniprogram-automator": "0.12.1",
+      "miniprogram-automator": "0.13.0",
       "pngjs": "7.0.0",
-      "pixelmatch": "7.1.0"
+      "pixelmatch": "8.0.0"
     },
     "inputs": {
-      "sha256": "583934742322f34ef164b6ea2d843e0536077642c6764e21c351d3e703f06977",
+      "sha256": "378aa6529936cbbd4388a7199b2bbfa724478949b3301d681581da793e85b8f1",
       "files": [
         {
           "path": ".npmrc",
@@ -43,15 +43,15 @@
         },
         {
           "path": "package.json",
-          "sha256": "a080b24362af834d83774515273ebf771051982cab12b7ad958872594a8a9610"
+          "sha256": "78b878b6c4fc3e241c00a56f2e9d6965c5e5bb3a542fb37fb7fc5c847356dcc3"
         },
         {
           "path": "pnpm-lock.yaml",
-          "sha256": "e4fbadfbad94d8b7137a6287ae2acc3ed573f955946fddc10e3e12ba7ed2988d"
+          "sha256": "b3b6580c6ff29ea85ea3de493711e7e21fb9e9e44894c107c240ab6159038760"
         },
         {
           "path": "pnpm-workspace.yaml",
-          "sha256": "f5588ea4d1b40a8ff54929d7e4b54dd080f9011974ff4048430a2121ab60b0a8"
+          "sha256": "37971978cbe62368c4ef83fc15be5ca367a7502bda5b823d0b2f967faf45b92f"
         },
         {
           "path": "src/build/config.mjs",
@@ -315,17 +315,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 336355,
-            "gzip": 105341,
-            "brotli": 88770,
-            "sha256": "d1c4c2fddee11f4584d686227b67c34a9f92d5c8e59b35869e62de5307f01d77"
+            "raw": 360925,
+            "gzip": 114454,
+            "brotli": 95813,
+            "sha256": "646822a1918bd9e7109356646b9214615d26ba660117b4335069d4715260bb76"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 340031,
-          "gzip": 106757,
-          "brotli": 89903
+          "raw": 364601,
+          "gzip": 115870,
+          "brotli": 96946
         },
         "byKind": {
           "style": {
@@ -336,9 +336,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 336355,
-            "gzip": 105341,
-            "brotli": 88770
+            "raw": 360925,
+            "gzip": 114454,
+            "brotli": 95813
           },
           "template": {
             "files": 1,
@@ -362,9 +362,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 340031,
-            "gzip": 106757,
-            "brotli": 89903
+            "raw": 364601,
+            "gzip": 115870,
+            "brotli": 96946
           }
         }
       },
@@ -868,17 +868,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 352314,
-            "gzip": 106250,
-            "brotli": 89468,
-            "sha256": "f52bd68597bc1b317e6ffaacec89596c5ecf8e3bfa10676ba21735dfb14c8e43"
+            "raw": 376885,
+            "gzip": 115306,
+            "brotli": 96406,
+            "sha256": "998232d4fbbc38bdc45ed84106f2dc7d28dfc97a886632c22405bc3569b5ce01"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 355543,
-          "gzip": 107478,
-          "brotli": 90432
+          "raw": 380114,
+          "gzip": 116534,
+          "brotli": 97370
         },
         "byKind": {
           "style": {
@@ -889,9 +889,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 352314,
-            "gzip": 106250,
-            "brotli": 89468
+            "raw": 376885,
+            "gzip": 115306,
+            "brotli": 96406
           },
           "template": {
             "files": 1,
@@ -915,9 +915,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 355543,
-            "gzip": 107478,
-            "brotli": 90432
+            "raw": 380114,
+            "gzip": 116534,
+            "brotli": 97370
           }
         }
       },
@@ -1150,17 +1150,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 317542,
-            "gzip": 99867,
-            "brotli": 84115,
-            "sha256": "a3712a70414095ab62bf9999e3fb457754305041064e58a62c477338467b18f5"
+            "raw": 342038,
+            "gzip": 108922,
+            "brotli": 91088,
+            "sha256": "3567473b6b7079e164e6a45396f614828d37adf33a93c618369d5a65f578a6dd"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 319334,
-          "gzip": 100763,
-          "brotli": 84797
+          "raw": 343830,
+          "gzip": 109818,
+          "brotli": 91770
         },
         "byKind": {
           "style": {
@@ -1171,9 +1171,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 317542,
-            "gzip": 99867,
-            "brotli": 84115
+            "raw": 342038,
+            "gzip": 108922,
+            "brotli": 91088
           },
           "template": {
             "files": 1,
@@ -1197,9 +1197,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 319334,
-            "gzip": 100763,
-            "brotli": 84797
+            "raw": 343830,
+            "gzip": 109818,
+            "brotli": 91770
           }
         }
       },
@@ -1432,17 +1432,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 338694,
-            "gzip": 100936,
-            "brotli": 84457,
-            "sha256": "f388c342cf2321a679d8438cd24c211493786435680bf81cc53912e4488ff0e2"
+            "raw": 363189,
+            "gzip": 110036,
+            "brotli": 91371,
+            "sha256": "11fead8a6443fe1d28381f5f259cbd230f17233ee138616e06a5a62862aeb081"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 340486,
-          "gzip": 101832,
-          "brotli": 85139
+          "raw": 364981,
+          "gzip": 110932,
+          "brotli": 92053
         },
         "byKind": {
           "style": {
@@ -1453,9 +1453,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 338694,
-            "gzip": 100936,
-            "brotli": 84457
+            "raw": 363189,
+            "gzip": 110036,
+            "brotli": 91371
           },
           "template": {
             "files": 1,
@@ -1479,9 +1479,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 340486,
-            "gzip": 101832,
-            "brotli": 85139
+            "raw": 364981,
+            "gzip": 110932,
+            "brotli": 92053
           }
         }
       },
@@ -1714,17 +1714,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 552896,
-            "gzip": 110755,
-            "brotli": 88087,
-            "sha256": "0fb5c075bb7fc97a2b6195116d962baa7297fcdbf254743af198f3339f8f233b"
+            "raw": 577391,
+            "gzip": 119516,
+            "brotli": 94984,
+            "sha256": "6e73af9741796bc0c8d1e2ee7fef6cf28bf5b9ec139646f7a22e03fb9b8a328e"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 554688,
-          "gzip": 111651,
-          "brotli": 88769
+          "raw": 579183,
+          "gzip": 120412,
+          "brotli": 95666
         },
         "byKind": {
           "style": {
@@ -1735,9 +1735,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 552896,
-            "gzip": 110755,
-            "brotli": 88087
+            "raw": 577391,
+            "gzip": 119516,
+            "brotli": 94984
           },
           "template": {
             "files": 1,
@@ -1761,9 +1761,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 554688,
-            "gzip": 111651,
-            "brotli": 88769
+            "raw": 579183,
+            "gzip": 120412,
+            "brotli": 95666
           }
         }
       },
@@ -1996,17 +1996,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 319558,
-            "gzip": 100459,
-            "brotli": 84477,
-            "sha256": "c15418c59644319b8ec0b6fcddcf1b8cfcdf8baa68b7a441b68692a7c15d77f4"
+            "raw": 344054,
+            "gzip": 109544,
+            "brotli": 91291,
+            "sha256": "20365bcf2b2a66d8360d5ca1bf3898535b12943d4ebd1459a2afe6f3f4ab37c6"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 323225,
-          "gzip": 101689,
-          "brotli": 85382
+          "raw": 347721,
+          "gzip": 110774,
+          "brotli": 92196
         },
         "byKind": {
           "style": {
@@ -2017,9 +2017,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 319558,
-            "gzip": 100459,
-            "brotli": 84477
+            "raw": 344054,
+            "gzip": 109544,
+            "brotli": 91291
           },
           "template": {
             "files": 1,
@@ -2043,9 +2043,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 323225,
-            "gzip": 101689,
-            "brotli": 85382
+            "raw": 347721,
+            "gzip": 110774,
+            "brotli": 92196
           }
         }
       },
@@ -2278,17 +2278,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 346394,
-            "gzip": 103943,
-            "brotli": 86271,
-            "sha256": "923b585354e1303794a53a4113d296595cadf18924995f8298175ed24507158f"
+            "raw": 370889,
+            "gzip": 113137,
+            "brotli": 93308,
+            "sha256": "75e9ba083f81d23b93b0f25ff0d0f026479e598072bb75db8c14aa1388507e3d"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 355239,
-          "gzip": 106091,
-          "brotli": 87652
+          "raw": 379734,
+          "gzip": 115285,
+          "brotli": 94689
         },
         "byKind": {
           "style": {
@@ -2299,9 +2299,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 346394,
-            "gzip": 103943,
-            "brotli": 86271
+            "raw": 370889,
+            "gzip": 113137,
+            "brotli": 93308
           },
           "template": {
             "files": 1,
@@ -2325,9 +2325,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 355239,
-            "gzip": 106091,
-            "brotli": 87652
+            "raw": 379734,
+            "gzip": 115285,
+            "brotli": 94689
           }
         }
       },
@@ -2560,17 +2560,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 602424,
-            "gzip": 131083,
-            "brotli": 102525,
-            "sha256": "7fa622f46da5adb7af1fa2352417fec82fe1001cb183997d5aadbdb20097bcf2"
+            "raw": 626919,
+            "gzip": 140450,
+            "brotli": 109535,
+            "sha256": "0e15f16688448870d83c8938c9181d1030501183a13b0998f7b3e7bf4d78bb24"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 649069,
-          "gzip": 139311,
-          "brotli": 107142
+          "raw": 673564,
+          "gzip": 148678,
+          "brotli": 114152
         },
         "byKind": {
           "style": {
@@ -2581,9 +2581,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 602424,
-            "gzip": 131083,
-            "brotli": 102525
+            "raw": 626919,
+            "gzip": 140450,
+            "brotli": 109535
           },
           "template": {
             "files": 1,
@@ -2607,9 +2607,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 649069,
-            "gzip": 139311,
-            "brotli": 107142
+            "raw": 673564,
+            "gzip": 148678,
+            "brotli": 114152
           }
         }
       },
@@ -2842,17 +2842,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 336355,
-            "gzip": 105341,
-            "brotli": 88770,
-            "sha256": "d1c4c2fddee11f4584d686227b67c34a9f92d5c8e59b35869e62de5307f01d77"
+            "raw": 360925,
+            "gzip": 114454,
+            "brotli": 95813,
+            "sha256": "646822a1918bd9e7109356646b9214615d26ba660117b4335069d4715260bb76"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 340031,
-          "gzip": 106757,
-          "brotli": 89903
+          "raw": 364601,
+          "gzip": 115870,
+          "brotli": 96946
         },
         "byKind": {
           "style": {
@@ -2863,9 +2863,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 336355,
-            "gzip": 105341,
-            "brotli": 88770
+            "raw": 360925,
+            "gzip": 114454,
+            "brotli": 95813
           },
           "template": {
             "files": 1,
@@ -2889,9 +2889,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 340031,
-            "gzip": 106757,
-            "brotli": 89903
+            "raw": 364601,
+            "gzip": 115870,
+            "brotli": 96946
           }
         }
       },
@@ -3395,17 +3395,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 352314,
-            "gzip": 106250,
-            "brotli": 89468,
-            "sha256": "f52bd68597bc1b317e6ffaacec89596c5ecf8e3bfa10676ba21735dfb14c8e43"
+            "raw": 376885,
+            "gzip": 115306,
+            "brotli": 96406,
+            "sha256": "998232d4fbbc38bdc45ed84106f2dc7d28dfc97a886632c22405bc3569b5ce01"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 355543,
-          "gzip": 107478,
-          "brotli": 90432
+          "raw": 380114,
+          "gzip": 116534,
+          "brotli": 97370
         },
         "byKind": {
           "style": {
@@ -3416,9 +3416,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 352314,
-            "gzip": 106250,
-            "brotli": 89468
+            "raw": 376885,
+            "gzip": 115306,
+            "brotli": 96406
           },
           "template": {
             "files": 1,
@@ -3442,9 +3442,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 355543,
-            "gzip": 107478,
-            "brotli": 90432
+            "raw": 380114,
+            "gzip": 116534,
+            "brotli": 97370
           }
         }
       },
@@ -3677,17 +3677,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 317542,
-            "gzip": 99867,
-            "brotli": 84115,
-            "sha256": "a3712a70414095ab62bf9999e3fb457754305041064e58a62c477338467b18f5"
+            "raw": 342038,
+            "gzip": 108922,
+            "brotli": 91088,
+            "sha256": "3567473b6b7079e164e6a45396f614828d37adf33a93c618369d5a65f578a6dd"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 319334,
-          "gzip": 100763,
-          "brotli": 84797
+          "raw": 343830,
+          "gzip": 109818,
+          "brotli": 91770
         },
         "byKind": {
           "style": {
@@ -3698,9 +3698,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 317542,
-            "gzip": 99867,
-            "brotli": 84115
+            "raw": 342038,
+            "gzip": 108922,
+            "brotli": 91088
           },
           "template": {
             "files": 1,
@@ -3724,9 +3724,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 319334,
-            "gzip": 100763,
-            "brotli": 84797
+            "raw": 343830,
+            "gzip": 109818,
+            "brotli": 91770
           }
         }
       },
@@ -3959,17 +3959,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 338694,
-            "gzip": 100936,
-            "brotli": 84457,
-            "sha256": "f388c342cf2321a679d8438cd24c211493786435680bf81cc53912e4488ff0e2"
+            "raw": 363189,
+            "gzip": 110036,
+            "brotli": 91371,
+            "sha256": "11fead8a6443fe1d28381f5f259cbd230f17233ee138616e06a5a62862aeb081"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 340486,
-          "gzip": 101832,
-          "brotli": 85139
+          "raw": 364981,
+          "gzip": 110932,
+          "brotli": 92053
         },
         "byKind": {
           "style": {
@@ -3980,9 +3980,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 338694,
-            "gzip": 100936,
-            "brotli": 84457
+            "raw": 363189,
+            "gzip": 110036,
+            "brotli": 91371
           },
           "template": {
             "files": 1,
@@ -4006,9 +4006,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 340486,
-            "gzip": 101832,
-            "brotli": 85139
+            "raw": 364981,
+            "gzip": 110932,
+            "brotli": 92053
           }
         }
       },
@@ -4241,17 +4241,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 552896,
-            "gzip": 110755,
-            "brotli": 88087,
-            "sha256": "0fb5c075bb7fc97a2b6195116d962baa7297fcdbf254743af198f3339f8f233b"
+            "raw": 577391,
+            "gzip": 119516,
+            "brotli": 94984,
+            "sha256": "6e73af9741796bc0c8d1e2ee7fef6cf28bf5b9ec139646f7a22e03fb9b8a328e"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 554688,
-          "gzip": 111651,
-          "brotli": 88769
+          "raw": 579183,
+          "gzip": 120412,
+          "brotli": 95666
         },
         "byKind": {
           "style": {
@@ -4262,9 +4262,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 552896,
-            "gzip": 110755,
-            "brotli": 88087
+            "raw": 577391,
+            "gzip": 119516,
+            "brotli": 94984
           },
           "template": {
             "files": 1,
@@ -4288,9 +4288,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 554688,
-            "gzip": 111651,
-            "brotli": 88769
+            "raw": 579183,
+            "gzip": 120412,
+            "brotli": 95666
           }
         }
       },
@@ -4523,17 +4523,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 319558,
-            "gzip": 100459,
-            "brotli": 84477,
-            "sha256": "c15418c59644319b8ec0b6fcddcf1b8cfcdf8baa68b7a441b68692a7c15d77f4"
+            "raw": 344054,
+            "gzip": 109544,
+            "brotli": 91291,
+            "sha256": "20365bcf2b2a66d8360d5ca1bf3898535b12943d4ebd1459a2afe6f3f4ab37c6"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 323225,
-          "gzip": 101689,
-          "brotli": 85382
+          "raw": 347721,
+          "gzip": 110774,
+          "brotli": 92196
         },
         "byKind": {
           "style": {
@@ -4544,9 +4544,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 319558,
-            "gzip": 100459,
-            "brotli": 84477
+            "raw": 344054,
+            "gzip": 109544,
+            "brotli": 91291
           },
           "template": {
             "files": 1,
@@ -4570,9 +4570,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 323225,
-            "gzip": 101689,
-            "brotli": 85382
+            "raw": 347721,
+            "gzip": 110774,
+            "brotli": 92196
           }
         }
       },
@@ -4805,17 +4805,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 346394,
-            "gzip": 103943,
-            "brotli": 86271,
-            "sha256": "923b585354e1303794a53a4113d296595cadf18924995f8298175ed24507158f"
+            "raw": 370889,
+            "gzip": 113137,
+            "brotli": 93308,
+            "sha256": "75e9ba083f81d23b93b0f25ff0d0f026479e598072bb75db8c14aa1388507e3d"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 355239,
-          "gzip": 106091,
-          "brotli": 87652
+          "raw": 379734,
+          "gzip": 115285,
+          "brotli": 94689
         },
         "byKind": {
           "style": {
@@ -4826,9 +4826,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 346394,
-            "gzip": 103943,
-            "brotli": 86271
+            "raw": 370889,
+            "gzip": 113137,
+            "brotli": 93308
           },
           "template": {
             "files": 1,
@@ -4852,9 +4852,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 355239,
-            "gzip": 106091,
-            "brotli": 87652
+            "raw": 379734,
+            "gzip": 115285,
+            "brotli": 94689
           }
         }
       },
@@ -5087,17 +5087,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 602424,
-            "gzip": 131083,
-            "brotli": 102525,
-            "sha256": "7fa622f46da5adb7af1fa2352417fec82fe1001cb183997d5aadbdb20097bcf2"
+            "raw": 626919,
+            "gzip": 140450,
+            "brotli": 109535,
+            "sha256": "0e15f16688448870d83c8938c9181d1030501183a13b0998f7b3e7bf4d78bb24"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 649069,
-          "gzip": 139311,
-          "brotli": 107142
+          "raw": 673564,
+          "gzip": 148678,
+          "brotli": 114152
         },
         "byKind": {
           "style": {
@@ -5108,9 +5108,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 602424,
-            "gzip": 131083,
-            "brotli": 102525
+            "raw": 626919,
+            "gzip": 140450,
+            "brotli": 109535
           },
           "template": {
             "files": 1,
@@ -5134,9 +5134,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 649069,
-            "gzip": 139311,
-            "brotli": 107142
+            "raw": 673564,
+            "gzip": 148678,
+            "brotli": 114152
           }
         }
       },
@@ -5384,17 +5384,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 374778,
-            "gzip": 120176,
-            "brotli": 100871,
-            "sha256": "9f2ffe394579622b92210bfd6b993cd7f9e1f99889618aa81e98ba8e5e4a6576"
+            "raw": 399355,
+            "gzip": 129281,
+            "brotli": 107877,
+            "sha256": "224c8c6f6117ddae5cc8c900efed14fc8e1838caa396868265e5683177c53a8f"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 393689,
-          "gzip": 127894,
-          "brotli": 107188
+          "raw": 418266,
+          "gzip": 136999,
+          "brotli": 114194
         },
         "byKind": {
           "style": {
@@ -5405,9 +5405,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 374778,
-            "gzip": 120176,
-            "brotli": 100871
+            "raw": 399355,
+            "gzip": 129281,
+            "brotli": 107877
           },
           "template": {
             "files": 1,
@@ -5431,9 +5431,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 393689,
-            "gzip": 127894,
-            "brotli": 107188
+            "raw": 418266,
+            "gzip": 136999,
+            "brotli": 114194
           }
         }
       },
@@ -5991,17 +5991,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 404268,
-            "gzip": 128162,
-            "brotli": 101159,
-            "sha256": "d96c57028263d9fda7dbe4df121d22a95f3479ce8249478279d4aab7216e68bd"
+            "raw": 428847,
+            "gzip": 137081,
+            "brotli": 108056,
+            "sha256": "eab6f4c9cea23270f47448d9b05b85330cf2633a6c1dfcf06e6cf692ed246d35"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 422450,
-          "gzip": 135666,
-          "brotli": 107252
+          "raw": 447029,
+          "gzip": 144585,
+          "brotli": 114149
         },
         "byKind": {
           "style": {
@@ -6012,9 +6012,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 404268,
-            "gzip": 128162,
-            "brotli": 101159
+            "raw": 428847,
+            "gzip": 137081,
+            "brotli": 108056
           },
           "template": {
             "files": 1,
@@ -6038,9 +6038,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 422450,
-            "gzip": 135666,
-            "brotli": 107252
+            "raw": 447029,
+            "gzip": 144585,
+            "brotli": 114149
           }
         }
       },
@@ -6288,17 +6288,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 350133,
-            "gzip": 113344,
-            "brotli": 94981,
-            "sha256": "d129f130c3e1149fe6894016cbd90f59586ee1640d408bc1aa23adfd51f627a8"
+            "raw": 374622,
+            "gzip": 122562,
+            "brotli": 101784,
+            "sha256": "f869aea294573e20ecb919794952026f8bddf257e506a487a39779942762f00f"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 366026,
-          "gzip": 120503,
-          "brotli": 100814
+          "raw": 390515,
+          "gzip": 129721,
+          "brotli": 107617
         },
         "byKind": {
           "style": {
@@ -6309,9 +6309,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 350133,
-            "gzip": 113344,
-            "brotli": 94981
+            "raw": 374622,
+            "gzip": 122562,
+            "brotli": 101784
           },
           "template": {
             "files": 1,
@@ -6335,9 +6335,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 366026,
-            "gzip": 120503,
-            "brotli": 100814
+            "raw": 390515,
+            "gzip": 129721,
+            "brotli": 107617
           }
         }
       },
@@ -6585,17 +6585,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 363092,
-            "gzip": 114512,
-            "brotli": 95238,
-            "sha256": "3fb037ea2ef16f26d6d463f7bb72eda9fc80a3eb287232c6fbe5927e54db2a92"
+            "raw": 387585,
+            "gzip": 123730,
+            "brotli": 102302,
+            "sha256": "eb43fff0bc8acdfe5cc4ffb187caec00329aad7fb79ead9825f476468221cb8b"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 378985,
-          "gzip": 121671,
-          "brotli": 101071
+          "raw": 403478,
+          "gzip": 130889,
+          "brotli": 108135
         },
         "byKind": {
           "style": {
@@ -6606,9 +6606,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 363092,
-            "gzip": 114512,
-            "brotli": 95238
+            "raw": 387585,
+            "gzip": 123730,
+            "brotli": 102302
           },
           "template": {
             "files": 1,
@@ -6632,9 +6632,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 378985,
-            "gzip": 121671,
-            "brotli": 101071
+            "raw": 403478,
+            "gzip": 130889,
+            "brotli": 108135
           }
         }
       },
@@ -6882,17 +6882,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 495394,
-            "gzip": 124322,
-            "brotli": 98690,
-            "sha256": "1ea285e2fab51ea5fad2f075bfd865bd7f6fb74e828b128a264627dee8f3ed8e"
+            "raw": 519887,
+            "gzip": 133118,
+            "brotli": 105376,
+            "sha256": "cd75b5ed1336512790d8638884dd2b7664e22e8511b6e24e4bafdf8af7541760"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 511287,
-          "gzip": 131481,
-          "brotli": 104523
+          "raw": 535780,
+          "gzip": 140277,
+          "brotli": 111209
         },
         "byKind": {
           "style": {
@@ -6903,9 +6903,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 495394,
-            "gzip": 124322,
-            "brotli": 98690
+            "raw": 519887,
+            "gzip": 133118,
+            "brotli": 105376
           },
           "template": {
             "files": 1,
@@ -6929,9 +6929,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 511287,
-            "gzip": 131481,
-            "brotli": 104523
+            "raw": 535780,
+            "gzip": 140277,
+            "brotli": 111209
           }
         }
       },
@@ -7179,17 +7179,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 355854,
-            "gzip": 114074,
-            "brotli": 95405,
-            "sha256": "aa1b1087791c6f3bdd828e4aab2e2d317d423d78c68355670f9e592260696f17"
+            "raw": 380343,
+            "gzip": 123312,
+            "brotli": 102232,
+            "sha256": "0080e02fad0e7ccdc9da1728a87218a4c20df1fe29fb88405a479c2caec514a3"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 375329,
-          "gzip": 121603,
-          "brotli": 101466
+          "raw": 399818,
+          "gzip": 130841,
+          "brotli": 108293
         },
         "byKind": {
           "style": {
@@ -7200,9 +7200,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 355854,
-            "gzip": 114074,
-            "brotli": 95405
+            "raw": 380343,
+            "gzip": 123312,
+            "brotli": 102232
           },
           "template": {
             "files": 1,
@@ -7226,9 +7226,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 375329,
-            "gzip": 121603,
-            "brotli": 101466
+            "raw": 399818,
+            "gzip": 130841,
+            "brotli": 108293
           }
         }
       },
@@ -7476,17 +7476,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 396277,
-            "gzip": 118607,
-            "brotli": 97510,
-            "sha256": "78ccb7009b7da069364f699952c86885910fd6af730276c3f8cb3ddf350501a2"
+            "raw": 420770,
+            "gzip": 127796,
+            "brotli": 104279,
+            "sha256": "2b0eb02b0c43008e2305cb381dc0b152a71a6fd02bbfb6097389d163b40a13e4"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 425613,
-          "gzip": 127199,
-          "brotli": 104021
+          "raw": 450106,
+          "gzip": 136388,
+          "brotli": 110790
         },
         "byKind": {
           "style": {
@@ -7497,9 +7497,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 396277,
-            "gzip": 118607,
-            "brotli": 97510
+            "raw": 420770,
+            "gzip": 127796,
+            "brotli": 104279
           },
           "template": {
             "files": 1,
@@ -7523,9 +7523,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 425613,
-            "gzip": 127199,
-            "brotli": 104021
+            "raw": 450106,
+            "gzip": 136388,
+            "brotli": 110790
           }
         }
       },
@@ -7773,17 +7773,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 772007,
-            "gzip": 151935,
-            "brotli": 114943,
-            "sha256": "ffec45e481d03eec619397321bf214cdde7181e5e43ea69b2c2d70a92b34a7cd"
+            "raw": 796500,
+            "gzip": 161572,
+            "brotli": 121338,
+            "sha256": "294ee06de16f2fcdf2c83790e6a0b714e6c598f259d6df8c930e6d4be4809bd7"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 871543,
-          "gzip": 167268,
-          "brotli": 124689
+          "raw": 896036,
+          "gzip": 176905,
+          "brotli": 131084
         },
         "byKind": {
           "style": {
@@ -7794,9 +7794,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 772007,
-            "gzip": 151935,
-            "brotli": 114943
+            "raw": 796500,
+            "gzip": 161572,
+            "brotli": 121338
           },
           "template": {
             "files": 1,
@@ -7820,9 +7820,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 871543,
-            "gzip": 167268,
-            "brotli": 124689
+            "raw": 896036,
+            "gzip": 176905,
+            "brotli": 131084
           }
         }
       },
@@ -8070,17 +8070,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 374055,
-            "gzip": 120155,
-            "brotli": 100804,
-            "sha256": "e19d66b34c689d2a01dbe28953fa8070d51270463e7f359760fe1e21a9057c8a"
+            "raw": 398632,
+            "gzip": 129280,
+            "brotli": 107839,
+            "sha256": "3efc1fdc11991edc32cc3d9ae7da1c04dc2668d2265e09a0ba4ddafc1096afa3"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 392243,
-          "gzip": 127837,
-          "brotli": 107094
+          "raw": 416820,
+          "gzip": 136962,
+          "brotli": 114129
         },
         "byKind": {
           "style": {
@@ -8091,9 +8091,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 374055,
-            "gzip": 120155,
-            "brotli": 100804
+            "raw": 398632,
+            "gzip": 129280,
+            "brotli": 107839
           },
           "template": {
             "files": 1,
@@ -8117,9 +8117,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 392243,
-            "gzip": 127837,
-            "brotli": 107094
+            "raw": 416820,
+            "gzip": 136962,
+            "brotli": 114129
           }
         }
       },
@@ -8677,17 +8677,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 403400,
-            "gzip": 128255,
-            "brotli": 101160,
-            "sha256": "3e7236e0f5352f4bbf72817187dfdf9eb89f4b094c0f655c9ebd039f76fed107"
+            "raw": 427979,
+            "gzip": 137171,
+            "brotli": 108101,
+            "sha256": "1422d02674f10c26dac759fdb22303cdbf0493d835783f4c60bfe13d6bfa7ea8"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 421148,
-          "gzip": 135789,
-          "brotli": 107308
+          "raw": 445727,
+          "gzip": 144705,
+          "brotli": 114249
         },
         "byKind": {
           "style": {
@@ -8698,9 +8698,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 403400,
-            "gzip": 128255,
-            "brotli": 101160
+            "raw": 427979,
+            "gzip": 137171,
+            "brotli": 108101
           },
           "template": {
             "files": 1,
@@ -8724,9 +8724,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 421148,
-            "gzip": 135789,
-            "brotli": 107308
+            "raw": 445727,
+            "gzip": 144705,
+            "brotli": 114249
           }
         }
       },
@@ -8974,17 +8974,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 350028,
-            "gzip": 113344,
-            "brotli": 95044,
-            "sha256": "eddc5cbe64806c6d46274c801f3809c85e336b100083c5b492fcb19a0ace66fe"
+            "raw": 374517,
+            "gzip": 122565,
+            "brotli": 101967,
+            "sha256": "7794cdae6777edbbcfb35a8d0caf6b4027833754ca9c7e2b179791d7de2dc5ff"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 365816,
-          "gzip": 120485,
-          "brotli": 100855
+          "raw": 390305,
+          "gzip": 129706,
+          "brotli": 107778
         },
         "byKind": {
           "style": {
@@ -8995,9 +8995,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 350028,
-            "gzip": 113344,
-            "brotli": 95044
+            "raw": 374517,
+            "gzip": 122565,
+            "brotli": 101967
           },
           "template": {
             "files": 1,
@@ -9021,9 +9021,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 365816,
-            "gzip": 120485,
-            "brotli": 100855
+            "raw": 390305,
+            "gzip": 129706,
+            "brotli": 107778
           }
         }
       },
@@ -9271,17 +9271,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 362987,
-            "gzip": 114503,
-            "brotli": 95386,
-            "sha256": "daa3589d0878794951d4c19573304f3ec92de2d584b625f0260abf4359f1d6c1"
+            "raw": 387480,
+            "gzip": 123733,
+            "brotli": 102258,
+            "sha256": "2835b4e195c7be7a031a24491a841d593b642f3475a8d5410cb5c4c05658095c"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 378775,
-          "gzip": 121644,
-          "brotli": 101197
+          "raw": 403268,
+          "gzip": 130874,
+          "brotli": 108069
         },
         "byKind": {
           "style": {
@@ -9292,9 +9292,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 362987,
-            "gzip": 114503,
-            "brotli": 95386
+            "raw": 387480,
+            "gzip": 123733,
+            "brotli": 102258
           },
           "template": {
             "files": 1,
@@ -9318,9 +9318,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 378775,
-            "gzip": 121644,
-            "brotli": 101197
+            "raw": 403268,
+            "gzip": 130874,
+            "brotli": 108069
           }
         }
       },
@@ -9568,17 +9568,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 495289,
-            "gzip": 124316,
-            "brotli": 98727,
-            "sha256": "d3ea2a2254082130a2b56bb4fd9f92f9f6ac4c8192dfcb5e9310cf9e2ff60ba8"
+            "raw": 519782,
+            "gzip": 133124,
+            "brotli": 105554,
+            "sha256": "49ba67e6d87e93ec58128c0c8cc21fec100971e2f2bb9ff698fa8bd862510797"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 511077,
-          "gzip": 131457,
-          "brotli": 104538
+          "raw": 535570,
+          "gzip": 140265,
+          "brotli": 111365
         },
         "byKind": {
           "style": {
@@ -9589,9 +9589,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 495289,
-            "gzip": 124316,
-            "brotli": 98727
+            "raw": 519782,
+            "gzip": 133124,
+            "brotli": 105554
           },
           "template": {
             "files": 1,
@@ -9615,9 +9615,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 511077,
-            "gzip": 131457,
-            "brotli": 104538
+            "raw": 535570,
+            "gzip": 140265,
+            "brotli": 111365
           }
         }
       },
@@ -9865,17 +9865,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 355610,
-            "gzip": 114189,
-            "brotli": 95499,
-            "sha256": "5486339a18fb06179d2776079f7a3a84d9377c7e1790cecb6d791bec5534e3f4"
+            "raw": 380099,
+            "gzip": 123440,
+            "brotli": 102339,
+            "sha256": "8fd9ffce443f252d48e9e8f8dba5ee90504da9a9235deedad65263f58ec2fb60"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 374841,
-          "gzip": 121834,
-          "brotli": 101706
+          "raw": 399330,
+          "gzip": 131085,
+          "brotli": 108546
         },
         "byKind": {
           "style": {
@@ -9886,9 +9886,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 355610,
-            "gzip": 114189,
-            "brotli": 95499
+            "raw": 380099,
+            "gzip": 123440,
+            "brotli": 102339
           },
           "template": {
             "files": 1,
@@ -9912,9 +9912,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 374841,
-            "gzip": 121834,
-            "brotli": 101706
+            "raw": 399330,
+            "gzip": 131085,
+            "brotli": 108546
           }
         }
       },
@@ -10162,17 +10162,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 394891,
-            "gzip": 119132,
-            "brotli": 98234,
-            "sha256": "cd9f51ae7bba19349f47f6be317178b2e04b4a23af555620dbc6cbd1ee0fa163"
+            "raw": 419384,
+            "gzip": 128323,
+            "brotli": 104978,
+            "sha256": "60eb19f98b1af216f16476ddea8148cbb9f675430ccb1aa83509b9456ab8395b"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 422841,
-          "gzip": 128218,
-          "brotli": 105415
+          "raw": 447334,
+          "gzip": 137409,
+          "brotli": 112159
         },
         "byKind": {
           "style": {
@@ -10183,9 +10183,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 394891,
-            "gzip": 119132,
-            "brotli": 98234
+            "raw": 419384,
+            "gzip": 128323,
+            "brotli": 104978
           },
           "template": {
             "files": 1,
@@ -10209,9 +10209,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 422841,
-            "gzip": 128218,
-            "brotli": 105415
+            "raw": 447334,
+            "gzip": 137409,
+            "brotli": 112159
           }
         }
       },
@@ -10459,17 +10459,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 759736,
-            "gzip": 156618,
-            "brotli": 118692,
-            "sha256": "40c507ba466c4072a7330316a84392c2b652fa92839742d0fe7132adc84c3fd8"
+            "raw": 784229,
+            "gzip": 165541,
+            "brotli": 125737,
+            "sha256": "eb3c54e36f3ae1f793e602b68a64f62caf501480b24a7112a50895323cf5a75d"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 847001,
-          "gzip": 175695,
-          "brotli": 132739
+          "raw": 871494,
+          "gzip": 184618,
+          "brotli": 139784
         },
         "byKind": {
           "style": {
@@ -10480,9 +10480,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 759736,
-            "gzip": 156618,
-            "brotli": 118692
+            "raw": 784229,
+            "gzip": 165541,
+            "brotli": 125737
           },
           "template": {
             "files": 1,
@@ -10506,9 +10506,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 847001,
-            "gzip": 175695,
-            "brotli": 132739
+            "raw": 871494,
+            "gzip": 184618,
+            "brotli": 139784
           }
         }
       },
@@ -10605,19 +10605,10 @@
             "path": "pages/gallery/index.wxss",
             "kind": "style",
             "package": "main",
-            "raw": 24,
-            "gzip": 44,
-            "brotli": 28,
-            "sha256": "5e052555caae1d4e259a0fe4729b9df4afdce7199b25d0828c346ccd0498cfc3"
-          },
-          {
-            "path": "pages/gallery/stylex.wxss",
-            "kind": "style",
-            "package": "main",
-            "raw": 2484,
-            "gzip": 1024,
-            "brotli": 915,
-            "sha256": "348f9685a0858a464e10f69f0be18be62aa46da9fc029af71c5ddd079b8adf53"
+            "raw": 28,
+            "gzip": 48,
+            "brotli": 32,
+            "sha256": "8f53a2523f9b3cbc6b7a274ccdc24f2ca918f5d2126a21cbcada7819caa02112"
           },
           {
             "path": "stylex.wxss",
@@ -10636,16 +10627,16 @@
           }
         ],
         "totals": {
-          "raw": 11573,
-          "gzip": 4954,
-          "brotli": 4349
+          "raw": 9093,
+          "gzip": 3934,
+          "brotli": 3438
         },
         "byKind": {
           "style": {
-            "files": 4,
-            "raw": 5134,
-            "gzip": 2219,
-            "brotli": 1947
+            "files": 3,
+            "raw": 2654,
+            "gzip": 1199,
+            "brotli": 1036
           },
           "script": {
             "files": 2,
@@ -10674,10 +10665,10 @@
         },
         "byPackage": {
           "main": {
-            "files": 9,
-            "raw": 11573,
-            "gzip": 4954,
-            "brotli": 4349
+            "files": 8,
+            "raw": 9093,
+            "gzip": 3934,
+            "brotli": 3438
           }
         }
       },
@@ -10691,13 +10682,8 @@
           },
           {
             "path": "pages/gallery/index.wxss",
-            "before": 25,
-            "after": 24
-          },
-          {
-            "path": "pages/gallery/stylex.wxss",
-            "before": 2598,
-            "after": 2484
+            "before": 29,
+            "after": 28
           },
           {
             "path": "stylex.wxss",
@@ -10705,13 +10691,13 @@
             "after": 2484
           }
         ],
-        "before": 5365,
-        "after": 5134
+        "before": 2771,
+        "after": 2654
       },
       "referenceValidation": {
         "status": "passed",
         "target": "weapp",
-        "files": 10,
+        "files": 9,
         "references": [
           {
             "from": "app.json",
@@ -10751,9 +10737,9 @@
           },
           {
             "from": "pages/gallery/index.wxss",
-            "to": "pages/gallery/stylex.wxss",
+            "to": "stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../../stylex.wxss"
           }
         ],
         "external": [],
@@ -10795,17 +10781,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 338051,
-            "gzip": 106510,
-            "brotli": 89796,
-            "sha256": "bb9dd60f8bd782c7e07718a48ebb8f94106fde5b10adc866829390235321ebf6"
+            "raw": 362624,
+            "gzip": 115600,
+            "brotli": 96782,
+            "sha256": "85ae74df582423aa886a8f90db804f8df90467f4fa847561fabb8c281b8208b8"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 338602,
-          "gzip": 106903,
-          "brotli": 90037
+          "raw": 363175,
+          "gzip": 115993,
+          "brotli": 97023
         },
         "byKind": {
           "style": {
@@ -10816,9 +10802,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 338051,
-            "gzip": 106510,
-            "brotli": 89796
+            "raw": 362624,
+            "gzip": 115600,
+            "brotli": 96782
           },
           "template": {
             "files": 1,
@@ -10842,9 +10828,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 338602,
-            "gzip": 106903,
-            "brotli": 90037
+            "raw": 363175,
+            "gzip": 115993,
+            "brotli": 97023
           }
         }
       },
@@ -10950,19 +10936,10 @@
             "path": "components/metric/index.wxss",
             "kind": "style",
             "package": "main",
-            "raw": 24,
-            "gzip": 44,
-            "brotli": 28,
-            "sha256": "5e052555caae1d4e259a0fe4729b9df4afdce7199b25d0828c346ccd0498cfc3"
-          },
-          {
-            "path": "components/metric/stylex.wxss",
-            "kind": "style",
-            "package": "main",
-            "raw": 1920,
-            "gzip": 800,
-            "brotli": 697,
-            "sha256": "ffdf69c0a3bd7c029a12847120986a568bfab171f983085ebdd72970c16cc244"
+            "raw": 28,
+            "gzip": 48,
+            "brotli": 32,
+            "sha256": "8f53a2523f9b3cbc6b7a274ccdc24f2ca918f5d2126a21cbcada7819caa02112"
           },
           {
             "path": "independent/components/metric/index.js",
@@ -10995,19 +10972,10 @@
             "path": "independent/components/metric/index.wxss",
             "kind": "style",
             "package": "independent",
-            "raw": 24,
-            "gzip": 44,
-            "brotli": 28,
-            "sha256": "5e052555caae1d4e259a0fe4729b9df4afdce7199b25d0828c346ccd0498cfc3"
-          },
-          {
-            "path": "independent/components/metric/stylex.wxss",
-            "kind": "style",
-            "package": "independent",
-            "raw": 1777,
-            "gzip": 738,
-            "brotli": 644,
-            "sha256": "c98228edf555f1e1ef2eaa877d6d4f5b7a096e755ff308eebc7a0983bdecbefc"
+            "raw": 28,
+            "gzip": 48,
+            "brotli": 32,
+            "sha256": "8f53a2523f9b3cbc6b7a274ccdc24f2ca918f5d2126a21cbcada7819caa02112"
           },
           {
             "path": "independent/settings/index.js",
@@ -11040,13 +11008,13 @@
             "path": "independent/settings/index.wxss",
             "kind": "style",
             "package": "independent",
-            "raw": 142,
-            "gzip": 127,
+            "raw": 143,
+            "gzip": 128,
             "brotli": 89,
-            "sha256": "85679ae1f8d5423623deea56f092fdf5a51d65ba255724ca105d6993a4e4224e"
+            "sha256": "98a55d801404d6c5f7ffe044fbdf12e2b4ce83f47c3de05487b68b97045583be"
           },
           {
-            "path": "independent/settings/stylex.wxss",
+            "path": "independent/stylex.wxss",
             "kind": "style",
             "package": "independent",
             "raw": 1777,
@@ -11085,19 +11053,10 @@
             "path": "package/detail/index.wxss",
             "kind": "style",
             "package": "package",
-            "raw": 24,
-            "gzip": 44,
-            "brotli": 28,
-            "sha256": "5e052555caae1d4e259a0fe4729b9df4afdce7199b25d0828c346ccd0498cfc3"
-          },
-          {
-            "path": "package/detail/stylex.wxss",
-            "kind": "style",
-            "package": "package",
-            "raw": 1920,
-            "gzip": 800,
-            "brotli": 697,
-            "sha256": "ffdf69c0a3bd7c029a12847120986a568bfab171f983085ebdd72970c16cc244"
+            "raw": 28,
+            "gzip": 48,
+            "brotli": 32,
+            "sha256": "8f53a2523f9b3cbc6b7a274ccdc24f2ca918f5d2126a21cbcada7819caa02112"
           },
           {
             "path": "pages/home/index.js",
@@ -11130,19 +11089,10 @@
             "path": "pages/home/index.wxss",
             "kind": "style",
             "package": "main",
-            "raw": 24,
-            "gzip": 44,
-            "brotli": 28,
-            "sha256": "5e052555caae1d4e259a0fe4729b9df4afdce7199b25d0828c346ccd0498cfc3"
-          },
-          {
-            "path": "pages/home/stylex.wxss",
-            "kind": "style",
-            "package": "main",
-            "raw": 1920,
-            "gzip": 800,
-            "brotli": 697,
-            "sha256": "ffdf69c0a3bd7c029a12847120986a568bfab171f983085ebdd72970c16cc244"
+            "raw": 28,
+            "gzip": 48,
+            "brotli": 32,
+            "sha256": "8f53a2523f9b3cbc6b7a274ccdc24f2ca918f5d2126a21cbcada7819caa02112"
           },
           {
             "path": "pages/list/index.js",
@@ -11175,19 +11125,10 @@
             "path": "pages/list/index.wxss",
             "kind": "style",
             "package": "main",
-            "raw": 24,
-            "gzip": 44,
-            "brotli": 28,
-            "sha256": "5e052555caae1d4e259a0fe4729b9df4afdce7199b25d0828c346ccd0498cfc3"
-          },
-          {
-            "path": "pages/list/stylex.wxss",
-            "kind": "style",
-            "package": "main",
-            "raw": 1920,
-            "gzip": 800,
-            "brotli": 697,
-            "sha256": "ffdf69c0a3bd7c029a12847120986a568bfab171f983085ebdd72970c16cc244"
+            "raw": 28,
+            "gzip": 48,
+            "brotli": 32,
+            "sha256": "8f53a2523f9b3cbc6b7a274ccdc24f2ca918f5d2126a21cbcada7819caa02112"
           },
           {
             "path": "stylex.js",
@@ -11215,16 +11156,16 @@
           }
         ],
         "totals": {
-          "raw": 31570,
-          "gzip": 13731,
-          "brotli": 11688
+          "raw": 22134,
+          "gzip": 9814,
+          "brotli": 8276
         },
         "byKind": {
           "style": {
-            "files": 14,
-            "raw": 13558,
-            "gzip": 5950,
-            "brotli": 5091
+            "files": 9,
+            "raw": 4122,
+            "gzip": 2033,
+            "brotli": 1679
           },
           "script": {
             "files": 9,
@@ -11253,22 +11194,22 @@
         },
         "byPackage": {
           "main": {
-            "files": 21,
-            "raw": 18868,
-            "gzip": 7613,
-            "brotli": 6398
+            "files": 18,
+            "raw": 13120,
+            "gzip": 5225,
+            "brotli": 4319
           },
           "package": {
-            "files": 5,
-            "raw": 4105,
-            "gzip": 1920,
-            "brotli": 1658
+            "files": 4,
+            "raw": 2189,
+            "gzip": 1124,
+            "brotli": 965
           },
           "independent": {
-            "files": 10,
-            "raw": 8597,
-            "gzip": 4198,
-            "brotli": 3632
+            "files": 9,
+            "raw": 6825,
+            "gzip": 3465,
+            "brotli": 2992
           }
         }
       },
@@ -11282,63 +11223,38 @@
           },
           {
             "path": "components/metric/index.wxss",
-            "before": 25,
-            "after": 24
-          },
-          {
-            "path": "components/metric/stylex.wxss",
-            "before": 1985,
-            "after": 1920
+            "before": 29,
+            "after": 28
           },
           {
             "path": "independent/components/metric/index.wxss",
-            "before": 25,
-            "after": 24
-          },
-          {
-            "path": "independent/components/metric/stylex.wxss",
-            "before": 1849,
-            "after": 1777
+            "before": 29,
+            "after": 28
           },
           {
             "path": "independent/settings/index.wxss",
-            "before": 144,
-            "after": 142
+            "before": 145,
+            "after": 143
           },
           {
-            "path": "independent/settings/stylex.wxss",
+            "path": "independent/stylex.wxss",
             "before": 1849,
             "after": 1777
           },
           {
             "path": "package/detail/index.wxss",
-            "before": 25,
-            "after": 24
-          },
-          {
-            "path": "package/detail/stylex.wxss",
-            "before": 1985,
-            "after": 1920
+            "before": 29,
+            "after": 28
           },
           {
             "path": "pages/home/index.wxss",
-            "before": 25,
-            "after": 24
-          },
-          {
-            "path": "pages/home/stylex.wxss",
-            "before": 1985,
-            "after": 1920
+            "before": 29,
+            "after": 28
           },
           {
             "path": "pages/list/index.wxss",
-            "before": 25,
-            "after": 24
-          },
-          {
-            "path": "pages/list/stylex.wxss",
-            "before": 1985,
-            "after": 1920
+            "before": 29,
+            "after": 28
           },
           {
             "path": "stylex.wxss",
@@ -11346,13 +11262,13 @@
             "after": 1920
           }
         ],
-        "before": 14036,
-        "after": 13558
+        "before": 4268,
+        "after": 4122
       },
       "referenceValidation": {
         "status": "passed",
         "target": "weapp",
-        "files": 37,
+        "files": 32,
         "references": [
           {
             "from": "app.json",
@@ -11446,15 +11362,15 @@
           },
           {
             "from": "components/metric/index.wxss",
-            "to": "components/metric/stylex.wxss",
+            "to": "stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../../stylex.wxss"
           },
           {
             "from": "independent/components/metric/index.wxss",
-            "to": "independent/components/metric/stylex.wxss",
+            "to": "independent/stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../../stylex.wxss"
           },
           {
             "from": "independent/settings/index.json",
@@ -11476,9 +11392,9 @@
           },
           {
             "from": "independent/settings/index.wxss",
-            "to": "independent/settings/stylex.wxss",
+            "to": "independent/stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../stylex.wxss"
           },
           {
             "from": "package/detail/index.js",
@@ -11512,9 +11428,9 @@
           },
           {
             "from": "package/detail/index.wxss",
-            "to": "package/detail/stylex.wxss",
+            "to": "stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../../stylex.wxss"
           },
           {
             "from": "pages/home/index.js",
@@ -11548,9 +11464,9 @@
           },
           {
             "from": "pages/home/index.wxss",
-            "to": "pages/home/stylex.wxss",
+            "to": "stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../../stylex.wxss"
           },
           {
             "from": "pages/list/index.js",
@@ -11566,9 +11482,9 @@
           },
           {
             "from": "pages/list/index.wxss",
-            "to": "pages/list/stylex.wxss",
+            "to": "stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../../stylex.wxss"
           }
         ],
         "external": [],
@@ -11612,17 +11528,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 354884,
-            "gzip": 107894,
-            "brotli": 90797,
-            "sha256": "25b0c9982726c34b61fa33270867522a06d5338984fc19824d833e4b8edde1e9"
+            "raw": 379461,
+            "gzip": 116960,
+            "brotli": 97775,
+            "sha256": "81138f0d8dd089fa934e4e4f16cdc76dbfbba0e58594f9acdda800f389d0c54a"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 355435,
-          "gzip": 108287,
-          "brotli": 91038
+          "raw": 380012,
+          "gzip": 117353,
+          "brotli": 98016
         },
         "byKind": {
           "style": {
@@ -11633,9 +11549,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 354884,
-            "gzip": 107894,
-            "brotli": 90797
+            "raw": 379461,
+            "gzip": 116960,
+            "brotli": 97775
           },
           "template": {
             "files": 1,
@@ -11659,9 +11575,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 355435,
-            "gzip": 108287,
-            "brotli": 91038
+            "raw": 380012,
+            "gzip": 117353,
+            "brotli": 98016
           }
         }
       },
@@ -11758,19 +11674,10 @@
             "path": "pages/scale/index.wxss",
             "kind": "style",
             "package": "main",
-            "raw": 24,
-            "gzip": 44,
-            "brotli": 28,
-            "sha256": "5e052555caae1d4e259a0fe4729b9df4afdce7199b25d0828c346ccd0498cfc3"
-          },
-          {
-            "path": "pages/scale/stylex.wxss",
-            "kind": "style",
-            "package": "main",
-            "raw": 1119,
-            "gzip": 507,
-            "brotli": 430,
-            "sha256": "5f5d336cb332a8e4e6b60ed0e7bde8ce5ac52d05061c32494d33b3b258338d75"
+            "raw": 28,
+            "gzip": 48,
+            "brotli": 32,
+            "sha256": "8f53a2523f9b3cbc6b7a274ccdc24f2ca918f5d2126a21cbcada7819caa02112"
           },
           {
             "path": "stylex.wxss",
@@ -11789,16 +11696,16 @@
           }
         ],
         "totals": {
-          "raw": 6171,
-          "gzip": 2898,
-          "brotli": 2458
+          "raw": 5056,
+          "gzip": 2395,
+          "brotli": 2032
         },
         "byKind": {
           "style": {
-            "files": 4,
-            "raw": 2404,
-            "gzip": 1185,
-            "brotli": 977
+            "files": 3,
+            "raw": 1289,
+            "gzip": 682,
+            "brotli": 551
           },
           "script": {
             "files": 2,
@@ -11827,10 +11734,10 @@
         },
         "byPackage": {
           "main": {
-            "files": 9,
-            "raw": 6171,
-            "gzip": 2898,
-            "brotli": 2458
+            "files": 8,
+            "raw": 5056,
+            "gzip": 2395,
+            "brotli": 2032
           }
         }
       },
@@ -11844,13 +11751,8 @@
           },
           {
             "path": "pages/scale/index.wxss",
-            "before": 25,
-            "after": 24
-          },
-          {
-            "path": "pages/scale/stylex.wxss",
-            "before": 1157,
-            "after": 1119
+            "before": 29,
+            "after": 28
           },
           {
             "path": "stylex.wxss",
@@ -11858,13 +11760,13 @@
             "after": 1119
           }
         ],
-        "before": 2483,
-        "after": 2404
+        "before": 1330,
+        "after": 1289
       },
       "referenceValidation": {
         "status": "passed",
         "target": "weapp",
-        "files": 10,
+        "files": 9,
         "references": [
           {
             "from": "app.json",
@@ -11904,9 +11806,9 @@
           },
           {
             "from": "pages/scale/index.wxss",
-            "to": "pages/scale/stylex.wxss",
+            "to": "stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../../stylex.wxss"
           }
         ],
         "external": [],
@@ -11948,17 +11850,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 318902,
-            "gzip": 100822,
-            "brotli": 84912,
-            "sha256": "06dcb8dea9316f4adec4ee28ca9c88a6a5106155e65ead0b2e48bb50c042f324"
+            "raw": 343389,
+            "gzip": 109905,
+            "brotli": 91878,
+            "sha256": "94b2956070491fd9be2df4beda9a6979ae90ce68dff5454813f27f88bc1a433a"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 319453,
-          "gzip": 101215,
-          "brotli": 85153
+          "raw": 343940,
+          "gzip": 110298,
+          "brotli": 92119
         },
         "byKind": {
           "style": {
@@ -11969,9 +11871,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 318902,
-            "gzip": 100822,
-            "brotli": 84912
+            "raw": 343389,
+            "gzip": 109905,
+            "brotli": 91878
           },
           "template": {
             "files": 1,
@@ -11995,9 +11897,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 319453,
-            "gzip": 101215,
-            "brotli": 85153
+            "raw": 343940,
+            "gzip": 110298,
+            "brotli": 92119
           }
         }
       },
@@ -12094,19 +11996,10 @@
             "path": "pages/scale/index.wxss",
             "kind": "style",
             "package": "main",
-            "raw": 24,
-            "gzip": 44,
-            "brotli": 28,
-            "sha256": "5e052555caae1d4e259a0fe4729b9df4afdce7199b25d0828c346ccd0498cfc3"
-          },
-          {
-            "path": "pages/scale/stylex.wxss",
-            "kind": "style",
-            "package": "main",
-            "raw": 1119,
-            "gzip": 507,
-            "brotli": 430,
-            "sha256": "5f5d336cb332a8e4e6b60ed0e7bde8ce5ac52d05061c32494d33b3b258338d75"
+            "raw": 28,
+            "gzip": 48,
+            "brotli": 32,
+            "sha256": "8f53a2523f9b3cbc6b7a274ccdc24f2ca918f5d2126a21cbcada7819caa02112"
           },
           {
             "path": "stylex.wxss",
@@ -12125,16 +12018,16 @@
           }
         ],
         "totals": {
-          "raw": 16073,
-          "gzip": 3615,
-          "brotli": 2791
+          "raw": 14958,
+          "gzip": 3112,
+          "brotli": 2365
         },
         "byKind": {
           "style": {
-            "files": 4,
-            "raw": 2404,
-            "gzip": 1185,
-            "brotli": 977
+            "files": 3,
+            "raw": 1289,
+            "gzip": 682,
+            "brotli": 551
           },
           "script": {
             "files": 2,
@@ -12163,10 +12056,10 @@
         },
         "byPackage": {
           "main": {
-            "files": 9,
-            "raw": 16073,
-            "gzip": 3615,
-            "brotli": 2791
+            "files": 8,
+            "raw": 14958,
+            "gzip": 3112,
+            "brotli": 2365
           }
         }
       },
@@ -12180,13 +12073,8 @@
           },
           {
             "path": "pages/scale/index.wxss",
-            "before": 25,
-            "after": 24
-          },
-          {
-            "path": "pages/scale/stylex.wxss",
-            "before": 1157,
-            "after": 1119
+            "before": 29,
+            "after": 28
           },
           {
             "path": "stylex.wxss",
@@ -12194,13 +12082,13 @@
             "after": 1119
           }
         ],
-        "before": 2483,
-        "after": 2404
+        "before": 1330,
+        "after": 1289
       },
       "referenceValidation": {
         "status": "passed",
         "target": "weapp",
-        "files": 10,
+        "files": 9,
         "references": [
           {
             "from": "app.json",
@@ -12240,9 +12128,9 @@
           },
           {
             "from": "pages/scale/index.wxss",
-            "to": "pages/scale/stylex.wxss",
+            "to": "stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../../stylex.wxss"
           }
         ],
         "external": [],
@@ -12284,17 +12172,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 332410,
-            "gzip": 101873,
-            "brotli": 85264,
-            "sha256": "6cb63ce7c892d6a3e2a7bc639d216c84b62f06b9aa057c236cdeb824248d0bde"
+            "raw": 356891,
+            "gzip": 111037,
+            "brotli": 92125,
+            "sha256": "3437178e1bccd7383757fcd93f414c4615881dcc2f41b1fec8c3fec70d81e7f3"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 332961,
-          "gzip": 102266,
-          "brotli": 85505
+          "raw": 357442,
+          "gzip": 111430,
+          "brotli": 92366
         },
         "byKind": {
           "style": {
@@ -12305,9 +12193,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 332410,
-            "gzip": 101873,
-            "brotli": 85264
+            "raw": 356891,
+            "gzip": 111037,
+            "brotli": 92125
           },
           "template": {
             "files": 1,
@@ -12331,9 +12219,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 332961,
-            "gzip": 102266,
-            "brotli": 85505
+            "raw": 357442,
+            "gzip": 111430,
+            "brotli": 92366
           }
         }
       },
@@ -12430,19 +12318,10 @@
             "path": "pages/scale/index.wxss",
             "kind": "style",
             "package": "main",
-            "raw": 24,
-            "gzip": 44,
-            "brotli": 28,
-            "sha256": "5e052555caae1d4e259a0fe4729b9df4afdce7199b25d0828c346ccd0498cfc3"
-          },
-          {
-            "path": "pages/scale/stylex.wxss",
-            "kind": "style",
-            "package": "main",
-            "raw": 1119,
-            "gzip": 507,
-            "brotli": 430,
-            "sha256": "5f5d336cb332a8e4e6b60ed0e7bde8ce5ac52d05061c32494d33b3b258338d75"
+            "raw": 28,
+            "gzip": 48,
+            "brotli": 32,
+            "sha256": "8f53a2523f9b3cbc6b7a274ccdc24f2ca918f5d2126a21cbcada7819caa02112"
           },
           {
             "path": "stylex.wxss",
@@ -12461,16 +12340,16 @@
           }
         ],
         "totals": {
-          "raw": 117775,
-          "gzip": 11213,
-          "brotli": 5942
+          "raw": 116660,
+          "gzip": 10710,
+          "brotli": 5516
         },
         "byKind": {
           "style": {
-            "files": 4,
-            "raw": 2404,
-            "gzip": 1185,
-            "brotli": 977
+            "files": 3,
+            "raw": 1289,
+            "gzip": 682,
+            "brotli": 551
           },
           "script": {
             "files": 2,
@@ -12499,10 +12378,10 @@
         },
         "byPackage": {
           "main": {
-            "files": 9,
-            "raw": 117775,
-            "gzip": 11213,
-            "brotli": 5942
+            "files": 8,
+            "raw": 116660,
+            "gzip": 10710,
+            "brotli": 5516
           }
         }
       },
@@ -12516,13 +12395,8 @@
           },
           {
             "path": "pages/scale/index.wxss",
-            "before": 25,
-            "after": 24
-          },
-          {
-            "path": "pages/scale/stylex.wxss",
-            "before": 1157,
-            "after": 1119
+            "before": 29,
+            "after": 28
           },
           {
             "path": "stylex.wxss",
@@ -12530,13 +12404,13 @@
             "after": 1119
           }
         ],
-        "before": 2483,
-        "after": 2404
+        "before": 1330,
+        "after": 1289
       },
       "referenceValidation": {
         "status": "passed",
         "target": "weapp",
-        "files": 10,
+        "files": 9,
         "references": [
           {
             "from": "app.json",
@@ -12576,9 +12450,9 @@
           },
           {
             "from": "pages/scale/index.wxss",
-            "to": "pages/scale/stylex.wxss",
+            "to": "stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../../stylex.wxss"
           }
         ],
         "external": [],
@@ -12620,17 +12494,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 470112,
-            "gzip": 111452,
-            "brotli": 88589,
-            "sha256": "881e4537929509013595b114509642d4f733796668cda965e2bace542744291a"
+            "raw": 494593,
+            "gzip": 120418,
+            "brotli": 95424,
+            "sha256": "6207ac39b4fccd430a77b70454effadb6fe50512c4209136e60418b034ff7d27"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 470663,
-          "gzip": 111845,
-          "brotli": 88830
+          "raw": 495144,
+          "gzip": 120811,
+          "brotli": 95665
         },
         "byKind": {
           "style": {
@@ -12641,9 +12515,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 470112,
-            "gzip": 111452,
-            "brotli": 88589
+            "raw": 494593,
+            "gzip": 120418,
+            "brotli": 95424
           },
           "template": {
             "files": 1,
@@ -12667,9 +12541,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 470663,
-            "gzip": 111845,
-            "brotli": 88830
+            "raw": 495144,
+            "gzip": 120811,
+            "brotli": 95665
           }
         }
       },
@@ -12766,19 +12640,10 @@
             "path": "pages/scale/index.wxss",
             "kind": "style",
             "package": "main",
-            "raw": 24,
-            "gzip": 44,
-            "brotli": 28,
-            "sha256": "5e052555caae1d4e259a0fe4729b9df4afdce7199b25d0828c346ccd0498cfc3"
-          },
-          {
-            "path": "pages/scale/stylex.wxss",
-            "kind": "style",
-            "package": "main",
-            "raw": 2734,
-            "gzip": 1015,
-            "brotli": 867,
-            "sha256": "bc90e4aaf0ef4b9b63227549a013d30c181958a6643a3349d101c99f41ff28f1"
+            "raw": 28,
+            "gzip": 48,
+            "brotli": 32,
+            "sha256": "8f53a2523f9b3cbc6b7a274ccdc24f2ca918f5d2126a21cbcada7819caa02112"
           },
           {
             "path": "stylex.wxss",
@@ -12797,16 +12662,16 @@
           }
         ],
         "totals": {
-          "raw": 10347,
-          "gzip": 4335,
-          "brotli": 3688
+          "raw": 7617,
+          "gzip": 3324,
+          "brotli": 2825
         },
         "byKind": {
           "style": {
-            "files": 4,
-            "raw": 5634,
-            "gzip": 2201,
-            "brotli": 1851
+            "files": 3,
+            "raw": 2904,
+            "gzip": 1190,
+            "brotli": 988
           },
           "script": {
             "files": 2,
@@ -12835,10 +12700,10 @@
         },
         "byPackage": {
           "main": {
-            "files": 9,
-            "raw": 10347,
-            "gzip": 4335,
-            "brotli": 3688
+            "files": 8,
+            "raw": 7617,
+            "gzip": 3324,
+            "brotli": 2825
           }
         }
       },
@@ -12852,13 +12717,8 @@
           },
           {
             "path": "pages/scale/index.wxss",
-            "before": 25,
-            "after": 24
-          },
-          {
-            "path": "pages/scale/stylex.wxss",
-            "before": 2835,
-            "after": 2734
+            "before": 29,
+            "after": 28
           },
           {
             "path": "stylex.wxss",
@@ -12866,13 +12726,13 @@
             "after": 2734
           }
         ],
-        "before": 5839,
-        "after": 5634
+        "before": 3008,
+        "after": 2904
       },
       "referenceValidation": {
         "status": "passed",
         "target": "weapp",
-        "files": 10,
+        "files": 9,
         "references": [
           {
             "from": "app.json",
@@ -12912,9 +12772,9 @@
           },
           {
             "from": "pages/scale/index.wxss",
-            "to": "pages/scale/stylex.wxss",
+            "to": "stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../../stylex.wxss"
           }
         ],
         "external": [],
@@ -12956,17 +12816,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 321526,
-            "gzip": 101705,
-            "brotli": 85660,
-            "sha256": "6befd3f114638c5513205fce1b6b8fc98da39dc04eba85db27620388d9b922dd"
+            "raw": 346013,
+            "gzip": 110818,
+            "brotli": 92563,
+            "sha256": "5c4fa5bf611f7c22e8109b928005b23706d679f0d8a5662c2daa13ef2d684421"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 322077,
-          "gzip": 102098,
-          "brotli": 85901
+          "raw": 346564,
+          "gzip": 111211,
+          "brotli": 92804
         },
         "byKind": {
           "style": {
@@ -12977,9 +12837,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 321526,
-            "gzip": 101705,
-            "brotli": 85660
+            "raw": 346013,
+            "gzip": 110818,
+            "brotli": 92563
           },
           "template": {
             "files": 1,
@@ -13003,9 +12863,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 322077,
-            "gzip": 102098,
-            "brotli": 85901
+            "raw": 346564,
+            "gzip": 111211,
+            "brotli": 92804
           }
         }
       },
@@ -13102,19 +12962,10 @@
             "path": "pages/scale/index.wxss",
             "kind": "style",
             "package": "main",
-            "raw": 24,
-            "gzip": 44,
-            "brotli": 28,
-            "sha256": "5e052555caae1d4e259a0fe4729b9df4afdce7199b25d0828c346ccd0498cfc3"
-          },
-          {
-            "path": "pages/scale/stylex.wxss",
-            "kind": "style",
-            "package": "main",
-            "raw": 7158,
-            "gzip": 2351,
-            "brotli": 1915,
-            "sha256": "9feb9519c43adeae571a32f44bcbb2a830772ea63ce0a9694112b639e77e175a"
+            "raw": 28,
+            "gzip": 48,
+            "brotli": 32,
+            "sha256": "8f53a2523f9b3cbc6b7a274ccdc24f2ca918f5d2126a21cbcada7819caa02112"
           },
           {
             "path": "stylex.wxss",
@@ -13133,16 +12984,16 @@
           }
         ],
         "totals": {
-          "raw": 38875,
-          "gzip": 10007,
-          "brotli": 8003
+          "raw": 31721,
+          "gzip": 7660,
+          "brotli": 6092
         },
         "byKind": {
           "style": {
-            "files": 4,
-            "raw": 14482,
-            "gzip": 4873,
-            "brotli": 3947
+            "files": 3,
+            "raw": 7328,
+            "gzip": 2526,
+            "brotli": 2036
           },
           "script": {
             "files": 2,
@@ -13171,10 +13022,10 @@
         },
         "byPackage": {
           "main": {
-            "files": 9,
-            "raw": 38875,
-            "gzip": 10007,
-            "brotli": 8003
+            "files": 8,
+            "raw": 31721,
+            "gzip": 7660,
+            "brotli": 6092
           }
         }
       },
@@ -13188,13 +13039,8 @@
           },
           {
             "path": "pages/scale/index.wxss",
-            "before": 25,
-            "after": 24
-          },
-          {
-            "path": "pages/scale/stylex.wxss",
-            "before": 7400,
-            "after": 7158
+            "before": 29,
+            "after": 28
           },
           {
             "path": "stylex.wxss",
@@ -13202,13 +13048,13 @@
             "after": 7158
           }
         ],
-        "before": 14969,
-        "after": 14482
+        "before": 7573,
+        "after": 7328
       },
       "referenceValidation": {
         "status": "passed",
         "target": "weapp",
-        "files": 10,
+        "files": 9,
         "references": [
           {
             "from": "app.json",
@@ -13248,9 +13094,9 @@
           },
           {
             "from": "pages/scale/index.wxss",
-            "to": "pages/scale/stylex.wxss",
+            "to": "stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../../stylex.wxss"
           }
         ],
         "external": [],
@@ -13292,17 +13138,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 349377,
-            "gzip": 106364,
-            "brotli": 88505,
-            "sha256": "feeef2e736a494534e5e9a21fb7380019aaf263a8499c273f01c76a15ef7d7c2"
+            "raw": 373858,
+            "gzip": 115511,
+            "brotli": 95442,
+            "sha256": "c24ea59836c8d5aa1d302e327a8b5c7c40c50483bcd855ae7526e855e57a261f"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 349928,
-          "gzip": 106757,
-          "brotli": 88746
+          "raw": 374409,
+          "gzip": 115904,
+          "brotli": 95683
         },
         "byKind": {
           "style": {
@@ -13313,9 +13159,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 349377,
-            "gzip": 106364,
-            "brotli": 88505
+            "raw": 373858,
+            "gzip": 115511,
+            "brotli": 95442
           },
           "template": {
             "files": 1,
@@ -13339,9 +13185,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 349928,
-            "gzip": 106757,
-            "brotli": 88746
+            "raw": 374409,
+            "gzip": 115904,
+            "brotli": 95683
           }
         }
       },
@@ -13438,19 +13284,10 @@
             "path": "pages/scale/index.wxss",
             "kind": "style",
             "package": "main",
-            "raw": 24,
-            "gzip": 44,
-            "brotli": 28,
-            "sha256": "5e052555caae1d4e259a0fe4729b9df4afdce7199b25d0828c346ccd0498cfc3"
-          },
-          {
-            "path": "pages/scale/stylex.wxss",
-            "kind": "style",
-            "package": "main",
-            "raw": 39063,
-            "gzip": 11487,
-            "brotli": 8613,
-            "sha256": "134caa461c953b25ff5f16f47c1b78827069606f2f54c5765ad30f9fb06917c5"
+            "raw": 28,
+            "gzip": 48,
+            "brotli": 32,
+            "sha256": "8f53a2523f9b3cbc6b7a274ccdc24f2ca918f5d2126a21cbcada7819caa02112"
           },
           {
             "path": "stylex.wxss",
@@ -13469,16 +13306,16 @@
           }
         ],
         "totals": {
-          "raw": 303912,
-          "gzip": 54536,
-          "brotli": 37467
+          "raw": 264853,
+          "gzip": 43053,
+          "brotli": 28858
         },
         "byKind": {
           "style": {
-            "files": 4,
-            "raw": 78292,
-            "gzip": 23145,
-            "brotli": 17343
+            "files": 3,
+            "raw": 39233,
+            "gzip": 11662,
+            "brotli": 8734
           },
           "script": {
             "files": 2,
@@ -13507,10 +13344,10 @@
         },
         "byPackage": {
           "main": {
-            "files": 9,
-            "raw": 303912,
-            "gzip": 54536,
-            "brotli": 37467
+            "files": 8,
+            "raw": 264853,
+            "gzip": 43053,
+            "brotli": 28858
           }
         }
       },
@@ -13524,13 +13361,8 @@
           },
           {
             "path": "pages/scale/index.wxss",
-            "before": 25,
-            "after": 24
-          },
-          {
-            "path": "pages/scale/stylex.wxss",
-            "before": 40205,
-            "after": 39063
+            "before": 29,
+            "after": 28
           },
           {
             "path": "stylex.wxss",
@@ -13538,13 +13370,13 @@
             "after": 39063
           }
         ],
-        "before": 80579,
-        "after": 78292
+        "before": 40378,
+        "after": 39233
       },
       "referenceValidation": {
         "status": "passed",
         "target": "weapp",
-        "files": 10,
+        "files": 9,
         "references": [
           {
             "from": "app.json",
@@ -13584,9 +13416,9 @@
           },
           {
             "from": "pages/scale/index.wxss",
-            "to": "pages/scale/stylex.wxss",
+            "to": "stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../../stylex.wxss"
           }
         ],
         "external": [],
@@ -13628,17 +13460,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 619409,
-            "gzip": 144429,
-            "brotli": 110693,
-            "sha256": "334ff17eaa018136302f29e2b0cf8ccaed561133a36bbec56ab26a2d11234c59"
+            "raw": 643890,
+            "gzip": 153271,
+            "brotli": 117719,
+            "sha256": "b3881f811d7d8461138c1c753e242127b93c820ab2e2c3808cc135cab0de5082"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 619960,
-          "gzip": 144822,
-          "brotli": 110934
+          "raw": 644441,
+          "gzip": 153664,
+          "brotli": 117960
         },
         "byKind": {
           "style": {
@@ -13649,9 +13481,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 619409,
-            "gzip": 144429,
-            "brotli": 110693
+            "raw": 643890,
+            "gzip": 153271,
+            "brotli": 117719
           },
           "template": {
             "files": 1,
@@ -13675,9 +13507,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 619960,
-            "gzip": 144822,
-            "brotli": 110934
+            "raw": 644441,
+            "gzip": 153664,
+            "brotli": 117960
           }
         }
       },
@@ -13774,19 +13606,10 @@
             "path": "pages/gallery/index.wxss",
             "kind": "style",
             "package": "main",
-            "raw": 24,
-            "gzip": 44,
-            "brotli": 28,
-            "sha256": "5e052555caae1d4e259a0fe4729b9df4afdce7199b25d0828c346ccd0498cfc3"
-          },
-          {
-            "path": "pages/gallery/stylex.wxss",
-            "kind": "style",
-            "package": "main",
-            "raw": 2484,
-            "gzip": 1024,
-            "brotli": 915,
-            "sha256": "348f9685a0858a464e10f69f0be18be62aa46da9fc029af71c5ddd079b8adf53"
+            "raw": 28,
+            "gzip": 48,
+            "brotli": 32,
+            "sha256": "8f53a2523f9b3cbc6b7a274ccdc24f2ca918f5d2126a21cbcada7819caa02112"
           },
           {
             "path": "stylex.wxss",
@@ -13805,16 +13628,16 @@
           }
         ],
         "totals": {
-          "raw": 11573,
-          "gzip": 4954,
-          "brotli": 4349
+          "raw": 9093,
+          "gzip": 3934,
+          "brotli": 3438
         },
         "byKind": {
           "style": {
-            "files": 4,
-            "raw": 5134,
-            "gzip": 2219,
-            "brotli": 1947
+            "files": 3,
+            "raw": 2654,
+            "gzip": 1199,
+            "brotli": 1036
           },
           "script": {
             "files": 2,
@@ -13843,10 +13666,10 @@
         },
         "byPackage": {
           "main": {
-            "files": 9,
-            "raw": 11573,
-            "gzip": 4954,
-            "brotli": 4349
+            "files": 8,
+            "raw": 9093,
+            "gzip": 3934,
+            "brotli": 3438
           }
         }
       },
@@ -13860,13 +13683,8 @@
           },
           {
             "path": "pages/gallery/index.wxss",
-            "before": 25,
-            "after": 24
-          },
-          {
-            "path": "pages/gallery/stylex.wxss",
-            "before": 2598,
-            "after": 2484
+            "before": 29,
+            "after": 28
           },
           {
             "path": "stylex.wxss",
@@ -13874,13 +13692,13 @@
             "after": 2484
           }
         ],
-        "before": 5365,
-        "after": 5134
+        "before": 2771,
+        "after": 2654
       },
       "referenceValidation": {
         "status": "passed",
         "target": "weapp",
-        "files": 10,
+        "files": 9,
         "references": [
           {
             "from": "app.json",
@@ -13920,9 +13738,9 @@
           },
           {
             "from": "pages/gallery/index.wxss",
-            "to": "pages/gallery/stylex.wxss",
+            "to": "stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../../stylex.wxss"
           }
         ],
         "external": [],
@@ -13964,17 +13782,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 338051,
-            "gzip": 106510,
-            "brotli": 89796,
-            "sha256": "bb9dd60f8bd782c7e07718a48ebb8f94106fde5b10adc866829390235321ebf6"
+            "raw": 362624,
+            "gzip": 115600,
+            "brotli": 96782,
+            "sha256": "85ae74df582423aa886a8f90db804f8df90467f4fa847561fabb8c281b8208b8"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 338602,
-          "gzip": 106903,
-          "brotli": 90037
+          "raw": 363175,
+          "gzip": 115993,
+          "brotli": 97023
         },
         "byKind": {
           "style": {
@@ -13985,9 +13803,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 338051,
-            "gzip": 106510,
-            "brotli": 89796
+            "raw": 362624,
+            "gzip": 115600,
+            "brotli": 96782
           },
           "template": {
             "files": 1,
@@ -14011,9 +13829,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 338602,
-            "gzip": 106903,
-            "brotli": 90037
+            "raw": 363175,
+            "gzip": 115993,
+            "brotli": 97023
           }
         }
       },
@@ -14119,19 +13937,10 @@
             "path": "components/metric/index.wxss",
             "kind": "style",
             "package": "main",
-            "raw": 24,
-            "gzip": 44,
-            "brotli": 28,
-            "sha256": "5e052555caae1d4e259a0fe4729b9df4afdce7199b25d0828c346ccd0498cfc3"
-          },
-          {
-            "path": "components/metric/stylex.wxss",
-            "kind": "style",
-            "package": "main",
-            "raw": 1920,
-            "gzip": 800,
-            "brotli": 697,
-            "sha256": "ffdf69c0a3bd7c029a12847120986a568bfab171f983085ebdd72970c16cc244"
+            "raw": 28,
+            "gzip": 48,
+            "brotli": 32,
+            "sha256": "8f53a2523f9b3cbc6b7a274ccdc24f2ca918f5d2126a21cbcada7819caa02112"
           },
           {
             "path": "independent/components/metric/index.js",
@@ -14164,19 +13973,10 @@
             "path": "independent/components/metric/index.wxss",
             "kind": "style",
             "package": "independent",
-            "raw": 24,
-            "gzip": 44,
-            "brotli": 28,
-            "sha256": "5e052555caae1d4e259a0fe4729b9df4afdce7199b25d0828c346ccd0498cfc3"
-          },
-          {
-            "path": "independent/components/metric/stylex.wxss",
-            "kind": "style",
-            "package": "independent",
-            "raw": 1777,
-            "gzip": 738,
-            "brotli": 644,
-            "sha256": "c98228edf555f1e1ef2eaa877d6d4f5b7a096e755ff308eebc7a0983bdecbefc"
+            "raw": 28,
+            "gzip": 48,
+            "brotli": 32,
+            "sha256": "8f53a2523f9b3cbc6b7a274ccdc24f2ca918f5d2126a21cbcada7819caa02112"
           },
           {
             "path": "independent/settings/index.js",
@@ -14209,13 +14009,13 @@
             "path": "independent/settings/index.wxss",
             "kind": "style",
             "package": "independent",
-            "raw": 142,
-            "gzip": 127,
+            "raw": 143,
+            "gzip": 128,
             "brotli": 89,
-            "sha256": "85679ae1f8d5423623deea56f092fdf5a51d65ba255724ca105d6993a4e4224e"
+            "sha256": "98a55d801404d6c5f7ffe044fbdf12e2b4ce83f47c3de05487b68b97045583be"
           },
           {
-            "path": "independent/settings/stylex.wxss",
+            "path": "independent/stylex.wxss",
             "kind": "style",
             "package": "independent",
             "raw": 1777,
@@ -14254,19 +14054,10 @@
             "path": "package/detail/index.wxss",
             "kind": "style",
             "package": "package",
-            "raw": 24,
-            "gzip": 44,
-            "brotli": 28,
-            "sha256": "5e052555caae1d4e259a0fe4729b9df4afdce7199b25d0828c346ccd0498cfc3"
-          },
-          {
-            "path": "package/detail/stylex.wxss",
-            "kind": "style",
-            "package": "package",
-            "raw": 1920,
-            "gzip": 800,
-            "brotli": 697,
-            "sha256": "ffdf69c0a3bd7c029a12847120986a568bfab171f983085ebdd72970c16cc244"
+            "raw": 28,
+            "gzip": 48,
+            "brotli": 32,
+            "sha256": "8f53a2523f9b3cbc6b7a274ccdc24f2ca918f5d2126a21cbcada7819caa02112"
           },
           {
             "path": "pages/home/index.js",
@@ -14299,19 +14090,10 @@
             "path": "pages/home/index.wxss",
             "kind": "style",
             "package": "main",
-            "raw": 24,
-            "gzip": 44,
-            "brotli": 28,
-            "sha256": "5e052555caae1d4e259a0fe4729b9df4afdce7199b25d0828c346ccd0498cfc3"
-          },
-          {
-            "path": "pages/home/stylex.wxss",
-            "kind": "style",
-            "package": "main",
-            "raw": 1920,
-            "gzip": 800,
-            "brotli": 697,
-            "sha256": "ffdf69c0a3bd7c029a12847120986a568bfab171f983085ebdd72970c16cc244"
+            "raw": 28,
+            "gzip": 48,
+            "brotli": 32,
+            "sha256": "8f53a2523f9b3cbc6b7a274ccdc24f2ca918f5d2126a21cbcada7819caa02112"
           },
           {
             "path": "pages/list/index.js",
@@ -14344,19 +14126,10 @@
             "path": "pages/list/index.wxss",
             "kind": "style",
             "package": "main",
-            "raw": 24,
-            "gzip": 44,
-            "brotli": 28,
-            "sha256": "5e052555caae1d4e259a0fe4729b9df4afdce7199b25d0828c346ccd0498cfc3"
-          },
-          {
-            "path": "pages/list/stylex.wxss",
-            "kind": "style",
-            "package": "main",
-            "raw": 1920,
-            "gzip": 800,
-            "brotli": 697,
-            "sha256": "ffdf69c0a3bd7c029a12847120986a568bfab171f983085ebdd72970c16cc244"
+            "raw": 28,
+            "gzip": 48,
+            "brotli": 32,
+            "sha256": "8f53a2523f9b3cbc6b7a274ccdc24f2ca918f5d2126a21cbcada7819caa02112"
           },
           {
             "path": "stylex.js",
@@ -14384,16 +14157,16 @@
           }
         ],
         "totals": {
-          "raw": 31570,
-          "gzip": 13731,
-          "brotli": 11688
+          "raw": 22134,
+          "gzip": 9814,
+          "brotli": 8276
         },
         "byKind": {
           "style": {
-            "files": 14,
-            "raw": 13558,
-            "gzip": 5950,
-            "brotli": 5091
+            "files": 9,
+            "raw": 4122,
+            "gzip": 2033,
+            "brotli": 1679
           },
           "script": {
             "files": 9,
@@ -14422,22 +14195,22 @@
         },
         "byPackage": {
           "main": {
-            "files": 21,
-            "raw": 18868,
-            "gzip": 7613,
-            "brotli": 6398
+            "files": 18,
+            "raw": 13120,
+            "gzip": 5225,
+            "brotli": 4319
           },
           "package": {
-            "files": 5,
-            "raw": 4105,
-            "gzip": 1920,
-            "brotli": 1658
+            "files": 4,
+            "raw": 2189,
+            "gzip": 1124,
+            "brotli": 965
           },
           "independent": {
-            "files": 10,
-            "raw": 8597,
-            "gzip": 4198,
-            "brotli": 3632
+            "files": 9,
+            "raw": 6825,
+            "gzip": 3465,
+            "brotli": 2992
           }
         }
       },
@@ -14451,63 +14224,38 @@
           },
           {
             "path": "components/metric/index.wxss",
-            "before": 25,
-            "after": 24
-          },
-          {
-            "path": "components/metric/stylex.wxss",
-            "before": 1985,
-            "after": 1920
+            "before": 29,
+            "after": 28
           },
           {
             "path": "independent/components/metric/index.wxss",
-            "before": 25,
-            "after": 24
-          },
-          {
-            "path": "independent/components/metric/stylex.wxss",
-            "before": 1849,
-            "after": 1777
+            "before": 29,
+            "after": 28
           },
           {
             "path": "independent/settings/index.wxss",
-            "before": 144,
-            "after": 142
+            "before": 145,
+            "after": 143
           },
           {
-            "path": "independent/settings/stylex.wxss",
+            "path": "independent/stylex.wxss",
             "before": 1849,
             "after": 1777
           },
           {
             "path": "package/detail/index.wxss",
-            "before": 25,
-            "after": 24
-          },
-          {
-            "path": "package/detail/stylex.wxss",
-            "before": 1985,
-            "after": 1920
+            "before": 29,
+            "after": 28
           },
           {
             "path": "pages/home/index.wxss",
-            "before": 25,
-            "after": 24
-          },
-          {
-            "path": "pages/home/stylex.wxss",
-            "before": 1985,
-            "after": 1920
+            "before": 29,
+            "after": 28
           },
           {
             "path": "pages/list/index.wxss",
-            "before": 25,
-            "after": 24
-          },
-          {
-            "path": "pages/list/stylex.wxss",
-            "before": 1985,
-            "after": 1920
+            "before": 29,
+            "after": 28
           },
           {
             "path": "stylex.wxss",
@@ -14515,13 +14263,13 @@
             "after": 1920
           }
         ],
-        "before": 14036,
-        "after": 13558
+        "before": 4268,
+        "after": 4122
       },
       "referenceValidation": {
         "status": "passed",
         "target": "weapp",
-        "files": 37,
+        "files": 32,
         "references": [
           {
             "from": "app.json",
@@ -14615,15 +14363,15 @@
           },
           {
             "from": "components/metric/index.wxss",
-            "to": "components/metric/stylex.wxss",
+            "to": "stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../../stylex.wxss"
           },
           {
             "from": "independent/components/metric/index.wxss",
-            "to": "independent/components/metric/stylex.wxss",
+            "to": "independent/stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../../stylex.wxss"
           },
           {
             "from": "independent/settings/index.json",
@@ -14645,9 +14393,9 @@
           },
           {
             "from": "independent/settings/index.wxss",
-            "to": "independent/settings/stylex.wxss",
+            "to": "independent/stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../stylex.wxss"
           },
           {
             "from": "package/detail/index.js",
@@ -14681,9 +14429,9 @@
           },
           {
             "from": "package/detail/index.wxss",
-            "to": "package/detail/stylex.wxss",
+            "to": "stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../../stylex.wxss"
           },
           {
             "from": "pages/home/index.js",
@@ -14717,9 +14465,9 @@
           },
           {
             "from": "pages/home/index.wxss",
-            "to": "pages/home/stylex.wxss",
+            "to": "stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../../stylex.wxss"
           },
           {
             "from": "pages/list/index.js",
@@ -14735,9 +14483,9 @@
           },
           {
             "from": "pages/list/index.wxss",
-            "to": "pages/list/stylex.wxss",
+            "to": "stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../../stylex.wxss"
           }
         ],
         "external": [],
@@ -14781,17 +14529,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 354884,
-            "gzip": 107894,
-            "brotli": 90797,
-            "sha256": "25b0c9982726c34b61fa33270867522a06d5338984fc19824d833e4b8edde1e9"
+            "raw": 379461,
+            "gzip": 116960,
+            "brotli": 97775,
+            "sha256": "81138f0d8dd089fa934e4e4f16cdc76dbfbba0e58594f9acdda800f389d0c54a"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 355435,
-          "gzip": 108287,
-          "brotli": 91038
+          "raw": 380012,
+          "gzip": 117353,
+          "brotli": 98016
         },
         "byKind": {
           "style": {
@@ -14802,9 +14550,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 354884,
-            "gzip": 107894,
-            "brotli": 90797
+            "raw": 379461,
+            "gzip": 116960,
+            "brotli": 97775
           },
           "template": {
             "files": 1,
@@ -14828,9 +14576,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 355435,
-            "gzip": 108287,
-            "brotli": 91038
+            "raw": 380012,
+            "gzip": 117353,
+            "brotli": 98016
           }
         }
       },
@@ -14927,19 +14675,10 @@
             "path": "pages/scale/index.wxss",
             "kind": "style",
             "package": "main",
-            "raw": 24,
-            "gzip": 44,
-            "brotli": 28,
-            "sha256": "5e052555caae1d4e259a0fe4729b9df4afdce7199b25d0828c346ccd0498cfc3"
-          },
-          {
-            "path": "pages/scale/stylex.wxss",
-            "kind": "style",
-            "package": "main",
-            "raw": 1119,
-            "gzip": 507,
-            "brotli": 430,
-            "sha256": "5f5d336cb332a8e4e6b60ed0e7bde8ce5ac52d05061c32494d33b3b258338d75"
+            "raw": 28,
+            "gzip": 48,
+            "brotli": 32,
+            "sha256": "8f53a2523f9b3cbc6b7a274ccdc24f2ca918f5d2126a21cbcada7819caa02112"
           },
           {
             "path": "stylex.wxss",
@@ -14958,16 +14697,16 @@
           }
         ],
         "totals": {
-          "raw": 6171,
-          "gzip": 2898,
-          "brotli": 2458
+          "raw": 5056,
+          "gzip": 2395,
+          "brotli": 2032
         },
         "byKind": {
           "style": {
-            "files": 4,
-            "raw": 2404,
-            "gzip": 1185,
-            "brotli": 977
+            "files": 3,
+            "raw": 1289,
+            "gzip": 682,
+            "brotli": 551
           },
           "script": {
             "files": 2,
@@ -14996,10 +14735,10 @@
         },
         "byPackage": {
           "main": {
-            "files": 9,
-            "raw": 6171,
-            "gzip": 2898,
-            "brotli": 2458
+            "files": 8,
+            "raw": 5056,
+            "gzip": 2395,
+            "brotli": 2032
           }
         }
       },
@@ -15013,13 +14752,8 @@
           },
           {
             "path": "pages/scale/index.wxss",
-            "before": 25,
-            "after": 24
-          },
-          {
-            "path": "pages/scale/stylex.wxss",
-            "before": 1157,
-            "after": 1119
+            "before": 29,
+            "after": 28
           },
           {
             "path": "stylex.wxss",
@@ -15027,13 +14761,13 @@
             "after": 1119
           }
         ],
-        "before": 2483,
-        "after": 2404
+        "before": 1330,
+        "after": 1289
       },
       "referenceValidation": {
         "status": "passed",
         "target": "weapp",
-        "files": 10,
+        "files": 9,
         "references": [
           {
             "from": "app.json",
@@ -15073,9 +14807,9 @@
           },
           {
             "from": "pages/scale/index.wxss",
-            "to": "pages/scale/stylex.wxss",
+            "to": "stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../../stylex.wxss"
           }
         ],
         "external": [],
@@ -15117,17 +14851,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 318902,
-            "gzip": 100822,
-            "brotli": 84912,
-            "sha256": "06dcb8dea9316f4adec4ee28ca9c88a6a5106155e65ead0b2e48bb50c042f324"
+            "raw": 343389,
+            "gzip": 109905,
+            "brotli": 91878,
+            "sha256": "94b2956070491fd9be2df4beda9a6979ae90ce68dff5454813f27f88bc1a433a"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 319453,
-          "gzip": 101215,
-          "brotli": 85153
+          "raw": 343940,
+          "gzip": 110298,
+          "brotli": 92119
         },
         "byKind": {
           "style": {
@@ -15138,9 +14872,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 318902,
-            "gzip": 100822,
-            "brotli": 84912
+            "raw": 343389,
+            "gzip": 109905,
+            "brotli": 91878
           },
           "template": {
             "files": 1,
@@ -15164,9 +14898,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 319453,
-            "gzip": 101215,
-            "brotli": 85153
+            "raw": 343940,
+            "gzip": 110298,
+            "brotli": 92119
           }
         }
       },
@@ -15263,19 +14997,10 @@
             "path": "pages/scale/index.wxss",
             "kind": "style",
             "package": "main",
-            "raw": 24,
-            "gzip": 44,
-            "brotli": 28,
-            "sha256": "5e052555caae1d4e259a0fe4729b9df4afdce7199b25d0828c346ccd0498cfc3"
-          },
-          {
-            "path": "pages/scale/stylex.wxss",
-            "kind": "style",
-            "package": "main",
-            "raw": 1119,
-            "gzip": 507,
-            "brotli": 430,
-            "sha256": "5f5d336cb332a8e4e6b60ed0e7bde8ce5ac52d05061c32494d33b3b258338d75"
+            "raw": 28,
+            "gzip": 48,
+            "brotli": 32,
+            "sha256": "8f53a2523f9b3cbc6b7a274ccdc24f2ca918f5d2126a21cbcada7819caa02112"
           },
           {
             "path": "stylex.wxss",
@@ -15294,16 +15019,16 @@
           }
         ],
         "totals": {
-          "raw": 16073,
-          "gzip": 3615,
-          "brotli": 2791
+          "raw": 14958,
+          "gzip": 3112,
+          "brotli": 2365
         },
         "byKind": {
           "style": {
-            "files": 4,
-            "raw": 2404,
-            "gzip": 1185,
-            "brotli": 977
+            "files": 3,
+            "raw": 1289,
+            "gzip": 682,
+            "brotli": 551
           },
           "script": {
             "files": 2,
@@ -15332,10 +15057,10 @@
         },
         "byPackage": {
           "main": {
-            "files": 9,
-            "raw": 16073,
-            "gzip": 3615,
-            "brotli": 2791
+            "files": 8,
+            "raw": 14958,
+            "gzip": 3112,
+            "brotli": 2365
           }
         }
       },
@@ -15349,13 +15074,8 @@
           },
           {
             "path": "pages/scale/index.wxss",
-            "before": 25,
-            "after": 24
-          },
-          {
-            "path": "pages/scale/stylex.wxss",
-            "before": 1157,
-            "after": 1119
+            "before": 29,
+            "after": 28
           },
           {
             "path": "stylex.wxss",
@@ -15363,13 +15083,13 @@
             "after": 1119
           }
         ],
-        "before": 2483,
-        "after": 2404
+        "before": 1330,
+        "after": 1289
       },
       "referenceValidation": {
         "status": "passed",
         "target": "weapp",
-        "files": 10,
+        "files": 9,
         "references": [
           {
             "from": "app.json",
@@ -15409,9 +15129,9 @@
           },
           {
             "from": "pages/scale/index.wxss",
-            "to": "pages/scale/stylex.wxss",
+            "to": "stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../../stylex.wxss"
           }
         ],
         "external": [],
@@ -15453,17 +15173,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 332410,
-            "gzip": 101873,
-            "brotli": 85264,
-            "sha256": "6cb63ce7c892d6a3e2a7bc639d216c84b62f06b9aa057c236cdeb824248d0bde"
+            "raw": 356891,
+            "gzip": 111037,
+            "brotli": 92125,
+            "sha256": "3437178e1bccd7383757fcd93f414c4615881dcc2f41b1fec8c3fec70d81e7f3"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 332961,
-          "gzip": 102266,
-          "brotli": 85505
+          "raw": 357442,
+          "gzip": 111430,
+          "brotli": 92366
         },
         "byKind": {
           "style": {
@@ -15474,9 +15194,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 332410,
-            "gzip": 101873,
-            "brotli": 85264
+            "raw": 356891,
+            "gzip": 111037,
+            "brotli": 92125
           },
           "template": {
             "files": 1,
@@ -15500,9 +15220,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 332961,
-            "gzip": 102266,
-            "brotli": 85505
+            "raw": 357442,
+            "gzip": 111430,
+            "brotli": 92366
           }
         }
       },
@@ -15599,19 +15319,10 @@
             "path": "pages/scale/index.wxss",
             "kind": "style",
             "package": "main",
-            "raw": 24,
-            "gzip": 44,
-            "brotli": 28,
-            "sha256": "5e052555caae1d4e259a0fe4729b9df4afdce7199b25d0828c346ccd0498cfc3"
-          },
-          {
-            "path": "pages/scale/stylex.wxss",
-            "kind": "style",
-            "package": "main",
-            "raw": 1119,
-            "gzip": 507,
-            "brotli": 430,
-            "sha256": "5f5d336cb332a8e4e6b60ed0e7bde8ce5ac52d05061c32494d33b3b258338d75"
+            "raw": 28,
+            "gzip": 48,
+            "brotli": 32,
+            "sha256": "8f53a2523f9b3cbc6b7a274ccdc24f2ca918f5d2126a21cbcada7819caa02112"
           },
           {
             "path": "stylex.wxss",
@@ -15630,16 +15341,16 @@
           }
         ],
         "totals": {
-          "raw": 117775,
-          "gzip": 11213,
-          "brotli": 5942
+          "raw": 116660,
+          "gzip": 10710,
+          "brotli": 5516
         },
         "byKind": {
           "style": {
-            "files": 4,
-            "raw": 2404,
-            "gzip": 1185,
-            "brotli": 977
+            "files": 3,
+            "raw": 1289,
+            "gzip": 682,
+            "brotli": 551
           },
           "script": {
             "files": 2,
@@ -15668,10 +15379,10 @@
         },
         "byPackage": {
           "main": {
-            "files": 9,
-            "raw": 117775,
-            "gzip": 11213,
-            "brotli": 5942
+            "files": 8,
+            "raw": 116660,
+            "gzip": 10710,
+            "brotli": 5516
           }
         }
       },
@@ -15685,13 +15396,8 @@
           },
           {
             "path": "pages/scale/index.wxss",
-            "before": 25,
-            "after": 24
-          },
-          {
-            "path": "pages/scale/stylex.wxss",
-            "before": 1157,
-            "after": 1119
+            "before": 29,
+            "after": 28
           },
           {
             "path": "stylex.wxss",
@@ -15699,13 +15405,13 @@
             "after": 1119
           }
         ],
-        "before": 2483,
-        "after": 2404
+        "before": 1330,
+        "after": 1289
       },
       "referenceValidation": {
         "status": "passed",
         "target": "weapp",
-        "files": 10,
+        "files": 9,
         "references": [
           {
             "from": "app.json",
@@ -15745,9 +15451,9 @@
           },
           {
             "from": "pages/scale/index.wxss",
-            "to": "pages/scale/stylex.wxss",
+            "to": "stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../../stylex.wxss"
           }
         ],
         "external": [],
@@ -15789,17 +15495,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 470112,
-            "gzip": 111452,
-            "brotli": 88589,
-            "sha256": "881e4537929509013595b114509642d4f733796668cda965e2bace542744291a"
+            "raw": 494593,
+            "gzip": 120418,
+            "brotli": 95424,
+            "sha256": "6207ac39b4fccd430a77b70454effadb6fe50512c4209136e60418b034ff7d27"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 470663,
-          "gzip": 111845,
-          "brotli": 88830
+          "raw": 495144,
+          "gzip": 120811,
+          "brotli": 95665
         },
         "byKind": {
           "style": {
@@ -15810,9 +15516,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 470112,
-            "gzip": 111452,
-            "brotli": 88589
+            "raw": 494593,
+            "gzip": 120418,
+            "brotli": 95424
           },
           "template": {
             "files": 1,
@@ -15836,9 +15542,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 470663,
-            "gzip": 111845,
-            "brotli": 88830
+            "raw": 495144,
+            "gzip": 120811,
+            "brotli": 95665
           }
         }
       },
@@ -15935,19 +15641,10 @@
             "path": "pages/scale/index.wxss",
             "kind": "style",
             "package": "main",
-            "raw": 24,
-            "gzip": 44,
-            "brotli": 28,
-            "sha256": "5e052555caae1d4e259a0fe4729b9df4afdce7199b25d0828c346ccd0498cfc3"
-          },
-          {
-            "path": "pages/scale/stylex.wxss",
-            "kind": "style",
-            "package": "main",
-            "raw": 2734,
-            "gzip": 1015,
-            "brotli": 867,
-            "sha256": "bc90e4aaf0ef4b9b63227549a013d30c181958a6643a3349d101c99f41ff28f1"
+            "raw": 28,
+            "gzip": 48,
+            "brotli": 32,
+            "sha256": "8f53a2523f9b3cbc6b7a274ccdc24f2ca918f5d2126a21cbcada7819caa02112"
           },
           {
             "path": "stylex.wxss",
@@ -15966,16 +15663,16 @@
           }
         ],
         "totals": {
-          "raw": 10347,
-          "gzip": 4335,
-          "brotli": 3688
+          "raw": 7617,
+          "gzip": 3324,
+          "brotli": 2825
         },
         "byKind": {
           "style": {
-            "files": 4,
-            "raw": 5634,
-            "gzip": 2201,
-            "brotli": 1851
+            "files": 3,
+            "raw": 2904,
+            "gzip": 1190,
+            "brotli": 988
           },
           "script": {
             "files": 2,
@@ -16004,10 +15701,10 @@
         },
         "byPackage": {
           "main": {
-            "files": 9,
-            "raw": 10347,
-            "gzip": 4335,
-            "brotli": 3688
+            "files": 8,
+            "raw": 7617,
+            "gzip": 3324,
+            "brotli": 2825
           }
         }
       },
@@ -16021,13 +15718,8 @@
           },
           {
             "path": "pages/scale/index.wxss",
-            "before": 25,
-            "after": 24
-          },
-          {
-            "path": "pages/scale/stylex.wxss",
-            "before": 2835,
-            "after": 2734
+            "before": 29,
+            "after": 28
           },
           {
             "path": "stylex.wxss",
@@ -16035,13 +15727,13 @@
             "after": 2734
           }
         ],
-        "before": 5839,
-        "after": 5634
+        "before": 3008,
+        "after": 2904
       },
       "referenceValidation": {
         "status": "passed",
         "target": "weapp",
-        "files": 10,
+        "files": 9,
         "references": [
           {
             "from": "app.json",
@@ -16081,9 +15773,9 @@
           },
           {
             "from": "pages/scale/index.wxss",
-            "to": "pages/scale/stylex.wxss",
+            "to": "stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../../stylex.wxss"
           }
         ],
         "external": [],
@@ -16125,17 +15817,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 321526,
-            "gzip": 101705,
-            "brotli": 85660,
-            "sha256": "6befd3f114638c5513205fce1b6b8fc98da39dc04eba85db27620388d9b922dd"
+            "raw": 346013,
+            "gzip": 110818,
+            "brotli": 92563,
+            "sha256": "5c4fa5bf611f7c22e8109b928005b23706d679f0d8a5662c2daa13ef2d684421"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 322077,
-          "gzip": 102098,
-          "brotli": 85901
+          "raw": 346564,
+          "gzip": 111211,
+          "brotli": 92804
         },
         "byKind": {
           "style": {
@@ -16146,9 +15838,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 321526,
-            "gzip": 101705,
-            "brotli": 85660
+            "raw": 346013,
+            "gzip": 110818,
+            "brotli": 92563
           },
           "template": {
             "files": 1,
@@ -16172,9 +15864,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 322077,
-            "gzip": 102098,
-            "brotli": 85901
+            "raw": 346564,
+            "gzip": 111211,
+            "brotli": 92804
           }
         }
       },
@@ -16271,19 +15963,10 @@
             "path": "pages/scale/index.wxss",
             "kind": "style",
             "package": "main",
-            "raw": 24,
-            "gzip": 44,
-            "brotli": 28,
-            "sha256": "5e052555caae1d4e259a0fe4729b9df4afdce7199b25d0828c346ccd0498cfc3"
-          },
-          {
-            "path": "pages/scale/stylex.wxss",
-            "kind": "style",
-            "package": "main",
-            "raw": 7158,
-            "gzip": 2351,
-            "brotli": 1915,
-            "sha256": "9feb9519c43adeae571a32f44bcbb2a830772ea63ce0a9694112b639e77e175a"
+            "raw": 28,
+            "gzip": 48,
+            "brotli": 32,
+            "sha256": "8f53a2523f9b3cbc6b7a274ccdc24f2ca918f5d2126a21cbcada7819caa02112"
           },
           {
             "path": "stylex.wxss",
@@ -16302,16 +15985,16 @@
           }
         ],
         "totals": {
-          "raw": 38875,
-          "gzip": 10007,
-          "brotli": 8003
+          "raw": 31721,
+          "gzip": 7660,
+          "brotli": 6092
         },
         "byKind": {
           "style": {
-            "files": 4,
-            "raw": 14482,
-            "gzip": 4873,
-            "brotli": 3947
+            "files": 3,
+            "raw": 7328,
+            "gzip": 2526,
+            "brotli": 2036
           },
           "script": {
             "files": 2,
@@ -16340,10 +16023,10 @@
         },
         "byPackage": {
           "main": {
-            "files": 9,
-            "raw": 38875,
-            "gzip": 10007,
-            "brotli": 8003
+            "files": 8,
+            "raw": 31721,
+            "gzip": 7660,
+            "brotli": 6092
           }
         }
       },
@@ -16357,13 +16040,8 @@
           },
           {
             "path": "pages/scale/index.wxss",
-            "before": 25,
-            "after": 24
-          },
-          {
-            "path": "pages/scale/stylex.wxss",
-            "before": 7400,
-            "after": 7158
+            "before": 29,
+            "after": 28
           },
           {
             "path": "stylex.wxss",
@@ -16371,13 +16049,13 @@
             "after": 7158
           }
         ],
-        "before": 14969,
-        "after": 14482
+        "before": 7573,
+        "after": 7328
       },
       "referenceValidation": {
         "status": "passed",
         "target": "weapp",
-        "files": 10,
+        "files": 9,
         "references": [
           {
             "from": "app.json",
@@ -16417,9 +16095,9 @@
           },
           {
             "from": "pages/scale/index.wxss",
-            "to": "pages/scale/stylex.wxss",
+            "to": "stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../../stylex.wxss"
           }
         ],
         "external": [],
@@ -16461,17 +16139,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 349377,
-            "gzip": 106364,
-            "brotli": 88505,
-            "sha256": "feeef2e736a494534e5e9a21fb7380019aaf263a8499c273f01c76a15ef7d7c2"
+            "raw": 373858,
+            "gzip": 115511,
+            "brotli": 95442,
+            "sha256": "c24ea59836c8d5aa1d302e327a8b5c7c40c50483bcd855ae7526e855e57a261f"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 349928,
-          "gzip": 106757,
-          "brotli": 88746
+          "raw": 374409,
+          "gzip": 115904,
+          "brotli": 95683
         },
         "byKind": {
           "style": {
@@ -16482,9 +16160,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 349377,
-            "gzip": 106364,
-            "brotli": 88505
+            "raw": 373858,
+            "gzip": 115511,
+            "brotli": 95442
           },
           "template": {
             "files": 1,
@@ -16508,9 +16186,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 349928,
-            "gzip": 106757,
-            "brotli": 88746
+            "raw": 374409,
+            "gzip": 115904,
+            "brotli": 95683
           }
         }
       },
@@ -16607,19 +16285,10 @@
             "path": "pages/scale/index.wxss",
             "kind": "style",
             "package": "main",
-            "raw": 24,
-            "gzip": 44,
-            "brotli": 28,
-            "sha256": "5e052555caae1d4e259a0fe4729b9df4afdce7199b25d0828c346ccd0498cfc3"
-          },
-          {
-            "path": "pages/scale/stylex.wxss",
-            "kind": "style",
-            "package": "main",
-            "raw": 39063,
-            "gzip": 11487,
-            "brotli": 8613,
-            "sha256": "134caa461c953b25ff5f16f47c1b78827069606f2f54c5765ad30f9fb06917c5"
+            "raw": 28,
+            "gzip": 48,
+            "brotli": 32,
+            "sha256": "8f53a2523f9b3cbc6b7a274ccdc24f2ca918f5d2126a21cbcada7819caa02112"
           },
           {
             "path": "stylex.wxss",
@@ -16638,16 +16307,16 @@
           }
         ],
         "totals": {
-          "raw": 303912,
-          "gzip": 54536,
-          "brotli": 37467
+          "raw": 264853,
+          "gzip": 43053,
+          "brotli": 28858
         },
         "byKind": {
           "style": {
-            "files": 4,
-            "raw": 78292,
-            "gzip": 23145,
-            "brotli": 17343
+            "files": 3,
+            "raw": 39233,
+            "gzip": 11662,
+            "brotli": 8734
           },
           "script": {
             "files": 2,
@@ -16676,10 +16345,10 @@
         },
         "byPackage": {
           "main": {
-            "files": 9,
-            "raw": 303912,
-            "gzip": 54536,
-            "brotli": 37467
+            "files": 8,
+            "raw": 264853,
+            "gzip": 43053,
+            "brotli": 28858
           }
         }
       },
@@ -16693,13 +16362,8 @@
           },
           {
             "path": "pages/scale/index.wxss",
-            "before": 25,
-            "after": 24
-          },
-          {
-            "path": "pages/scale/stylex.wxss",
-            "before": 40205,
-            "after": 39063
+            "before": 29,
+            "after": 28
           },
           {
             "path": "stylex.wxss",
@@ -16707,13 +16371,13 @@
             "after": 39063
           }
         ],
-        "before": 80579,
-        "after": 78292
+        "before": 40378,
+        "after": 39233
       },
       "referenceValidation": {
         "status": "passed",
         "target": "weapp",
-        "files": 10,
+        "files": 9,
         "references": [
           {
             "from": "app.json",
@@ -16753,9 +16417,9 @@
           },
           {
             "from": "pages/scale/index.wxss",
-            "to": "pages/scale/stylex.wxss",
+            "to": "stylex.wxss",
             "kind": "stylesheet import",
-            "request": "./stylex.wxss"
+            "request": "../../stylex.wxss"
           }
         ],
         "external": [],
@@ -16797,17 +16461,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 619409,
-            "gzip": 144429,
-            "brotli": 110693,
-            "sha256": "334ff17eaa018136302f29e2b0cf8ccaed561133a36bbec56ab26a2d11234c59"
+            "raw": 643890,
+            "gzip": 153271,
+            "brotli": 117719,
+            "sha256": "b3881f811d7d8461138c1c753e242127b93c820ab2e2c3808cc135cab0de5082"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 619960,
-          "gzip": 144822,
-          "brotli": 110934
+          "raw": 644441,
+          "gzip": 153664,
+          "brotli": 117960
         },
         "byKind": {
           "style": {
@@ -16818,9 +16482,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 619409,
-            "gzip": 144429,
-            "brotli": 110693
+            "raw": 643890,
+            "gzip": 153271,
+            "brotli": 117719
           },
           "template": {
             "files": 1,
@@ -16844,9 +16508,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 619960,
-            "gzip": 144822,
-            "brotli": 110934
+            "raw": 644441,
+            "gzip": 153664,
+            "brotli": 117960
           }
         }
       },
@@ -17093,17 +16757,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 333681,
-            "gzip": 104685,
-            "brotli": 88235,
-            "sha256": "eacb1027e0715052b9214aefba3b64953fb7288e4de89bd8288bf51d1e059e02"
+            "raw": 358251,
+            "gzip": 113760,
+            "brotli": 95112,
+            "sha256": "d9089aa77355ddfc795f2ff1a04ce9e232c1a74857755426878cfd4063f39e1d"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 334524,
-          "gzip": 105193,
-          "brotli": 88581
+          "raw": 359094,
+          "gzip": 114268,
+          "brotli": 95458
         },
         "byKind": {
           "style": {
@@ -17114,9 +16778,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 333681,
-            "gzip": 104685,
-            "brotli": 88235
+            "raw": 358251,
+            "gzip": 113760,
+            "brotli": 95112
           },
           "template": {
             "files": 1,
@@ -17140,9 +16804,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 334524,
-            "gzip": 105193,
-            "brotli": 88581
+            "raw": 359094,
+            "gzip": 114268,
+            "brotli": 95458
           }
         }
       },
@@ -17716,17 +17380,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 345805,
-            "gzip": 105648,
-            "brotli": 88922,
-            "sha256": "af6da9df50a6ec55ad8102af74be6dcf0fd954105a3ee05118eab052fc9c6c88"
+            "raw": 370376,
+            "gzip": 114707,
+            "brotli": 95951,
+            "sha256": "ec30c29515393a699199f8620d93e41fcb0642fcf49901eaa34c9fd2f99194a4"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 346648,
-          "gzip": 106156,
-          "brotli": 89268
+          "raw": 371219,
+          "gzip": 115215,
+          "brotli": 96297
         },
         "byKind": {
           "style": {
@@ -17737,9 +17401,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 345805,
-            "gzip": 105648,
-            "brotli": 88922
+            "raw": 370376,
+            "gzip": 114707,
+            "brotli": 95951
           },
           "template": {
             "files": 1,
@@ -17763,9 +17427,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 346648,
-            "gzip": 106156,
-            "brotli": 89268
+            "raw": 371219,
+            "gzip": 115215,
+            "brotli": 96297
           }
         }
       },
@@ -18012,17 +17676,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 315777,
-            "gzip": 99557,
-            "brotli": 83736,
-            "sha256": "f0e1dee1594d40988f015537de6905f69d456bb1251f7d36f3a8741e41d89009"
+            "raw": 340273,
+            "gzip": 108611,
+            "brotli": 90655,
+            "sha256": "48000d765be626d275ff9d36e958edf0c4208b8949b226730865e09a3ddf2871"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 316620,
-          "gzip": 100065,
-          "brotli": 84082
+          "raw": 341116,
+          "gzip": 109119,
+          "brotli": 91001
         },
         "byKind": {
           "style": {
@@ -18033,9 +17697,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 315777,
-            "gzip": 99557,
-            "brotli": 83736
+            "raw": 340273,
+            "gzip": 108611,
+            "brotli": 90655
           },
           "template": {
             "files": 1,
@@ -18059,9 +17723,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 316620,
-            "gzip": 100065,
-            "brotli": 84082
+            "raw": 341116,
+            "gzip": 109119,
+            "brotli": 91001
           }
         }
       },
@@ -18308,17 +17972,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 327119,
-            "gzip": 100562,
-            "brotli": 84226,
-            "sha256": "2e2ca4ffff32746a08c57d46b55feab2a117e40fd3e77ee3a8597a95745d1106"
+            "raw": 351614,
+            "gzip": 109684,
+            "brotli": 90924,
+            "sha256": "66f8377645f54cd4d3478ed1d2044a15deef5a84f6233de07018b8986118fa8b"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 327962,
-          "gzip": 101070,
-          "brotli": 84572
+          "raw": 352457,
+          "gzip": 110192,
+          "brotli": 91270
         },
         "byKind": {
           "style": {
@@ -18329,9 +17993,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 327119,
-            "gzip": 100562,
-            "brotli": 84226
+            "raw": 351614,
+            "gzip": 109684,
+            "brotli": 90924
           },
           "template": {
             "files": 1,
@@ -18355,9 +18019,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 327962,
-            "gzip": 101070,
-            "brotli": 84572
+            "raw": 352457,
+            "gzip": 110192,
+            "brotli": 91270
           }
         }
       },
@@ -18604,17 +18268,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 443221,
-            "gzip": 109707,
-            "brotli": 87180,
-            "sha256": "02cc7f34737ad89722d00d2bcf1df22eaf4486fabb74679d2c08d0ecd5130ab4"
+            "raw": 467716,
+            "gzip": 118627,
+            "brotli": 94022,
+            "sha256": "27cba1d04aa80088297fe862ae06a347d88458ba8b1c923f32108acd8e86d99f"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 444064,
-          "gzip": 110215,
-          "brotli": 87526
+          "raw": 468559,
+          "gzip": 119135,
+          "brotli": 94368
         },
         "byKind": {
           "style": {
@@ -18625,9 +18289,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 443221,
-            "gzip": 109707,
-            "brotli": 87180
+            "raw": 467716,
+            "gzip": 118627,
+            "brotli": 94022
           },
           "template": {
             "files": 1,
@@ -18651,9 +18315,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 444064,
-            "gzip": 110215,
-            "brotli": 87526
+            "raw": 468559,
+            "gzip": 119135,
+            "brotli": 94368
           }
         }
       },
@@ -18900,17 +18564,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 317236,
-            "gzip": 99850,
-            "brotli": 83982,
-            "sha256": "0d1b9a313bfd568bc5f9bac5bf05a505242e999c1b12d742652f3fe12b75bfe5"
+            "raw": 341732,
+            "gzip": 108905,
+            "brotli": 90798,
+            "sha256": "7385b2baceb8dfa498809a00376e2b82e8cce5ae4c86e65b4d06556a39124301"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 318079,
-          "gzip": 100358,
-          "brotli": 84328
+          "raw": 342575,
+          "gzip": 109413,
+          "brotli": 91144
         },
         "byKind": {
           "style": {
@@ -18921,9 +18585,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 317236,
-            "gzip": 99850,
-            "brotli": 83982
+            "raw": 341732,
+            "gzip": 108905,
+            "brotli": 90798
           },
           "template": {
             "files": 1,
@@ -18947,9 +18611,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 318079,
-            "gzip": 100358,
-            "brotli": 84328
+            "raw": 342575,
+            "gzip": 109413,
+            "brotli": 91144
           }
         }
       },
@@ -19196,17 +18860,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 343562,
-            "gzip": 102993,
-            "brotli": 85468,
-            "sha256": "8d2ffbb761e675e362bfd322ff5244c947b3ac75b5c2106bbb910e597a7916ee"
+            "raw": 368057,
+            "gzip": 112181,
+            "brotli": 92355,
+            "sha256": "bad5b048453756af8a3b156540526a93f90509a9448108536693ff41232528b6"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 344405,
-          "gzip": 103501,
-          "brotli": 85814
+          "raw": 368900,
+          "gzip": 112689,
+          "brotli": 92701
         },
         "byKind": {
           "style": {
@@ -19217,9 +18881,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 343562,
-            "gzip": 102993,
-            "brotli": 85468
+            "raw": 368057,
+            "gzip": 112181,
+            "brotli": 92355
           },
           "template": {
             "files": 1,
@@ -19243,9 +18907,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 344405,
-            "gzip": 103501,
-            "brotli": 85814
+            "raw": 368900,
+            "gzip": 112689,
+            "brotli": 92701
           }
         }
       },
@@ -19492,17 +19156,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 611292,
-            "gzip": 128920,
-            "brotli": 98090,
-            "sha256": "e458d018264bd98fd628de6d5cbe78a2c6c37c62359af897025fe58f2d4982a2"
+            "raw": 635787,
+            "gzip": 138057,
+            "brotli": 106546,
+            "sha256": "4de60d9b1d2e432f02cff938bd65576577563582e34d76794593e9b021b5f9b1"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 612135,
-          "gzip": 129428,
-          "brotli": 98436
+          "raw": 636630,
+          "gzip": 138565,
+          "brotli": 106892
         },
         "byKind": {
           "style": {
@@ -19513,9 +19177,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 611292,
-            "gzip": 128920,
-            "brotli": 98090
+            "raw": 635787,
+            "gzip": 138057,
+            "brotli": 106546
           },
           "template": {
             "files": 1,
@@ -19539,9 +19203,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 612135,
-            "gzip": 129428,
-            "brotli": 98436
+            "raw": 636630,
+            "gzip": 138565,
+            "brotli": 106892
           }
         }
       },
@@ -19788,17 +19452,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 333681,
-            "gzip": 104685,
-            "brotli": 88235,
-            "sha256": "eacb1027e0715052b9214aefba3b64953fb7288e4de89bd8288bf51d1e059e02"
+            "raw": 358251,
+            "gzip": 113760,
+            "brotli": 95112,
+            "sha256": "d9089aa77355ddfc795f2ff1a04ce9e232c1a74857755426878cfd4063f39e1d"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 334524,
-          "gzip": 105193,
-          "brotli": 88581
+          "raw": 359094,
+          "gzip": 114268,
+          "brotli": 95458
         },
         "byKind": {
           "style": {
@@ -19809,9 +19473,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 333681,
-            "gzip": 104685,
-            "brotli": 88235
+            "raw": 358251,
+            "gzip": 113760,
+            "brotli": 95112
           },
           "template": {
             "files": 1,
@@ -19835,9 +19499,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 334524,
-            "gzip": 105193,
-            "brotli": 88581
+            "raw": 359094,
+            "gzip": 114268,
+            "brotli": 95458
           }
         }
       },
@@ -20411,17 +20075,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 345805,
-            "gzip": 105648,
-            "brotli": 88922,
-            "sha256": "af6da9df50a6ec55ad8102af74be6dcf0fd954105a3ee05118eab052fc9c6c88"
+            "raw": 370376,
+            "gzip": 114707,
+            "brotli": 95951,
+            "sha256": "ec30c29515393a699199f8620d93e41fcb0642fcf49901eaa34c9fd2f99194a4"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 346648,
-          "gzip": 106156,
-          "brotli": 89268
+          "raw": 371219,
+          "gzip": 115215,
+          "brotli": 96297
         },
         "byKind": {
           "style": {
@@ -20432,9 +20096,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 345805,
-            "gzip": 105648,
-            "brotli": 88922
+            "raw": 370376,
+            "gzip": 114707,
+            "brotli": 95951
           },
           "template": {
             "files": 1,
@@ -20458,9 +20122,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 346648,
-            "gzip": 106156,
-            "brotli": 89268
+            "raw": 371219,
+            "gzip": 115215,
+            "brotli": 96297
           }
         }
       },
@@ -20707,17 +20371,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 315777,
-            "gzip": 99557,
-            "brotli": 83736,
-            "sha256": "f0e1dee1594d40988f015537de6905f69d456bb1251f7d36f3a8741e41d89009"
+            "raw": 340273,
+            "gzip": 108611,
+            "brotli": 90655,
+            "sha256": "48000d765be626d275ff9d36e958edf0c4208b8949b226730865e09a3ddf2871"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 316620,
-          "gzip": 100065,
-          "brotli": 84082
+          "raw": 341116,
+          "gzip": 109119,
+          "brotli": 91001
         },
         "byKind": {
           "style": {
@@ -20728,9 +20392,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 315777,
-            "gzip": 99557,
-            "brotli": 83736
+            "raw": 340273,
+            "gzip": 108611,
+            "brotli": 90655
           },
           "template": {
             "files": 1,
@@ -20754,9 +20418,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 316620,
-            "gzip": 100065,
-            "brotli": 84082
+            "raw": 341116,
+            "gzip": 109119,
+            "brotli": 91001
           }
         }
       },
@@ -21003,17 +20667,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 327119,
-            "gzip": 100562,
-            "brotli": 84226,
-            "sha256": "2e2ca4ffff32746a08c57d46b55feab2a117e40fd3e77ee3a8597a95745d1106"
+            "raw": 351614,
+            "gzip": 109684,
+            "brotli": 90924,
+            "sha256": "66f8377645f54cd4d3478ed1d2044a15deef5a84f6233de07018b8986118fa8b"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 327962,
-          "gzip": 101070,
-          "brotli": 84572
+          "raw": 352457,
+          "gzip": 110192,
+          "brotli": 91270
         },
         "byKind": {
           "style": {
@@ -21024,9 +20688,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 327119,
-            "gzip": 100562,
-            "brotli": 84226
+            "raw": 351614,
+            "gzip": 109684,
+            "brotli": 90924
           },
           "template": {
             "files": 1,
@@ -21050,9 +20714,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 327962,
-            "gzip": 101070,
-            "brotli": 84572
+            "raw": 352457,
+            "gzip": 110192,
+            "brotli": 91270
           }
         }
       },
@@ -21299,17 +20963,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 443221,
-            "gzip": 109707,
-            "brotli": 87180,
-            "sha256": "02cc7f34737ad89722d00d2bcf1df22eaf4486fabb74679d2c08d0ecd5130ab4"
+            "raw": 467716,
+            "gzip": 118627,
+            "brotli": 94022,
+            "sha256": "27cba1d04aa80088297fe862ae06a347d88458ba8b1c923f32108acd8e86d99f"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 444064,
-          "gzip": 110215,
-          "brotli": 87526
+          "raw": 468559,
+          "gzip": 119135,
+          "brotli": 94368
         },
         "byKind": {
           "style": {
@@ -21320,9 +20984,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 443221,
-            "gzip": 109707,
-            "brotli": 87180
+            "raw": 467716,
+            "gzip": 118627,
+            "brotli": 94022
           },
           "template": {
             "files": 1,
@@ -21346,9 +21010,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 444064,
-            "gzip": 110215,
-            "brotli": 87526
+            "raw": 468559,
+            "gzip": 119135,
+            "brotli": 94368
           }
         }
       },
@@ -21595,17 +21259,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 317236,
-            "gzip": 99850,
-            "brotli": 83982,
-            "sha256": "0d1b9a313bfd568bc5f9bac5bf05a505242e999c1b12d742652f3fe12b75bfe5"
+            "raw": 341732,
+            "gzip": 108905,
+            "brotli": 90798,
+            "sha256": "7385b2baceb8dfa498809a00376e2b82e8cce5ae4c86e65b4d06556a39124301"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 318079,
-          "gzip": 100358,
-          "brotli": 84328
+          "raw": 342575,
+          "gzip": 109413,
+          "brotli": 91144
         },
         "byKind": {
           "style": {
@@ -21616,9 +21280,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 317236,
-            "gzip": 99850,
-            "brotli": 83982
+            "raw": 341732,
+            "gzip": 108905,
+            "brotli": 90798
           },
           "template": {
             "files": 1,
@@ -21642,9 +21306,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 318079,
-            "gzip": 100358,
-            "brotli": 84328
+            "raw": 342575,
+            "gzip": 109413,
+            "brotli": 91144
           }
         }
       },
@@ -21891,17 +21555,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 343562,
-            "gzip": 102993,
-            "brotli": 85468,
-            "sha256": "8d2ffbb761e675e362bfd322ff5244c947b3ac75b5c2106bbb910e597a7916ee"
+            "raw": 368057,
+            "gzip": 112181,
+            "brotli": 92355,
+            "sha256": "bad5b048453756af8a3b156540526a93f90509a9448108536693ff41232528b6"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 344405,
-          "gzip": 103501,
-          "brotli": 85814
+          "raw": 368900,
+          "gzip": 112689,
+          "brotli": 92701
         },
         "byKind": {
           "style": {
@@ -21912,9 +21576,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 343562,
-            "gzip": 102993,
-            "brotli": 85468
+            "raw": 368057,
+            "gzip": 112181,
+            "brotli": 92355
           },
           "template": {
             "files": 1,
@@ -21938,9 +21602,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 344405,
-            "gzip": 103501,
-            "brotli": 85814
+            "raw": 368900,
+            "gzip": 112689,
+            "brotli": 92701
           }
         }
       },
@@ -22187,17 +21851,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 611292,
-            "gzip": 128920,
-            "brotli": 98090,
-            "sha256": "e458d018264bd98fd628de6d5cbe78a2c6c37c62359af897025fe58f2d4982a2"
+            "raw": 635787,
+            "gzip": 138057,
+            "brotli": 106546,
+            "sha256": "4de60d9b1d2e432f02cff938bd65576577563582e34d76794593e9b021b5f9b1"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 612135,
-          "gzip": 129428,
-          "brotli": 98436
+          "raw": 636630,
+          "gzip": 138565,
+          "brotli": 106892
         },
         "byKind": {
           "style": {
@@ -22208,9 +21872,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 611292,
-            "gzip": 128920,
-            "brotli": 98090
+            "raw": 635787,
+            "gzip": 138057,
+            "brotli": 106546
           },
           "template": {
             "files": 1,
@@ -22234,9 +21898,9 @@
         "byPackage": {
           "web": {
             "files": 3,
-            "raw": 612135,
-            "gzip": 129428,
-            "brotli": 98436
+            "raw": 636630,
+            "gzip": 138565,
+            "brotli": 106892
           }
         }
       },
@@ -22460,17 +22124,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 316340,
-            "gzip": 99694,
-            "brotli": 84038,
-            "sha256": "0fe97a8b05d819d8ef875f79aafe165a170924195c545f08cbf8e3632275cd77"
+            "raw": 340918,
+            "gzip": 108823,
+            "brotli": 90888,
+            "sha256": "8848dd2da42be046dd84c232e4cfc08d6135e0fdbc0282eafda7604bd13b6422"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 316612,
-          "gzip": 99905,
-          "brotli": 84159
+          "raw": 341190,
+          "gzip": 109034,
+          "brotli": 91009
         },
         "byKind": {
           "style": {
@@ -22481,9 +22145,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 316340,
-            "gzip": 99694,
-            "brotli": 84038
+            "raw": 340918,
+            "gzip": 108823,
+            "brotli": 90888
           },
           "template": {
             "files": 1,
@@ -22507,9 +22171,9 @@
         "byPackage": {
           "web": {
             "files": 2,
-            "raw": 316612,
-            "gzip": 99905,
-            "brotli": 84159
+            "raw": 341190,
+            "gzip": 109034,
+            "brotli": 91009
           }
         }
       },
@@ -22984,17 +22648,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 324490,
-            "gzip": 100644,
-            "brotli": 84664,
-            "sha256": "cbd92157f3698d3102279d3ce63b499f3d2092050db8663c91148af703e27532"
+            "raw": 349069,
+            "gzip": 109793,
+            "brotli": 91470,
+            "sha256": "1f63b17125c63af2c328941722efc8d3860a49ade082be596aef6bf121e75571"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 324762,
-          "gzip": 100855,
-          "brotli": 84785
+          "raw": 349341,
+          "gzip": 110004,
+          "brotli": 91591
         },
         "byKind": {
           "style": {
@@ -23005,9 +22669,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 324490,
-            "gzip": 100644,
-            "brotli": 84664
+            "raw": 349069,
+            "gzip": 109793,
+            "brotli": 91470
           },
           "template": {
             "files": 1,
@@ -23031,9 +22695,9 @@
         "byPackage": {
           "web": {
             "files": 2,
-            "raw": 324762,
-            "gzip": 100855,
-            "brotli": 84785
+            "raw": 349341,
+            "gzip": 110004,
+            "brotli": 91591
           }
         }
       },
@@ -23251,17 +22915,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 314464,
-            "gzip": 99107,
-            "brotli": 83450,
-            "sha256": "529f7bcbceed61bc40c63e0514fb2aad0eb7ca4ccbf741ae861ad14a6516c5f8"
+            "raw": 338960,
+            "gzip": 108186,
+            "brotli": 90375,
+            "sha256": "2184918b9fbee9a641768267f21c59c14377b8784acb5526b37aa92267335d38"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 314736,
-          "gzip": 99318,
-          "brotli": 83571
+          "raw": 339232,
+          "gzip": 108397,
+          "brotli": 90496
         },
         "byKind": {
           "style": {
@@ -23272,9 +22936,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 314464,
-            "gzip": 99107,
-            "brotli": 83450
+            "raw": 338960,
+            "gzip": 108186,
+            "brotli": 90375
           },
           "template": {
             "files": 1,
@@ -23298,9 +22962,9 @@
         "byPackage": {
           "web": {
             "files": 2,
-            "raw": 314736,
-            "gzip": 99318,
-            "brotli": 83571
+            "raw": 339232,
+            "gzip": 108397,
+            "brotli": 90496
           }
         }
       },
@@ -23518,17 +23182,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 323376,
-            "gzip": 100052,
-            "brotli": 83786,
-            "sha256": "b1262b51653532ff909efdbd62e97d0e5d420d3bd7920700bec61a4ff8f0c710"
+            "raw": 347871,
+            "gzip": 109183,
+            "brotli": 90654,
+            "sha256": "9957bb7edd5eef719a1eb39f6e78a41dca1fc82362a3db1f9cfc7fdc3ade051b"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 323648,
-          "gzip": 100263,
-          "brotli": 83907
+          "raw": 348143,
+          "gzip": 109394,
+          "brotli": 90775
         },
         "byKind": {
           "style": {
@@ -23539,9 +23203,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 323376,
-            "gzip": 100052,
-            "brotli": 83786
+            "raw": 347871,
+            "gzip": 109183,
+            "brotli": 90654
           },
           "template": {
             "files": 1,
@@ -23565,9 +23229,9 @@
         "byPackage": {
           "web": {
             "files": 2,
-            "raw": 323648,
-            "gzip": 100263,
-            "brotli": 83907
+            "raw": 348143,
+            "gzip": 109394,
+            "brotli": 90775
           }
         }
       },
@@ -23785,17 +23449,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 415178,
-            "gzip": 109012,
-            "brotli": 86868,
-            "sha256": "1e597c8f77edf083b0b2fca822871f72d21f0dd967a9e07a522a5b660c0a3b07"
+            "raw": 439673,
+            "gzip": 117968,
+            "brotli": 93678,
+            "sha256": "37baaff33692df9eeb650abcdb55895ce7cdc522cfbc3b2bad449ebaf3171cc4"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 415450,
-          "gzip": 109223,
-          "brotli": 86989
+          "raw": 439945,
+          "gzip": 118179,
+          "brotli": 93799
         },
         "byKind": {
           "style": {
@@ -23806,9 +23470,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 415178,
-            "gzip": 109012,
-            "brotli": 86868
+            "raw": 439673,
+            "gzip": 117968,
+            "brotli": 93678
           },
           "template": {
             "files": 1,
@@ -23832,9 +23496,9 @@
         "byPackage": {
           "web": {
             "files": 2,
-            "raw": 415450,
-            "gzip": 109223,
-            "brotli": 86989
+            "raw": 439945,
+            "gzip": 118179,
+            "brotli": 93799
           }
         }
       },
@@ -24052,17 +23716,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 314464,
-            "gzip": 99110,
-            "brotli": 83419,
-            "sha256": "7b6c11c7e55d76827b2496b885a108af2073aae75f3718a486abf3e1269fbb92"
+            "raw": 338960,
+            "gzip": 108188,
+            "brotli": 90379,
+            "sha256": "79bd31f21199c2db28a93f39dbd419fc7b550fd51d405d8ca76409b19b8b4ff0"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 314736,
-          "gzip": 99321,
-          "brotli": 83540
+          "raw": 339232,
+          "gzip": 108399,
+          "brotli": 90500
         },
         "byKind": {
           "style": {
@@ -24073,9 +23737,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 314464,
-            "gzip": 99110,
-            "brotli": 83419
+            "raw": 338960,
+            "gzip": 108188,
+            "brotli": 90379
           },
           "template": {
             "files": 1,
@@ -24099,9 +23763,9 @@
         "byPackage": {
           "web": {
             "files": 2,
-            "raw": 314736,
-            "gzip": 99321,
-            "brotli": 83540
+            "raw": 339232,
+            "gzip": 108399,
+            "brotli": 90500
           }
         }
       },
@@ -24319,17 +23983,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 323376,
-            "gzip": 100054,
-            "brotli": 83736,
-            "sha256": "68cc7e6248d151a9052e70dee7a0a1a6d658a57bb6aa5316aefb32f6ef0f779a"
+            "raw": 347871,
+            "gzip": 109185,
+            "brotli": 90527,
+            "sha256": "377d807da861891af2864e892c3231890e872d1ff21aa64576d38ec95520e771"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 323648,
-          "gzip": 100265,
-          "brotli": 83857
+          "raw": 348143,
+          "gzip": 109396,
+          "brotli": 90648
         },
         "byKind": {
           "style": {
@@ -24340,9 +24004,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 323376,
-            "gzip": 100054,
-            "brotli": 83736
+            "raw": 347871,
+            "gzip": 109185,
+            "brotli": 90527
           },
           "template": {
             "files": 1,
@@ -24366,9 +24030,9 @@
         "byPackage": {
           "web": {
             "files": 2,
-            "raw": 323648,
-            "gzip": 100265,
-            "brotli": 83857
+            "raw": 348143,
+            "gzip": 109396,
+            "brotli": 90648
           }
         }
       },
@@ -24586,17 +24250,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 415178,
-            "gzip": 109014,
-            "brotli": 86852,
-            "sha256": "1e84265a3022a4eff98418938c8197e662740f0806e4e0a8ae9183305332eff1"
+            "raw": 439673,
+            "gzip": 117969,
+            "brotli": 93704,
+            "sha256": "158a4a60798346bdf7b5afec25505edb8f063e6b25c068c1f22298457da72501"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 415450,
-          "gzip": 109225,
-          "brotli": 86973
+          "raw": 439945,
+          "gzip": 118180,
+          "brotli": 93825
         },
         "byKind": {
           "style": {
@@ -24607,9 +24271,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 415178,
-            "gzip": 109014,
-            "brotli": 86852
+            "raw": 439673,
+            "gzip": 117969,
+            "brotli": 93704
           },
           "template": {
             "files": 1,
@@ -24633,9 +24297,9 @@
         "byPackage": {
           "web": {
             "files": 2,
-            "raw": 415450,
-            "gzip": 109225,
-            "brotli": 86973
+            "raw": 439945,
+            "gzip": 118180,
+            "brotli": 93825
           }
         }
       },
@@ -24853,17 +24517,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 316340,
-            "gzip": 99694,
-            "brotli": 84038,
-            "sha256": "0fe97a8b05d819d8ef875f79aafe165a170924195c545f08cbf8e3632275cd77"
+            "raw": 340918,
+            "gzip": 108823,
+            "brotli": 90888,
+            "sha256": "8848dd2da42be046dd84c232e4cfc08d6135e0fdbc0282eafda7604bd13b6422"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 316612,
-          "gzip": 99905,
-          "brotli": 84159
+          "raw": 341190,
+          "gzip": 109034,
+          "brotli": 91009
         },
         "byKind": {
           "style": {
@@ -24874,9 +24538,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 316340,
-            "gzip": 99694,
-            "brotli": 84038
+            "raw": 340918,
+            "gzip": 108823,
+            "brotli": 90888
           },
           "template": {
             "files": 1,
@@ -24900,9 +24564,9 @@
         "byPackage": {
           "web": {
             "files": 2,
-            "raw": 316612,
-            "gzip": 99905,
-            "brotli": 84159
+            "raw": 341190,
+            "gzip": 109034,
+            "brotli": 91009
           }
         }
       },
@@ -25377,17 +25041,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 324490,
-            "gzip": 100644,
-            "brotli": 84664,
-            "sha256": "cbd92157f3698d3102279d3ce63b499f3d2092050db8663c91148af703e27532"
+            "raw": 349069,
+            "gzip": 109793,
+            "brotli": 91470,
+            "sha256": "1f63b17125c63af2c328941722efc8d3860a49ade082be596aef6bf121e75571"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 324762,
-          "gzip": 100855,
-          "brotli": 84785
+          "raw": 349341,
+          "gzip": 110004,
+          "brotli": 91591
         },
         "byKind": {
           "style": {
@@ -25398,9 +25062,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 324490,
-            "gzip": 100644,
-            "brotli": 84664
+            "raw": 349069,
+            "gzip": 109793,
+            "brotli": 91470
           },
           "template": {
             "files": 1,
@@ -25424,9 +25088,9 @@
         "byPackage": {
           "web": {
             "files": 2,
-            "raw": 324762,
-            "gzip": 100855,
-            "brotli": 84785
+            "raw": 349341,
+            "gzip": 110004,
+            "brotli": 91591
           }
         }
       },
@@ -25644,17 +25308,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 314464,
-            "gzip": 99107,
-            "brotli": 83450,
-            "sha256": "529f7bcbceed61bc40c63e0514fb2aad0eb7ca4ccbf741ae861ad14a6516c5f8"
+            "raw": 338960,
+            "gzip": 108186,
+            "brotli": 90375,
+            "sha256": "2184918b9fbee9a641768267f21c59c14377b8784acb5526b37aa92267335d38"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 314736,
-          "gzip": 99318,
-          "brotli": 83571
+          "raw": 339232,
+          "gzip": 108397,
+          "brotli": 90496
         },
         "byKind": {
           "style": {
@@ -25665,9 +25329,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 314464,
-            "gzip": 99107,
-            "brotli": 83450
+            "raw": 338960,
+            "gzip": 108186,
+            "brotli": 90375
           },
           "template": {
             "files": 1,
@@ -25691,9 +25355,9 @@
         "byPackage": {
           "web": {
             "files": 2,
-            "raw": 314736,
-            "gzip": 99318,
-            "brotli": 83571
+            "raw": 339232,
+            "gzip": 108397,
+            "brotli": 90496
           }
         }
       },
@@ -25911,17 +25575,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 323376,
-            "gzip": 100052,
-            "brotli": 83786,
-            "sha256": "b1262b51653532ff909efdbd62e97d0e5d420d3bd7920700bec61a4ff8f0c710"
+            "raw": 347871,
+            "gzip": 109183,
+            "brotli": 90654,
+            "sha256": "9957bb7edd5eef719a1eb39f6e78a41dca1fc82362a3db1f9cfc7fdc3ade051b"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 323648,
-          "gzip": 100263,
-          "brotli": 83907
+          "raw": 348143,
+          "gzip": 109394,
+          "brotli": 90775
         },
         "byKind": {
           "style": {
@@ -25932,9 +25596,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 323376,
-            "gzip": 100052,
-            "brotli": 83786
+            "raw": 347871,
+            "gzip": 109183,
+            "brotli": 90654
           },
           "template": {
             "files": 1,
@@ -25958,9 +25622,9 @@
         "byPackage": {
           "web": {
             "files": 2,
-            "raw": 323648,
-            "gzip": 100263,
-            "brotli": 83907
+            "raw": 348143,
+            "gzip": 109394,
+            "brotli": 90775
           }
         }
       },
@@ -26178,17 +25842,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 415178,
-            "gzip": 109012,
-            "brotli": 86868,
-            "sha256": "1e597c8f77edf083b0b2fca822871f72d21f0dd967a9e07a522a5b660c0a3b07"
+            "raw": 439673,
+            "gzip": 117968,
+            "brotli": 93678,
+            "sha256": "37baaff33692df9eeb650abcdb55895ce7cdc522cfbc3b2bad449ebaf3171cc4"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 415450,
-          "gzip": 109223,
-          "brotli": 86989
+          "raw": 439945,
+          "gzip": 118179,
+          "brotli": 93799
         },
         "byKind": {
           "style": {
@@ -26199,9 +25863,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 415178,
-            "gzip": 109012,
-            "brotli": 86868
+            "raw": 439673,
+            "gzip": 117968,
+            "brotli": 93678
           },
           "template": {
             "files": 1,
@@ -26225,9 +25889,9 @@
         "byPackage": {
           "web": {
             "files": 2,
-            "raw": 415450,
-            "gzip": 109223,
-            "brotli": 86989
+            "raw": 439945,
+            "gzip": 118179,
+            "brotli": 93799
           }
         }
       },
@@ -26445,17 +26109,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 314464,
-            "gzip": 99110,
-            "brotli": 83419,
-            "sha256": "7b6c11c7e55d76827b2496b885a108af2073aae75f3718a486abf3e1269fbb92"
+            "raw": 338960,
+            "gzip": 108188,
+            "brotli": 90379,
+            "sha256": "79bd31f21199c2db28a93f39dbd419fc7b550fd51d405d8ca76409b19b8b4ff0"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 314736,
-          "gzip": 99321,
-          "brotli": 83540
+          "raw": 339232,
+          "gzip": 108399,
+          "brotli": 90500
         },
         "byKind": {
           "style": {
@@ -26466,9 +26130,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 314464,
-            "gzip": 99110,
-            "brotli": 83419
+            "raw": 338960,
+            "gzip": 108188,
+            "brotli": 90379
           },
           "template": {
             "files": 1,
@@ -26492,9 +26156,9 @@
         "byPackage": {
           "web": {
             "files": 2,
-            "raw": 314736,
-            "gzip": 99321,
-            "brotli": 83540
+            "raw": 339232,
+            "gzip": 108399,
+            "brotli": 90500
           }
         }
       },
@@ -26712,17 +26376,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 323376,
-            "gzip": 100054,
-            "brotli": 83736,
-            "sha256": "68cc7e6248d151a9052e70dee7a0a1a6d658a57bb6aa5316aefb32f6ef0f779a"
+            "raw": 347871,
+            "gzip": 109185,
+            "brotli": 90527,
+            "sha256": "377d807da861891af2864e892c3231890e872d1ff21aa64576d38ec95520e771"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 323648,
-          "gzip": 100265,
-          "brotli": 83857
+          "raw": 348143,
+          "gzip": 109396,
+          "brotli": 90648
         },
         "byKind": {
           "style": {
@@ -26733,9 +26397,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 323376,
-            "gzip": 100054,
-            "brotli": 83736
+            "raw": 347871,
+            "gzip": 109185,
+            "brotli": 90527
           },
           "template": {
             "files": 1,
@@ -26759,9 +26423,9 @@
         "byPackage": {
           "web": {
             "files": 2,
-            "raw": 323648,
-            "gzip": 100265,
-            "brotli": 83857
+            "raw": 348143,
+            "gzip": 109396,
+            "brotli": 90648
           }
         }
       },
@@ -26979,17 +26643,17 @@
             "path": "index.js",
             "kind": "script",
             "package": "web",
-            "raw": 415178,
-            "gzip": 109014,
-            "brotli": 86852,
-            "sha256": "1e84265a3022a4eff98418938c8197e662740f0806e4e0a8ae9183305332eff1"
+            "raw": 439673,
+            "gzip": 117969,
+            "brotli": 93704,
+            "sha256": "158a4a60798346bdf7b5afec25505edb8f063e6b25c068c1f22298457da72501"
           }
         ],
         "excluded": [],
         "totals": {
-          "raw": 415450,
-          "gzip": 109225,
-          "brotli": 86973
+          "raw": 439945,
+          "gzip": 118180,
+          "brotli": 93825
         },
         "byKind": {
           "style": {
@@ -27000,9 +26664,9 @@
           },
           "script": {
             "files": 1,
-            "raw": 415178,
-            "gzip": 109014,
-            "brotli": 86852
+            "raw": 439673,
+            "gzip": 117969,
+            "brotli": 93704
           },
           "template": {
             "files": 1,
@@ -27026,9 +26690,9 @@
         "byPackage": {
           "web": {
             "files": 2,
-            "raw": 415450,
-            "gzip": 109225,
-            "brotli": 86973
+            "raw": 439945,
+            "gzip": 118180,
+            "brotli": 93825
           }
         }
       },
@@ -27067,6 +26731,11 @@
         375,
         768
       ],
+      "pixelComparison": {
+        "package": "pixelmatch@8.0.0",
+        "threshold": 0.1,
+        "includeAA": false
+      },
       "maximumPixelDifference": 0.005,
       "geometryTolerancePx": 0.75,
       "artifacts": [
@@ -31914,7 +31583,7 @@
       "resources": [
         {
           "kind": "static-server",
-          "origin": "http://127.0.0.1:52273",
+          "origin": "http://127.0.0.1:58841",
           "closed": true
         },
         {
@@ -32724,7 +32393,6 @@
           "stylesheets": [
             "app.wxss",
             "pages/gallery/index.wxss",
-            "pages/gallery/stylex.wxss",
             "stylex.wxss"
           ],
           "routes": [
@@ -32755,17 +32423,12 @@
           "stylesheets": [
             "app.wxss",
             "components/metric/index.wxss",
-            "components/metric/stylex.wxss",
             "independent/components/metric/index.wxss",
-            "independent/components/metric/stylex.wxss",
             "independent/settings/index.wxss",
-            "independent/settings/stylex.wxss",
+            "independent/stylex.wxss",
             "package/detail/index.wxss",
-            "package/detail/stylex.wxss",
             "pages/home/index.wxss",
-            "pages/home/stylex.wxss",
             "pages/list/index.wxss",
-            "pages/list/stylex.wxss",
             "stylex.wxss"
           ],
           "routes": [
@@ -32846,7 +32509,6 @@
           "stylesheets": [
             "app.wxss",
             "pages/scale/index.wxss",
-            "pages/scale/stylex.wxss",
             "stylex.wxss"
           ],
           "routes": [
@@ -32864,7 +32526,6 @@
           "stylesheets": [
             "app.wxss",
             "pages/scale/index.wxss",
-            "pages/scale/stylex.wxss",
             "stylex.wxss"
           ],
           "routes": [
@@ -32882,7 +32543,6 @@
           "stylesheets": [
             "app.wxss",
             "pages/scale/index.wxss",
-            "pages/scale/stylex.wxss",
             "stylex.wxss"
           ],
           "routes": [
@@ -32900,7 +32560,6 @@
           "stylesheets": [
             "app.wxss",
             "pages/scale/index.wxss",
-            "pages/scale/stylex.wxss",
             "stylex.wxss"
           ],
           "routes": [
@@ -32918,7 +32577,6 @@
           "stylesheets": [
             "app.wxss",
             "pages/scale/index.wxss",
-            "pages/scale/stylex.wxss",
             "stylex.wxss"
           ],
           "routes": [
@@ -32936,7 +32594,6 @@
           "stylesheets": [
             "app.wxss",
             "pages/scale/index.wxss",
-            "pages/scale/stylex.wxss",
             "stylex.wxss"
           ],
           "routes": [
@@ -32954,7 +32611,6 @@
           "stylesheets": [
             "app.wxss",
             "pages/gallery/index.wxss",
-            "pages/gallery/stylex.wxss",
             "stylex.wxss"
           ],
           "routes": [
@@ -32985,17 +32641,12 @@
           "stylesheets": [
             "app.wxss",
             "components/metric/index.wxss",
-            "components/metric/stylex.wxss",
             "independent/components/metric/index.wxss",
-            "independent/components/metric/stylex.wxss",
             "independent/settings/index.wxss",
-            "independent/settings/stylex.wxss",
+            "independent/stylex.wxss",
             "package/detail/index.wxss",
-            "package/detail/stylex.wxss",
             "pages/home/index.wxss",
-            "pages/home/stylex.wxss",
             "pages/list/index.wxss",
-            "pages/list/stylex.wxss",
             "stylex.wxss"
           ],
           "routes": [
@@ -33076,7 +32727,6 @@
           "stylesheets": [
             "app.wxss",
             "pages/scale/index.wxss",
-            "pages/scale/stylex.wxss",
             "stylex.wxss"
           ],
           "routes": [
@@ -33094,7 +32744,6 @@
           "stylesheets": [
             "app.wxss",
             "pages/scale/index.wxss",
-            "pages/scale/stylex.wxss",
             "stylex.wxss"
           ],
           "routes": [
@@ -33112,7 +32761,6 @@
           "stylesheets": [
             "app.wxss",
             "pages/scale/index.wxss",
-            "pages/scale/stylex.wxss",
             "stylex.wxss"
           ],
           "routes": [
@@ -33130,7 +32778,6 @@
           "stylesheets": [
             "app.wxss",
             "pages/scale/index.wxss",
-            "pages/scale/stylex.wxss",
             "stylex.wxss"
           ],
           "routes": [
@@ -33148,7 +32795,6 @@
           "stylesheets": [
             "app.wxss",
             "pages/scale/index.wxss",
-            "pages/scale/stylex.wxss",
             "stylex.wxss"
           ],
           "routes": [
@@ -33166,7 +32812,6 @@
           "stylesheets": [
             "app.wxss",
             "pages/scale/index.wxss",
-            "pages/scale/stylex.wxss",
             "stylex.wxss"
           ],
           "routes": [
@@ -36368,69 +36013,69 @@
         {
           "name": "reference-standard-gallery-weapp",
           "projectPath": ".bench/ide-projects/reference-standard-gallery-weapp",
-          "port": 60365,
+          "port": 60683,
           "createdByTask": true,
           "closed": true
         },
         {
           "name": "tailwind-standard-gallery-weapp",
           "projectPath": ".bench/ide-projects/tailwind-standard-gallery-weapp",
-          "port": 60625,
+          "port": 60947,
           "createdByTask": true,
           "closed": true
         },
         {
           "name": "tailwind-standard-application-weapp",
           "projectPath": ".bench/ide-projects/tailwind-standard-application-weapp",
-          "port": 60817,
+          "port": 61191,
           "createdByTask": true,
           "closed": true
         },
         {
           "name": "panda-standard-gallery-weapp",
           "projectPath": ".bench/ide-projects/panda-standard-gallery-weapp",
-          "port": 61526,
+          "port": 62015,
           "createdByTask": true,
           "closed": true
         },
         {
           "name": "panda-standard-application-weapp",
           "projectPath": ".bench/ide-projects/panda-standard-application-weapp",
-          "port": 61730,
+          "port": 62249,
           "createdByTask": true,
           "closed": true
         },
         {
           "name": "panda-optimized-gallery-weapp",
           "projectPath": ".bench/ide-projects/panda-optimized-gallery-weapp",
-          "port": 62532,
+          "port": 63053,
           "createdByTask": true,
           "closed": true
         },
         {
           "name": "panda-optimized-application-weapp",
           "projectPath": ".bench/ide-projects/panda-optimized-application-weapp",
-          "port": 62826,
+          "port": 63313,
           "createdByTask": true,
           "closed": true
         },
         {
           "name": "stylex-standard-gallery-weapp",
           "projectPath": ".bench/ide-projects/stylex-standard-gallery-weapp",
-          "port": 63715,
+          "port": 64031,
           "createdByTask": true,
           "closed": true
         },
         {
           "name": "stylex-standard-application-weapp",
           "projectPath": ".bench/ide-projects/stylex-standard-application-weapp",
-          "port": 63937,
+          "port": 64258,
           "createdByTask": true,
           "closed": true
         }
       ],
       "environment": {
-        "checkedAt": "2026-11-03T03:53:06.817Z",
+        "checkedAt": "2026-11-03T14:59:50.200Z",
         "source": "https://devtools.wxqcloud.qq.com.cn/WechatWebDev/nightly/versions/config.json",
         "downloadPage": "https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html",
         "latestStable": "2.02.2609240",

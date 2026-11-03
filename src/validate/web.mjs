@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict'
 import { createHash } from 'node:crypto'
-import { mkdir, writeFile } from 'node:fs/promises'
+import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { chromium } from 'playwright'
 import { PNG } from 'pngjs'
@@ -68,7 +68,8 @@ export async function closeWebBrowser({ context, browser, resource }) {
 export async function validateWeb(rows, { root, evidenceDirectory }) {
   const selected = rows.filter(row => row.target === 'web').sort((a, b) => Number(b.scheme === 'reference') - Number(a.scheme === 'reference') || rowKey(a).localeCompare(rowKey(b)))
   assert.ok(selected.length, 'No H5 artifacts to validate')
-  const report = { status: 'running', headless: true, browser: null, viewports: [375, 768], maximumPixelDifference: 0.005, geometryTolerancePx: 0.75, artifacts: [], resources: [] }
+  const pkg = JSON.parse(await readFile(path.join(root, 'package.json'), 'utf8'))
+  const report = { status: 'running', headless: true, browser: null, viewports: [375, 768], pixelComparison: { package: `pixelmatch@${pkg.devDependencies.pixelmatch}`, threshold: 0.1, includeAA: false }, maximumPixelDifference: 0.005, geometryTolerancePx: 0.75, artifacts: [], resources: [] }
   const references = new Map()
   const server = await createArtifactServer()
   const serverResource = { kind: 'static-server', origin: server.origin, closed: false }

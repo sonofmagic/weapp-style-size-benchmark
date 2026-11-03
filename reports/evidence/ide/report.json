@@ -1922,69 +1922,69 @@
     {
       "name": "reference-standard-gallery-weapp",
       "projectPath": ".bench/ide-projects/reference-standard-gallery-weapp",
-      "port": 60365,
+      "port": 60683,
       "createdByTask": true,
       "closed": true
     },
     {
       "name": "tailwind-standard-gallery-weapp",
       "projectPath": ".bench/ide-projects/tailwind-standard-gallery-weapp",
-      "port": 60625,
+      "port": 60947,
       "createdByTask": true,
       "closed": true
     },
     {
       "name": "tailwind-standard-application-weapp",
       "projectPath": ".bench/ide-projects/tailwind-standard-application-weapp",
-      "port": 60817,
+      "port": 61191,
       "createdByTask": true,
       "closed": true
     },
     {
       "name": "panda-standard-gallery-weapp",
       "projectPath": ".bench/ide-projects/panda-standard-gallery-weapp",
-      "port": 61526,
+      "port": 62015,
       "createdByTask": true,
       "closed": true
     },
     {
       "name": "panda-standard-application-weapp",
       "projectPath": ".bench/ide-projects/panda-standard-application-weapp",
-      "port": 61730,
+      "port": 62249,
       "createdByTask": true,
       "closed": true
     },
     {
       "name": "panda-optimized-gallery-weapp",
       "projectPath": ".bench/ide-projects/panda-optimized-gallery-weapp",
-      "port": 62532,
+      "port": 63053,
       "createdByTask": true,
       "closed": true
     },
     {
       "name": "panda-optimized-application-weapp",
       "projectPath": ".bench/ide-projects/panda-optimized-application-weapp",
-      "port": 62826,
+      "port": 63313,
       "createdByTask": true,
       "closed": true
     },
     {
       "name": "stylex-standard-gallery-weapp",
       "projectPath": ".bench/ide-projects/stylex-standard-gallery-weapp",
-      "port": 63715,
+      "port": 64031,
       "createdByTask": true,
       "closed": true
     },
     {
       "name": "stylex-standard-application-weapp",
       "projectPath": ".bench/ide-projects/stylex-standard-application-weapp",
-      "port": 63937,
+      "port": 64258,
       "createdByTask": true,
       "closed": true
     }
   ],
   "environment": {
-    "checkedAt": "2026-11-03T03:53:06.817Z",
+    "checkedAt": "2026-11-03T14:59:50.200Z",
     "source": "https://devtools.wxqcloud.qq.com.cn/WechatWebDev/nightly/versions/config.json",
     "downloadPage": "https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html",
     "latestStable": "2.02.2609240",

@@ -37,6 +37,7 @@ jobs:
           path: |
             reports/
             !reports/page-growth/**
+            !reports/release-comparison/**
             .bench/fixtures/**/dist/**
             .bench/logs/**
             .bench/run.json
@@ -93,4 +94,39 @@ jobs:
             .bench/page-growth/logs/**
             .bench/page-growth/fixtures/**/dist/**
           include-hidden-files: true
+          if-no-files-found: warn
+
+  release-comparison:
+    needs: [benchmark, page-growth]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Invalidate committed release comparison
+        run: rm -rf reports/release-comparison
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 12.16.1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24.22.1
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - uses: actions/download-artifact@v4
+        with:
+          name: style-size-benchmark-complete
+          path: .
+      - uses: actions/download-artifact@v4
+        with:
+          name: page-growth-current-run
+          path: .
+      - name: Compare both validated current datasets with the historical baseline
+        run: |
+          pnpm exec node src/experiments/release-comparison.mjs
+          pnpm exec node src/experiments/release-comparison.mjs --check
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: release-comparison-current-run
+          path: reports/release-comparison/
           if-no-files-found: warn

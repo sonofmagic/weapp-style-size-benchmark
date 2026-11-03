@@ -2,17 +2,19 @@
 
 对比 weapp-tailwindcss、weapp-pandacss、weapp-stylex 在原生微信小程序与 H5 中实现相同布局和交互状态的最终产物体积，同时保留手写 CSS 参考和无样式基线。数据由真实生产构建生成，README 表格与曲线均来自同一份报告。
 
+本轮使用 weapp-tailwindcss 5.6.3、weapp-pandacss 2.3.0、weapp-stylex 0.3.2，宿主为 weapp-vite 7.8.0。[官方稳定版本核对记录](reports/version-refresh/latest-versions.json)与[上一版报告对比](reports/release-comparison/README.md)单独保存。
+
 ## 本次结论
 
 - 微信的业务应用场景，常规生产下总产物最小为 **weapp-tailwindcss：20.73 KiB**；三方案最大与最小相差 104.98 KiB。
 - 微信的业务应用场景，优化配置下总产物最小为 **weapp-tailwindcss：20.73 KiB**；三方案最大与最小相差 104.13 KiB。
-- H5的业务应用场景，常规生产下总产物最小为 **weapp-stylex：347.10 KiB**；三方案最大与最小相差 65.44 KiB。 raw 排序前两方案相差 108 字节（相对最小值 0.030%）；此差值只代表本版本和场景，不能泛化为普遍优势。
-- H5 常规生产的业务应用传输参考：gzip 最小为 **weapp-tailwindcss 104.96 KiB**（与 raw 最小方案不同）；Brotli 最小为 **weapp-tailwindcss 88.31 KiB**（与 raw 最小方案不同）。raw 与压缩的排序取决于字符串、声明和代码的可压缩性，应按实际交付方式选指标。
-- H5的业务应用场景，优化配置下总产物最小为 **weapp-stylex：347.10 KiB**；三方案最大与最小相差 64.17 KiB。 raw 排序前两方案相差 108 字节（相对最小值 0.030%）；此差值只代表本版本和场景，不能泛化为普遍优势。
-- H5 优化配置的业务应用传输参考：gzip 最小为 **weapp-tailwindcss 104.96 KiB**（与 raw 最小方案不同）；Brotli 最小为 **weapp-tailwindcss 88.31 KiB**（与 raw 最小方案不同）。raw 与压缩的排序取决于字符串、声明和代码的可压缩性，应按实际交付方式选指标。
+- H5的业务应用场景，常规生产下总产物最小为 **weapp-stylex：371.11 KiB**；三方案最大与最小相差 65.45 KiB。 raw 排序前两方案相差 102 字节（相对最小值 0.027%）；此差值只代表本版本和场景，不能泛化为普遍优势。
+- H5 常规生产的业务应用传输参考：gzip 最小为 **weapp-tailwindcss 113.80 KiB**（与 raw 最小方案不同）；Brotli 最小为 **weapp-tailwindcss 95.09 KiB**（与 raw 最小方案不同）。raw 与压缩的排序取决于字符串、声明和代码的可压缩性，应按实际交付方式选指标。
+- H5的业务应用场景，优化配置下总产物最小为 **weapp-stylex：371.11 KiB**；三方案最大与最小相差 64.17 KiB。 raw 排序前两方案相差 102 字节（相对最小值 0.027%）；此差值只代表本版本和场景，不能泛化为普遍优势。
+- H5 优化配置的业务应用传输参考：gzip 最小为 **weapp-tailwindcss 113.80 KiB**（与 raw 最小方案不同）；Brotli 最小为 **weapp-tailwindcss 95.09 KiB**（与 raw 最小方案不同）。raw 与压缩的排序取决于字符串、声明和代码的可压缩性，应按实际交付方式选指标。
 - Panda 类名哈希优化在四个展示/业务应用组合中的总产物变化范围为 0.71～1.41 KiB；相对降幅最大为 微信 gallery 的 1.11%。负值表示优化配置体积增加，详见下表。
-- 规模由 10 增至 1000，三方案各目标/配置的总量增长：复用场景 103.19～229.84 KiB，独立样式场景 263.57～484.58 KiB。增长同时包含节点、模板和绑定数据，不能全归为样式增长。
-- gallery/application 共 8 个目标/配置/场景组合中，样式最小方案与总量最小方案全部一致；完整分项仍需一起比较。gallery 是较小能力集合的集成成本参照，application 增加业务结构；二者不是只改变样式条目的数学固定成本实验。
+- 规模由 10 增至 1000，三方案各目标/配置的总量增长：复用场景 103.19～229.84 KiB，独立样式场景 251.21～484.59 KiB。增长同时包含节点、模板和绑定数据，不能全归为样式增长。
+- gallery/application 共 8 个目标/配置/场景组合中，样式最小方案与总量最小方案有 **4 组不一致**；完整分项仍需一起比较。gallery 是较小能力集合的集成成本参照，application 增加业务结构；二者不是只改变样式条目的数学固定成本实验。
 - 排名仅适用于本仓库锁定版本、场景和构建参数。原始数据包含手写 CSS 与无样式基线，适合复核总量和集成成本。
 
 当前矩阵共 160 格，全部通过两次独立生产构建一致性检查。H5 与 headless 校验通过；微信 IDE 验证已通过。
@@ -27,7 +29,7 @@ corepack pnpm bench
 corepack pnpm report:check
 ```
 
-Node.js 24.22.1，pnpm 12.16.1。以提交中的 lockfile 为依赖版本来源。IDE 验证需在安装并登录微信开发者工具的本机单独执行，不由 GitHub CI 代替。
+Node.js 24.22.1，pnpm@12.16.1。以提交中的 lockfile 为依赖版本来源。IDE 验证需在安装并登录微信开发者工具的本机单独执行，不由 GitHub CI 代替。
 
 `pnpm bench` 一键完成全矩阵构建、headless/H5 等效校验、测量和报告；默认不启动微信 IDE。调试时可以分步执行，后续命令消费 `.bench/run.json` 中当前已构建状态，不会自动沿用更早一次的成功报告：
 
@@ -65,12 +67,13 @@ BENCHMARK_RUN_IDE=1 corepack pnpm bench
 - 五组实现：三种样式方案、手写 CSS 参考、无样式基线。两种配置、八个场景、两个目标，共 160 格。无样式基线保持同一内容结构与业务逻辑，仅移除样式，供观察增量。
 - `gallery` 覆盖样式能力展示，`application` 覆盖完整业务页面；`reuse-10/100/1000` 观察重复使用相同样式的增长，`unique-10/100/1000` 观察独立样式的增长。场景数据和预期效果共用契约。
 - 常规生产使用各方案正常生产构建；优化配置仅为 Panda 开启 `hash: { className: true }`。StyleX 两档均保留默认生产 hash；Tailwind 没有对应的内置类名压缩开关，两档配置相同。不引入 tailwindcss-mangle。
-- 宿主统一使用 `weapp-vite@7.7.0`：微信 Tailwind 走宿主内置 `weapp.tailwindcss`（锁定 `weapp-tailwindcss@5.6.3`），H5 走官方 `weapp-tailwindcss/postcss`，配置 `generator: { target: 'web', webCompat: true }`；Panda 使用 PostCSS 适配器，StyleX 走 `createStylex()` 的 Vite 与 compiler 两个入口。Tailwind/Panda 全局样式均由 `app.css` 顶部 `@import` 进入原生样式引用图，以传递到 H5 页面的 ShadowRoot；不通过 App 脚本单独导入框架样式。
+- 宿主统一使用 `weapp-vite@7.8.0`：微信 Tailwind 走宿主内置 `weapp.tailwindcss`（锁定 `weapp-tailwindcss@5.6.3`），H5 走官方 `weapp-tailwindcss/postcss`，配置 `generator: { target: 'web', webCompat: true }`；Panda 使用 PostCSS 适配器，StyleX 走 `createStylex()` 的 Vite 与 compiler 两个入口。Tailwind/Panda 全局样式均由 `app.css` 顶部 `@import` 进入原生样式引用图，以传递到 H5 页面的 ShadowRoot；不通过 App 脚本单独导入框架样式。
 - 三套样式方案及手写 CSS 共享显式 reset，关闭各框架 preflight；无样式基线不含 reset。Panda 仍使用官方 preset-base/preset-panda。构建实际保留的默认 token、变量、兼容 CSS 与运行时代码全部计量，不为缩小某方案单独删减。
 - H5 为 Panda 开启官方 Web layer polyfill（`polyfill: true`）；两端 Panda 均使用 `cssVarRoot: '.theme-light, .theme-dark'`，让 token 声明落在已有主题根节点。Tailwind 的 H5 `webCompat: true` 处理 layer 与宿主默认样式优先级；这些配置均通过浏览器计算样式验证。
+- 本轮像素比较使用 `pixelmatch@8.0.0`，保留 `threshold: 0.1` 与 `includeAA: false`。历史报告使用的 Pixelmatch 7 与本轮 8 的颜色差异度量不同（YIQ → OKLab/HyAB）；截图和效果证据全部重采，不能把跨工具版本的像素差异计数直接解读为视觉改善。
 - 微信 IDE 先在手写 CSS 参考产物上校准宿主的 rpx 取整（与理论值偏差须小于 1 CSS px），保存设备、基础库及参考文件哈希；三套方案随后在同设备、同基础库下，以 0.1px 容差严格匹配校准结果。其余样式直接检查规格预期，校准证据保存在 IDE 报告的 `calibrations`。
 - 宿主配置统一设 `emptyOutDir: false`，由基准程序在每轮开始前清理整个输出目录，避免主包构建清掉适配器在独立分包子构建中生成的样式。不会在构建结束后手工补回缺失规则。
-- `weapp-vite@7.7.0` 的原生适配器在 Vite CSS 压缩之后还能写入 WXSS，不同格式化方式会影响 raw 排名。因此每轮原生构建后，对所有方案的最终 WXSS 统一使用 `lightningcss@1.33.0` 执行 `minify: true`，然后才采集、校验重复性。H5 使用 Vite 的统一生产压缩。本文排名对应此最终部署产物，**不是未经统一压缩的适配器裸输出**；原生压缩前/后每个文件的字节均保存于 `row.cssMinification`。
+- 原生适配器在 Vite CSS 压缩之后仍可能写入 WXSS，不同格式化方式会影响 raw 排名。因此每轮原生构建后，对所有方案的最终 WXSS 统一使用 `lightningcss@1.33.0` 执行 `minify: true`，然后才采集、校验重复性。H5 使用 Vite 的统一生产压缩。本文排名对应此最终部署产物，**不是未经统一压缩的适配器裸输出**；原生压缩前/后每个文件的字节均保存于 `row.cssMinification`。
 - 每格清理产物后生产构建两次，校验最终文件路径和 SHA-256 一致，并检查 JS 模块、CSS 导入、WXML/WXS、页面/组件配置与独立分包的静态引用完整性。独立分包的静态引用不得越出自身目录；完整证据保存在每格 `referenceValidation`。不会用缓存报告填补失败或缺失格。度量包括最终脚本、模板、样式、JSON 和资源；WXS 归入脚本。
 - 微信主包与分包从最终 `app.json` 划定。每个物理路径计一次，同内容复制到不同路径仍分别计量；共享文件归实际所在包，不分摊给页面。
 - raw 是最终部署文件原始字节之和；gzip 固定 level 9、Brotli 固定 quality 11，逐文件压缩后求和。压缩值可供 H5 传输参考，**不等于微信官方上传包体积**。1 KiB = 1024 字节。
@@ -83,45 +86,45 @@ BENCHMARK_RUN_IDE=1 corepack pnpm bench
 | 目标 | 配置 | 场景 | 方案 | 总量 | 样式文件 | 脚本 | 模板 | JSON | 资源 | Δ 无样式 | Δ 手写 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 微信 | 常规生产 | gallery | weapp-tailwindcss | 7.63 | 3.12 | 0.43 | 3.91 | 0.17 | 0.00 | +5.82 | +2.83 |
-| H5 | 常规生产 | gallery | weapp-tailwindcss | 332.06 | 3.26 | 328.47 | 0.33 | 0.00 | 0.00 | +22.87 | +5.38 |
+| H5 | 常规生产 | gallery | weapp-tailwindcss | 356.06 | 3.26 | 352.47 | 0.33 | 0.00 | 0.00 | +22.86 | +5.38 |
 | 微信 | 常规生产 | application | weapp-tailwindcss | 20.73 | 4.79 | 0.97 | 14.31 | 0.67 | 0.00 | +13.69 | +7.20 |
-| H5 | 常规生产 | application | weapp-tailwindcss | 347.21 | 2.82 | 344.06 | 0.33 | 0.00 | 0.00 | +30.06 | +8.69 |
+| H5 | 常规生产 | application | weapp-tailwindcss | 371.21 | 2.82 | 368.05 | 0.33 | 0.00 | 0.00 | +30.05 | +8.69 |
 | 微信 | 优化配置 | gallery | weapp-tailwindcss | 7.63 | 3.12 | 0.43 | 3.91 | 0.17 | 0.00 | +5.82 | +2.83 |
-| H5 | 优化配置 | gallery | weapp-tailwindcss | 332.06 | 3.26 | 328.47 | 0.33 | 0.00 | 0.00 | +22.87 | +5.38 |
+| H5 | 优化配置 | gallery | weapp-tailwindcss | 356.06 | 3.26 | 352.47 | 0.33 | 0.00 | 0.00 | +22.86 | +5.38 |
 | 微信 | 优化配置 | application | weapp-tailwindcss | 20.73 | 4.79 | 0.97 | 14.31 | 0.67 | 0.00 | +13.69 | +7.20 |
-| H5 | 优化配置 | application | weapp-tailwindcss | 347.21 | 2.82 | 344.06 | 0.33 | 0.00 | 0.00 | +30.06 | +8.69 |
+| H5 | 优化配置 | application | weapp-tailwindcss | 371.21 | 2.82 | 368.05 | 0.33 | 0.00 | 0.00 | +30.05 | +8.69 |
 | 微信 | 常规生产 | gallery | weapp-pandacss | 63.85 | 36.73 | 25.00 | 1.95 | 0.17 | 0.00 | +62.04 | +59.06 |
-| H5 | 常规生产 | gallery | weapp-pandacss | 384.46 | 18.14 | 365.99 | 0.33 | 0.00 | 0.00 | +75.27 | +57.78 |
+| H5 | 常规生产 | gallery | weapp-pandacss | 408.46 | 18.14 | 390.00 | 0.33 | 0.00 | 0.00 | +75.27 | +57.79 |
 | 微信 | 常规生产 | application | weapp-pandacss | 125.71 | 72.51 | 44.76 | 7.77 | 0.67 | 0.00 | +118.67 | +112.17 |
-| H5 | 常规生产 | application | weapp-pandacss | 412.55 | 17.43 | 394.79 | 0.33 | 0.00 | 0.00 | +95.40 | +74.03 |
+| H5 | 常规生产 | application | weapp-pandacss | 436.55 | 17.43 | 418.80 | 0.33 | 0.00 | 0.00 | +95.40 | +74.03 |
 | 微信 | 优化配置 | gallery | weapp-pandacss | 63.15 | 36.02 | 25.00 | 1.95 | 0.17 | 0.00 | +61.34 | +58.36 |
-| H5 | 优化配置 | gallery | weapp-pandacss | 383.05 | 17.43 | 365.29 | 0.33 | 0.00 | 0.00 | +73.86 | +56.37 |
+| H5 | 优化配置 | gallery | weapp-pandacss | 407.05 | 17.43 | 389.29 | 0.33 | 0.00 | 0.00 | +73.86 | +56.37 |
 | 微信 | 优化配置 | application | weapp-pandacss | 124.86 | 71.66 | 44.76 | 7.77 | 0.67 | 0.00 | +117.82 | +111.32 |
-| H5 | 优化配置 | application | weapp-pandacss | 411.28 | 17.00 | 393.95 | 0.33 | 0.00 | 0.00 | +94.13 | +72.75 |
-| 微信 | 常规生产 | gallery | weapp-stylex | 11.30 | 5.01 | 4.09 | 2.03 | 0.17 | 0.00 | +9.49 | +6.51 |
-| H5 | 常规生产 | gallery | weapp-stylex | 330.67 | 0.21 | 330.13 | 0.33 | 0.00 | 0.00 | +21.47 | +3.98 |
-| 微信 | 常规生产 | application | weapp-stylex | 30.83 | 13.24 | 8.79 | 8.14 | 0.67 | 0.00 | +23.79 | +17.29 |
-| H5 | 常规生产 | application | weapp-stylex | 347.10 | 0.21 | 346.57 | 0.33 | 0.00 | 0.00 | +29.95 | +8.58 |
-| 微信 | 优化配置 | gallery | weapp-stylex | 11.30 | 5.01 | 4.09 | 2.03 | 0.17 | 0.00 | +9.49 | +6.51 |
-| H5 | 优化配置 | gallery | weapp-stylex | 330.67 | 0.21 | 330.13 | 0.33 | 0.00 | 0.00 | +21.47 | +3.98 |
-| 微信 | 优化配置 | application | weapp-stylex | 30.83 | 13.24 | 8.79 | 8.14 | 0.67 | 0.00 | +23.79 | +17.29 |
-| H5 | 优化配置 | application | weapp-stylex | 347.10 | 0.21 | 346.57 | 0.33 | 0.00 | 0.00 | +29.95 | +8.58 |
+| H5 | 优化配置 | application | weapp-pandacss | 435.28 | 17.00 | 417.95 | 0.33 | 0.00 | 0.00 | +94.13 | +72.76 |
+| 微信 | 常规生产 | gallery | weapp-stylex | 8.88 | 2.59 | 4.09 | 2.03 | 0.17 | 0.00 | +7.07 | +4.09 |
+| H5 | 常规生产 | gallery | weapp-stylex | 354.66 | 0.21 | 354.13 | 0.33 | 0.00 | 0.00 | +21.47 | +3.99 |
+| 微信 | 常规生产 | application | weapp-stylex | 21.62 | 4.03 | 8.79 | 8.14 | 0.67 | 0.00 | +14.57 | +8.08 |
+| H5 | 常规生产 | application | weapp-stylex | 371.11 | 0.21 | 370.57 | 0.33 | 0.00 | 0.00 | +29.95 | +8.59 |
+| 微信 | 优化配置 | gallery | weapp-stylex | 8.88 | 2.59 | 4.09 | 2.03 | 0.17 | 0.00 | +7.07 | +4.09 |
+| H5 | 优化配置 | gallery | weapp-stylex | 354.66 | 0.21 | 354.13 | 0.33 | 0.00 | 0.00 | +21.47 | +3.99 |
+| 微信 | 优化配置 | application | weapp-stylex | 21.62 | 4.03 | 8.79 | 8.14 | 0.67 | 0.00 | +14.57 | +8.08 |
+| H5 | 优化配置 | application | weapp-stylex | 371.11 | 0.21 | 370.57 | 0.33 | 0.00 | 0.00 | +29.95 | +8.59 |
 | 微信 | 常规生产 | gallery | 手写 CSS | 4.79 | 2.27 | 0.43 | 1.92 | 0.17 | 0.00 | +2.98 | 0.00 |
-| H5 | 常规生产 | gallery | 手写 CSS | 326.68 | 0.49 | 325.86 | 0.33 | 0.00 | 0.00 | +17.49 | 0.00 |
+| H5 | 常规生产 | gallery | 手写 CSS | 350.68 | 0.49 | 349.85 | 0.33 | 0.00 | 0.00 | +17.48 | 0.00 |
 | 微信 | 常规生产 | application | 手写 CSS | 13.54 | 4.85 | 0.97 | 7.05 | 0.67 | 0.00 | +6.50 | 0.00 |
-| H5 | 常规生产 | application | 手写 CSS | 338.52 | 0.49 | 337.70 | 0.33 | 0.00 | 0.00 | +21.37 | 0.00 |
+| H5 | 常规生产 | application | 手写 CSS | 362.52 | 0.49 | 361.70 | 0.33 | 0.00 | 0.00 | +21.37 | 0.00 |
 | 微信 | 优化配置 | gallery | 手写 CSS | 4.79 | 2.27 | 0.43 | 1.92 | 0.17 | 0.00 | +2.98 | 0.00 |
-| H5 | 优化配置 | gallery | 手写 CSS | 326.68 | 0.49 | 325.86 | 0.33 | 0.00 | 0.00 | +17.49 | 0.00 |
+| H5 | 优化配置 | gallery | 手写 CSS | 350.68 | 0.49 | 349.85 | 0.33 | 0.00 | 0.00 | +17.48 | 0.00 |
 | 微信 | 优化配置 | application | 手写 CSS | 13.54 | 4.85 | 0.97 | 7.05 | 0.67 | 0.00 | +6.50 | 0.00 |
-| H5 | 优化配置 | application | 手写 CSS | 338.52 | 0.49 | 337.70 | 0.33 | 0.00 | 0.00 | +21.37 | 0.00 |
+| H5 | 优化配置 | application | 手写 CSS | 362.52 | 0.49 | 361.70 | 0.33 | 0.00 | 0.00 | +21.37 | 0.00 |
 | 微信 | 常规生产 | gallery | 无样式基线 | 1.81 | 0.00 | 0.25 | 1.39 | 0.17 | 0.00 | 0.00 | -2.98 |
-| H5 | 常规生产 | gallery | 无样式基线 | 309.19 | 0.00 | 308.93 | 0.27 | 0.00 | 0.00 | 0.00 | -17.49 |
+| H5 | 常规生产 | gallery | 无样式基线 | 333.19 | 0.00 | 332.93 | 0.27 | 0.00 | 0.00 | 0.00 | -17.48 |
 | 微信 | 常规生产 | application | 无样式基线 | 7.04 | 0.00 | 0.79 | 5.59 | 0.67 | 0.00 | 0.00 | -6.50 |
-| H5 | 常规生产 | application | 无样式基线 | 317.15 | 0.00 | 316.88 | 0.27 | 0.00 | 0.00 | 0.00 | -21.37 |
+| H5 | 常规生产 | application | 无样式基线 | 341.15 | 0.00 | 340.89 | 0.27 | 0.00 | 0.00 | 0.00 | -21.37 |
 | 微信 | 优化配置 | gallery | 无样式基线 | 1.81 | 0.00 | 0.25 | 1.39 | 0.17 | 0.00 | 0.00 | -2.98 |
-| H5 | 优化配置 | gallery | 无样式基线 | 309.19 | 0.00 | 308.93 | 0.27 | 0.00 | 0.00 | 0.00 | -17.49 |
+| H5 | 优化配置 | gallery | 无样式基线 | 333.19 | 0.00 | 332.93 | 0.27 | 0.00 | 0.00 | 0.00 | -17.48 |
 | 微信 | 优化配置 | application | 无样式基线 | 7.04 | 0.00 | 0.79 | 5.59 | 0.67 | 0.00 | 0.00 | -6.50 |
-| H5 | 优化配置 | application | 无样式基线 | 317.15 | 0.00 | 316.88 | 0.27 | 0.00 | 0.00 | 0.00 | -21.37 |
+| H5 | 优化配置 | application | 无样式基线 | 341.15 | 0.00 | 340.89 | 0.27 | 0.00 | 0.00 | 0.00 | -21.37 |
 
 ## Panda 类名哈希的实际收益
 
@@ -131,8 +134,8 @@ BENCHMARK_RUN_IDE=1 corepack pnpm bench
 | --- | --- | --- | --- | --- | --- | --- |
 | 微信 | gallery | 63.85 | 63.15 | +0.71 | 1.11% | +0.71 |
 | 微信 | application | 125.71 | 124.86 | +0.85 | 0.67% | +0.85 |
-| H5 | gallery | 384.46 | 383.05 | +1.41 | 0.37% | +0.71 |
-| H5 | application | 412.55 | 411.28 | +1.27 | 0.31% | +0.42 |
+| H5 | gallery | 408.46 | 407.05 | +1.41 | 0.35% | +0.71 |
+| H5 | application | 436.55 | 435.28 | +1.27 | 0.29% | +0.42 |
 
 ## 展示页与业务应用的集成成本
 
@@ -142,14 +145,14 @@ BENCHMARK_RUN_IDE=1 corepack pnpm bench
 | --- | --- | --- | --- | --- |
 | 微信 | 常规生产 | weapp-tailwindcss | +5.82 | +13.69 |
 | 微信 | 常规生产 | weapp-pandacss | +62.04 | +118.67 |
-| 微信 | 常规生产 | weapp-stylex | +9.49 | +23.79 |
+| 微信 | 常规生产 | weapp-stylex | +7.07 | +14.57 |
 | 微信 | 优化配置 | weapp-tailwindcss | +5.82 | +13.69 |
 | 微信 | 优化配置 | weapp-pandacss | +61.34 | +117.82 |
-| 微信 | 优化配置 | weapp-stylex | +9.49 | +23.79 |
-| H5 | 常规生产 | weapp-tailwindcss | +22.87 | +30.06 |
+| 微信 | 优化配置 | weapp-stylex | +7.07 | +14.57 |
+| H5 | 常规生产 | weapp-tailwindcss | +22.86 | +30.05 |
 | H5 | 常规生产 | weapp-pandacss | +75.27 | +95.40 |
 | H5 | 常规生产 | weapp-stylex | +21.47 | +29.95 |
-| H5 | 优化配置 | weapp-tailwindcss | +22.87 | +30.06 |
+| H5 | 优化配置 | weapp-tailwindcss | +22.86 | +30.05 |
 | H5 | 优化配置 | weapp-pandacss | +73.86 | +94.13 |
 | H5 | 优化配置 | weapp-stylex | +21.47 | +29.95 |
 
@@ -167,10 +170,10 @@ BENCHMARK_RUN_IDE=1 corepack pnpm bench
 | 常规生产 | application | weapp-pandacss | 72.51 | 72.51 | 0.00 |
 | 优化配置 | gallery | weapp-pandacss | 36.02 | 36.02 | 0.00 |
 | 优化配置 | application | weapp-pandacss | 71.66 | 71.66 | 0.00 |
-| 常规生产 | gallery | weapp-stylex | 5.24 | 5.01 | 0.23 |
-| 常规生产 | application | weapp-stylex | 13.71 | 13.24 | 0.47 |
-| 优化配置 | gallery | weapp-stylex | 5.24 | 5.01 | 0.23 |
-| 优化配置 | application | weapp-stylex | 13.71 | 13.24 | 0.47 |
+| 常规生产 | gallery | weapp-stylex | 2.71 | 2.59 | 0.11 |
+| 常规生产 | application | weapp-stylex | 4.17 | 4.03 | 0.14 |
+| 优化配置 | gallery | weapp-stylex | 2.71 | 2.59 | 0.11 |
+| 优化配置 | application | weapp-stylex | 4.17 | 4.03 | 0.14 |
 
 ## 微信主包与分包
 
@@ -192,14 +195,14 @@ BENCHMARK_RUN_IDE=1 corepack pnpm bench
 | 优化配置 | application | weapp-pandacss | main | 65.11 | 25.97 | 20.94 |
 | 优化配置 | application | weapp-pandacss | package | 2.42 | 1.07 | 0.90 |
 | 优化配置 | application | weapp-pandacss | independent | 57.34 | 23.91 | 19.33 |
-| 常规生产 | gallery | weapp-stylex | main | 11.30 | 4.84 | 4.25 |
-| 常规生产 | application | weapp-stylex | main | 18.43 | 7.43 | 6.25 |
-| 常规生产 | application | weapp-stylex | package | 4.01 | 1.88 | 1.62 |
-| 常规生产 | application | weapp-stylex | independent | 8.40 | 4.10 | 3.55 |
-| 优化配置 | gallery | weapp-stylex | main | 11.30 | 4.84 | 4.25 |
-| 优化配置 | application | weapp-stylex | main | 18.43 | 7.43 | 6.25 |
-| 优化配置 | application | weapp-stylex | package | 4.01 | 1.88 | 1.62 |
-| 优化配置 | application | weapp-stylex | independent | 8.40 | 4.10 | 3.55 |
+| 常规生产 | gallery | weapp-stylex | main | 8.88 | 3.84 | 3.36 |
+| 常规生产 | application | weapp-stylex | main | 12.81 | 5.10 | 4.22 |
+| 常规生产 | application | weapp-stylex | package | 2.14 | 1.10 | 0.94 |
+| 常规生产 | application | weapp-stylex | independent | 6.67 | 3.38 | 2.92 |
+| 优化配置 | gallery | weapp-stylex | main | 8.88 | 3.84 | 3.36 |
+| 优化配置 | application | weapp-stylex | main | 12.81 | 5.10 | 4.22 |
+| 优化配置 | application | weapp-stylex | package | 2.14 | 1.10 | 0.94 |
+| 优化配置 | application | weapp-stylex | independent | 6.67 | 3.38 | 2.92 |
 | 常规生产 | gallery | 手写 CSS | main | 4.79 | 1.91 | 1.56 |
 | 常规生产 | application | 手写 CSS | main | 8.35 | 2.99 | 2.26 |
 | 常规生产 | application | 手写 CSS | package | 2.00 | 0.94 | 0.76 |
@@ -221,26 +224,26 @@ BENCHMARK_RUN_IDE=1 corepack pnpm bench
 
 | 配置 | 场景 | 方案 | raw | gzip | Brotli |
 | --- | --- | --- | --- | --- | --- |
-| 常规生产 | gallery | weapp-tailwindcss | 332.06 | 104.25 | 87.80 |
-| 常规生产 | application | weapp-tailwindcss | 347.21 | 104.96 | 88.31 |
-| 优化配置 | gallery | weapp-tailwindcss | 332.06 | 104.25 | 87.80 |
-| 优化配置 | application | weapp-tailwindcss | 347.21 | 104.96 | 88.31 |
-| 常规生产 | gallery | weapp-pandacss | 384.46 | 124.90 | 104.68 |
-| 常规生产 | application | weapp-pandacss | 412.55 | 132.49 | 104.74 |
-| 优化配置 | gallery | weapp-pandacss | 383.05 | 124.84 | 104.58 |
-| 优化配置 | application | weapp-pandacss | 411.28 | 132.61 | 104.79 |
-| 常规生产 | gallery | weapp-stylex | 330.67 | 104.40 | 87.93 |
-| 常规生产 | application | weapp-stylex | 347.10 | 105.75 | 88.90 |
-| 优化配置 | gallery | weapp-stylex | 330.67 | 104.40 | 87.93 |
-| 优化配置 | application | weapp-stylex | 347.10 | 105.75 | 88.90 |
-| 常规生产 | gallery | 手写 CSS | 326.68 | 102.73 | 86.50 |
-| 常规生产 | application | 手写 CSS | 338.52 | 103.67 | 87.18 |
-| 优化配置 | gallery | 手写 CSS | 326.68 | 102.73 | 86.50 |
-| 优化配置 | application | 手写 CSS | 338.52 | 103.67 | 87.18 |
-| 常规生产 | gallery | 无样式基线 | 309.19 | 97.56 | 82.19 |
-| 常规生产 | application | 无样式基线 | 317.15 | 98.49 | 82.80 |
-| 优化配置 | gallery | 无样式基线 | 309.19 | 97.56 | 82.19 |
-| 优化配置 | application | 无样式基线 | 317.15 | 98.49 | 82.80 |
+| 常规生产 | gallery | weapp-tailwindcss | 356.06 | 113.15 | 94.67 |
+| 常规生产 | application | weapp-tailwindcss | 371.21 | 113.80 | 95.09 |
+| 优化配置 | gallery | weapp-tailwindcss | 356.06 | 113.15 | 94.67 |
+| 优化配置 | application | weapp-tailwindcss | 371.21 | 113.80 | 95.09 |
+| 常规生产 | gallery | weapp-pandacss | 408.46 | 133.79 | 111.52 |
+| 常规生产 | application | weapp-pandacss | 436.55 | 141.20 | 111.47 |
+| 优化配置 | gallery | weapp-pandacss | 407.05 | 133.75 | 111.45 |
+| 优化配置 | application | weapp-pandacss | 435.28 | 141.31 | 111.57 |
+| 常规生产 | gallery | weapp-stylex | 354.66 | 113.27 | 94.75 |
+| 常规生产 | application | weapp-stylex | 371.11 | 114.60 | 95.72 |
+| 优化配置 | gallery | weapp-stylex | 354.66 | 113.27 | 94.75 |
+| 优化配置 | application | weapp-stylex | 371.11 | 114.60 | 95.72 |
+| 常规生产 | gallery | 手写 CSS | 350.68 | 111.59 | 93.22 |
+| 常规生产 | application | 手写 CSS | 362.52 | 112.51 | 94.04 |
+| 优化配置 | gallery | 手写 CSS | 350.68 | 111.59 | 93.22 |
+| 优化配置 | application | 手写 CSS | 362.52 | 112.51 | 94.04 |
+| 常规生产 | gallery | 无样式基线 | 333.19 | 106.48 | 88.88 |
+| 常规生产 | application | 无样式基线 | 341.15 | 107.43 | 89.44 |
+| 优化配置 | gallery | 无样式基线 | 333.19 | 106.48 | 88.88 |
+| 优化配置 | application | 无样式基线 | 341.15 | 107.43 | 89.44 |
 
 ## 规模增长
 
@@ -254,16 +257,16 @@ BENCHMARK_RUN_IDE=1 corepack pnpm bench
 | --- | --- | --- | --- | --- | --- | --- |
 | 微信 | 常规生产 | weapp-tailwindcss | +220.17 | 0.00 | +263.57 | +41.97 |
 | 微信 | 常规生产 | weapp-pandacss | +103.19 | 0.00 | +328.90 | +44.64 |
-| 微信 | 常规生产 | weapp-stylex | +108.99 | 0.00 | +286.68 | +70.96 |
+| 微信 | 常规生产 | weapp-stylex | +108.99 | 0.00 | +251.21 | +35.48 |
 | 微信 | 优化配置 | weapp-tailwindcss | +220.17 | 0.00 | +263.57 | +41.97 |
 | 微信 | 优化配置 | weapp-pandacss | +103.19 | 0.00 | +317.16 | +32.89 |
-| 微信 | 优化配置 | weapp-stylex | +108.99 | 0.00 | +286.68 | +70.96 |
+| 微信 | 优化配置 | weapp-stylex | +108.99 | 0.00 | +251.21 | +35.48 |
 | H5 | 常规生产 | weapp-tailwindcss | +229.84 | 0.00 | +318.21 | +41.97 |
-| H5 | 常规生产 | weapp-pandacss | +141.86 | 0.00 | +484.58 | +78.18 |
-| H5 | 常规生产 | weapp-stylex | +147.67 | 0.00 | +290.90 | 0.00 |
+| H5 | 常规生产 | weapp-pandacss | +141.86 | 0.00 | +484.59 | +78.18 |
+| H5 | 常规生产 | weapp-stylex | +147.66 | 0.00 | +290.90 | 0.00 |
 | H5 | 优化配置 | weapp-tailwindcss | +229.84 | 0.00 | +318.21 | +41.97 |
-| H5 | 优化配置 | weapp-pandacss | +141.86 | 0.00 | +461.09 | +66.44 |
-| H5 | 优化配置 | weapp-stylex | +147.67 | 0.00 | +290.90 | 0.00 |
+| H5 | 优化配置 | weapp-pandacss | +141.86 | 0.00 | +461.10 | +66.44 |
+| H5 | 优化配置 | weapp-stylex | +147.66 | 0.00 | +290.90 | 0.00 |
 
 ## 页面数量增长补充实验
 
@@ -273,6 +276,10 @@ BENCHMARK_RUN_IDE=1 corepack pnpm bench
 
 补充实验独立运行双构建、全页面 headless 与 H5 首/中/尾页面效果校验；没有新增微信 IDE 验收，范围和原始数据见补充报告。
 
+## 与上一版报告的变化
+
+完整的新旧版本对比见 [升级对比报告](reports/release-comparison/README.md)，其中同时列出总量、样式、脚本和模板变化，保留历史数据来源。整组依赖升级的差值不能单独归因于 StyleX。
+
 ## 数据如何解释
 
 以下使用常规生产配置解释成本来源；Panda 哈希优化见前表。小规模采用相同的 10 节点重复样式场景，Δ 无样式包含共享 reset、主题与适配器集成，属于此场景的起点成本，不能当作对所有应用恒定的运行时税。
@@ -281,14 +288,14 @@ BENCHMARK_RUN_IDE=1 corepack pnpm bench
 | --- | --- | --- | --- | --- | --- | --- |
 | 微信 | weapp-tailwindcss | 0.96 | +3.07 | 1.33 | 0.02 | 2.52 |
 | 微信 | weapp-pandacss | 0.96 | +54.34 | 35.05 | 18.90 | 1.19 |
-| 微信 | weapp-stylex | 0.96 | +5.06 | 2.35 | 2.25 | 1.26 |
-| H5 | weapp-tailwindcss | 307.36 | +4.49 | 1.42 | 310.10 | 0.33 |
-| H5 | weapp-pandacss | 307.36 | +50.09 | 15.19 | 341.93 | 0.33 |
-| H5 | weapp-stylex | 307.36 | +4.61 | 0.21 | 311.43 | 0.33 |
+| 微信 | weapp-stylex | 0.96 | +3.97 | 1.26 | 2.25 | 1.26 |
+| H5 | weapp-tailwindcss | 331.28 | +4.49 | 1.42 | 334.02 | 0.33 |
+| H5 | weapp-pandacss | 331.28 | +50.08 | 15.19 | 365.84 | 0.33 |
+| H5 | weapp-stylex | 331.28 | +4.60 | 0.21 | 335.34 | 0.33 |
 
 原生 10 节点场景的完整脚本文件为 weapp-tailwindcss 0.02 KiB、weapp-pandacss 18.90 KiB、weapp-stylex 2.25 KiB。Tailwind 将 utility 类串直接写入模板；Panda 和 StyleX 通过脚本生成/保存类绑定与样式映射，因此“CSS 原子化”仍需同时计入脚本。这里列的是完整脚本文件，未把混合在同一文件中的业务与运行时模块精确拆开。
 
-原生重复 1000 节点的模板分别为 weapp-tailwindcss 222.69 KiB、weapp-pandacss 104.38 KiB、weapp-stylex 110.25 KiB。它展示了重复 class 字符串与类绑定表达式的交付成本；重复使用同一组规则，仍会增加节点和绑定描述。H5 无样式 10 节点自身已为 307.36 KiB，包含 Web 宿主和页面表示，比较样式方案时应同时看总量与匹配基线的增量。
+原生重复 1000 节点的模板分别为 weapp-tailwindcss 222.69 KiB、weapp-pandacss 104.38 KiB、weapp-stylex 110.25 KiB。它展示了重复 class 字符串与类绑定表达式的交付成本；重复使用同一组规则，仍会增加节点和绑定描述。H5 无样式 10 节点自身已为 331.28 KiB，包含 Web 宿主和页面表示，比较样式方案时应同时看总量与匹配基线的增量。
 
 复用与独特声明的差别：先看同一组样式从 10 个节点重复到 1000 个节点，再在相同 1000 节点规模下把复用样式替换为独特样式。后者扣除了节点数量增长，仍包含不同类名/绑定数据的交付差异。单位 KiB，正数为增长：
 
@@ -296,17 +303,17 @@ BENCHMARK_RUN_IDE=1 corepack pnpm bench
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 微信 | weapp-tailwindcss | +220.17 | 0.00 | 0.00 | +220.17 | +45.24 | +43.80 | 0.00 |
 | 微信 | weapp-pandacss | +103.19 | 0.00 | 0.00 | +103.19 | +228.87 | +46.20 | +187.66 |
-| 微信 | weapp-stylex | +108.99 | 0.00 | 0.00 | +108.99 | +181.77 | +74.11 | +112.66 |
+| 微信 | weapp-stylex | +108.99 | 0.00 | 0.00 | +108.99 | +144.72 | +37.05 | +112.66 |
 | H5 | weapp-tailwindcss | +229.84 | 0.00 | +229.84 | 0.00 | +92.17 | +43.80 | +48.37 |
 | H5 | weapp-pandacss | +141.86 | 0.00 | +141.86 | 0.00 | +351.81 | +81.68 | +270.13 |
-| H5 | weapp-stylex | +147.67 | 0.00 | +147.67 | 0.00 | +145.80 | 0.00 | +145.80 |
+| H5 | weapp-stylex | +147.66 | 0.00 | +147.66 | 0.00 | +145.80 | 0.00 | +145.80 |
 
 - 微信 weapp-tailwindcss 的重复节点由 10 到 1000，样式文件字节不变，说明这一路径复用了已生成规则；总量增长最多来自模板（+220.17 KiB）。
 - 微信 weapp-pandacss 的重复节点由 10 到 1000，样式文件字节不变，说明这一路径复用了已生成规则；总量增长最多来自模板（+103.19 KiB）。
 - 微信 weapp-stylex 的重复节点由 10 到 1000，样式文件字节不变，说明这一路径复用了已生成规则；总量增长最多来自模板（+108.99 KiB）。
 - H5 weapp-tailwindcss 的重复节点由 10 到 1000，样式文件字节不变，说明这一路径复用了已生成规则；总量增长最多来自脚本（+229.84 KiB）。
 - H5 weapp-pandacss 的重复节点由 10 到 1000，样式文件字节不变，说明这一路径复用了已生成规则；总量增长最多来自脚本（+141.86 KiB）。
-- H5 weapp-stylex 的重复节点由 10 到 1000，样式文件字节不变，说明这一路径复用了已生成规则；总量增长最多来自脚本（+147.67 KiB）。
+- H5 weapp-stylex 的重复节点由 10 到 1000，样式文件字节不变，说明这一路径复用了已生成规则；总量增长最多来自脚本（+147.66 KiB）。
 
 独特样式的 CSS 可按声明复用部分值，但每个节点仍有独特属性组合；Panda/StyleX 的 JavaScript 样式映射也可能随定义增长。表中“同规模独特−复用”的脚本、样式变化用于验证本轮具体行为，不从源语言风格直接推断体积。H5 的模板和 ShadowRoot 样式字符串可被编译进脚本，外部 CSS 很小也不表示样式负载已消失。
 
@@ -351,17 +358,17 @@ BENCHMARK_RUN_IDE=1 corepack pnpm bench
       "@pandacss/dev": "2.5.0",
       "@pandacss/preset-base": "2.5.0",
       "@pandacss/preset-panda": "2.5.0",
-      "weapp-stylex": "0.3.1",
-      "weapp-vite": "7.7.0",
-      "postcss": "8.5.30",
+      "weapp-stylex": "0.3.2",
+      "weapp-vite": "7.8.0",
+      "postcss": "8.5.32",
       "lightningcss": "1.33.0",
-      "@mpcore/test": "1.2.0",
-      "@mpcore/simulator": "1.2.0",
-      "@babel/parser": "8.0.7",
+      "@mpcore/test": "1.2.1",
+      "@mpcore/simulator": "1.3.0",
+      "@babel/parser": "8.1.0",
       "playwright": "1.64.1",
-      "miniprogram-automator": "0.12.1",
+      "miniprogram-automator": "0.13.0",
       "pngjs": "7.0.0",
-      "pixelmatch": "7.1.0"
+      "pixelmatch": "8.0.0"
     }
   },
   "protocol": {
@@ -389,7 +396,7 @@ BENCHMARK_RUN_IDE=1 corepack pnpm bench
 - 两轮一致性要求针对同一环境。首次发布另对 macOS arm64 与 Linux x64 CI 做了[跨环境核对](reports/cross-platform.json)：160 格的 raw/gzip 总量和全部文件路径一致，但 18 个 Panda 原生 WXSS 文件的默认广色域 token 经 Lightning CSS 转换后有约 0.000001 的浮点差异，导致 SHA-256 与部分 Brotli 值不同。两边各自重复构建均稳定，不宣称跨 CPU 架构逐位一致。该审计记录对应其 sourceCommit/buildInputSha256，不随 bench 自动更新。
 - H5 使用浏览器计算样式与交互证据；headless 可验证产物和状态契约，但不能覆盖微信宿主的全部 CSS 布局与兼容行为。微信 IDE 的状态独立披露。
 - 独立分包已检查静态引用与 headless 包隔离。当前 IDE 路径从主包启动后经 `reLaunch` / `navigateTo` 热进入独立分包；尚无“不加载主包”的独立分包冷启动实机证据，因此不能据此宣称该冷启动路径已验收。
-- 本次固定版本发现 StyleX 动态 camelCase 属性生成的 CSS 自定义变量与 `attrs()` 序列化存在大小写失配。公共动态样例使用全小写 `padding` 的字符串简写保留原有左间距，并验证相同效果；未修改依赖包，也未修补生成产物。本报告不宣称动态 camelCase 属性已受支持，升级后应重新验证。
+- 历史 `weapp-stylex@0.3.1` 的动态 camelCase 属性曾有 CSS 自定义变量与 `attrs()` 序列化大小写失配。为保持本轮场景与旧报告一致，公共动态样例继续使用全小写 `padding` 字符串简写；未修改依赖包或生成产物。本轮等效校验覆盖该固定样例，不将其通过外推为所有动态 camelCase 属性均已验收。
 - 无样式与手写 CSS 是解释成本的参照，不代表所有项目的最优实现。没有把 npm 安装体积、构建依赖或 sourcemap 当作用户部署体积。
 - 排除 sourcemap、微信开发工具项目配置、操作系统元数据与构建分析产物；完整排除明细仍保留在每格 measurement.excluded。
 
